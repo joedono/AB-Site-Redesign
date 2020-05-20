@@ -1,0 +1,22 @@
+{
+  "name": "ab-site-redesign",
+  "version": "1.0.0",
+  "description": "AB Site Redesign",
+  "main": "RUNME.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joedono/AB-Site-Redesign.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joedono/AB-Site-Redesign/issues"
+  },
+  "homepage": "https://github.com/joedono/AB-Site-Redesign#readme"
+}
