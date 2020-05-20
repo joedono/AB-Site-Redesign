@@ -1,0 +1,668 @@
+/* ==========================================================================
+   Base layout
+   ========================================================================== */
+
+html, body {
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+body, #nav-panel, .logo {
+	background-color: #26A9E1;
+}
+
+.logo img {
+	margin: auto;
+}
+
+h1 {
+	margin-top: 5px;
+}
+
+footer {
+	text-align: center;
+	font-size: 10px;
+	padding: 10px 5px;
+	margin-bottom: 10px;
+	background-color: white;
+	border-radius: 4px;
+}
+
+#nav-container, #content-container, #sidebar-container {
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+/* ==========================================================================
+   Dividing Header Bar
+   ========================================================================== */
+
+#top-nav {
+	background-color: #f6921e;
+	padding-top: 5px;
+	margin-bottom: 5px;
+	margin-top: -1px;
+}
+
+@media (max-width: 768px) {
+	#top-nav {
+		text-align: center;
+	}
+}
+
+#form-search {
+	max-width: 300px;
+	float: right;
+	padding-bottom:5px;
+}
+
+.collapse-xs {
+	display: block;
+}
+
+@media (max-width: 768px) {
+	.collapse-xs {
+		display: none;
+	}
+	.collapse-xs.collapsing {
+		display: block;
+	}
+}
+
+.navbar-toggle {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 998;
+	background-color: #f6921e;
+	border-radius: 50%;
+	padding: 17px 15px;
+	box-shadow: 0 0 20px #888888;
+}
+
+@media (min-width: 768px) {
+	.navbar-toggle {
+		display: none;
+	}
+}
+
+.navbar-toggle .icon-bar {
+	background-color: white;
+}
+
+.navbar-collapse {
+	padding: 0;
+}
+
+.social-icon {
+	display: inline-block;
+}
+
+.social-icon img {
+	vertical-align: baseline;
+}
+
+/* ==========================================================================
+   Registration Counter
+   ========================================================================== */
+
+.registration-counter-container {
+	padding: 5px;
+}
+
+.registration-counter-title {
+	float: left;
+	text-transform: uppercase;
+	font-size: 15px;
+	line-height: 25px;
+}
+
+.registration-counter-updated {
+	float: left;
+	font-size: 10px;
+}
+
+.registration-count {
+	float: right;
+	text-align: right;
+}
+
+.registration-counter-number {
+	font-size: 26px;
+}
+
+.registration-sold-out {
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.registration-sunday-only {
+	font-size: 10px;
+}
+
+/* ==========================================================================
+   Side Nav
+   ========================================================================== */
+.sidebar-btn {
+	font-weight: bold;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+a.nav-header, button.nav-header {
+	background-color: #f6921e;
+	color: #FFFFFF;
+}
+
+a.nav-header:hover, button.nav-header:hover, a.nav-header:active, button.nav-header:active, a.nav-header:focus, button.nav-header:focus {
+	background-color: #F9B465;
+}
+
+/* ==========================================================================
+   Main Content
+   ========================================================================== */
+
+.page-body {
+	background-color: #FFFFFF;
+	border-radius: 4px;
+	padding: 8px;
+	margin-bottom: 10px;
+	min-height: 575px;
+}
+
+.breadcrumb {
+	margin-bottom: 5px;
+}
+
+.main-content {
+	margin-right: -5px;
+	margin-left: -5px;
+}
+
+.special {
+	background: url("https://s3.amazonaws.com/www-ab/img/gameicon.png") no-repeat;
+	height: 20px;
+	width: 20px;
+	float: right;
+	margin-top: 7px;
+	margin-right: 10px;
+}
+
+.special a {
+	display: block;
+	height: 100%;
+}
+
+canvas {
+	margin: auto;
+}
+
+/* ==========================================================================
+   Event Sidebar
+   ========================================================================== */
+
+.right-sidebar {
+	width: 100%;
+	max-width: 640px;
+	margin: auto;
+}
+
+.sidebar-section {
+	background-color: #e2efe8;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.sidebar-title {
+	text-align: center;
+	background-color: #f6921e;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 4px;
+}
+
+#link-gallery {
+	font-weight: bold;
+	text-decoration: underline;
+	margin-bottom: 10px;
+}
+
+.list-schedule {
+	text-align: left;
+	list-style-type: none;
+	padding: 5px;
+	margin-bottom: 0;
+}
+
+.list-schedule li {
+	padding: 5px 0;
+	border-bottom: 1px solid #aaa;
+}
+
+.list-schedule li:last-child {
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
+.schedule-date {
+	display: block;
+	font-weight: bold;
+}
+
+/* ==========================================================================
+   News
+   ========================================================================== */
+
+.news-item {
+	margin-bottom: 15px;
+	border-bottom: 1px solid #333;
+}
+
+.article-title {
+	font-weight: bold;
+}
+
+.article-timestamp {
+	display: block;
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+.article-teaser {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.article-image {
+
+}
+
+.article-body {
+	color: #000;
+	font-size: 14px;
+	overflow: visible;
+}
+
+.article-body img {
+	display: block !important;
+	margin: auto !important;
+	max-width: 80% !important;
+	height: auto !important;
+	width: auto !important;
+}
+
+.article-discuss {
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+.news-pagination {
+	text-align: center;
+}
+
+/* ==========================================================================
+   Convention Info
+   ========================================================================== */
+
+.schedule-years {
+	list-style: none;
+}
+
+.schedule-years li {
+	display: inline;
+	margin-right: 5px;
+}
+
+.hours-container {
+	margin-bottom: 10px;
+}
+
+.schedule-title {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.schedule-legend {
+
+}
+
+.schedule-legend ul {
+	list-style: none;
+}
+
+.schedule-table {
+	background-color: #FFF;
+	text-align: center;
+	border-collapse: collapse;
+	white-space: nowrap;
+	margin-bottom: 20px;
+}
+
+.schedule-table, .schedule-table th, .schedule-table td {
+	border: 1px solid black;
+}
+
+.schedule-filler {
+	background-color: #CCC;
+}
+
+.schedule-building {
+	background-color: #CCC;
+	text-align: center;
+}
+
+.schedule-room {
+	font-size: 9px;
+	background-color: #CCCC99;
+	white-space: normal;
+	text-align: center;
+	vertical-align: text-top;
+	font-weight: normal;
+}
+
+.schedule-time {
+	text-align: right;
+	font-size: 7px;
+	font-weight: normal;
+}
+
+.schedule-event {
+	font-size: 7px;
+	white-space: normal;
+	cursor: pointer;
+}
+
+.schedule-category {
+	cursor: pointer;
+	color: #000;
+	padding: 0 5px;
+}
+
+.schedule-category-label {
+	margin-bottom: 0;
+	font-weight: inherit;
+}
+
+.active-category {
+	background-color: #99ffff;
+}
+
+/* ==========================================================================
+   Location
+   ========================================================================== */
+
+.hotel-price {
+	font-weight: bold;
+}
+
+.interests-list li {
+	margin-bottom: 10px;
+}
+
+/* ==========================================================================
+   Guests
+   ========================================================================== */
+
+.guest-years {
+	list-style: none;
+}
+
+.guest-years li {
+	display: inline;
+	margin-right: 5px;
+}
+
+.guest-row {
+	margin-bottom: 20px;
+}
+
+/* ==========================================================================
+   Exhibits
+   ========================================================================== */
+
+.dealers-years {
+	list-style: none;
+}
+
+.dealers-years li {
+	display: inline;
+	margin-right: 5px;
+}
+
+.exhibitors {
+	font-size: 10px;
+}
+
+.exhibitors th {
+	padding-right: 5px;
+}
+
+/* ==========================================================================
+   Programming
+   ========================================================================== */
+
+.live-gaming-list {
+	font-style: italic;
+	list-style: none;
+	padding-left: 10px;
+}
+
+.video-games-list {
+	list-style: none;
+}
+
+/* ==========================================================================
+   Cosplay
+   ========================================================================== */
+
+.masquerade-list li {
+	clear: both;
+}
+
+.judge-section {
+	margin-bottom: 15px;
+}
+
+/* ==========================================================================
+   Artists
+   ========================================================================== */
+
+.artists-years {
+	list-style: none;
+}
+
+.artists-years li {
+	display: inline;
+	margin-right: 5px;
+}
+
+.artists {
+	font-size: 10px;
+}
+
+.artists-buide-image {
+	padding: 10px;
+	text-align: center;
+}
+
+/* ==========================================================================
+   Media
+   ========================================================================== */
+
+.media-download-links {
+	font-size: 10px;
+}
+
+/* ==========================================================================
+   Staff HQ
+   ========================================================================== */
+
+.staff-menu {
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
+.staffhq-avatar {
+	margin: auto;
+	padding-bottom: 10px;
+}
+
+.staffhq-name {
+	color:#00CC00;
+	font-weight:bold;
+}
+
+.staffhq-header {
+	text-align: center;
+}
+
+.staffhq-menu {
+	background-color: #dbdbdb;
+	padding-bottom: 2px;
+}
+
+/* ==========================================================================
+   Cosplay HQ
+   ========================================================================== */
+
+.cosplayhq {
+	margin-bottom: 10px;
+}
+
+.cosplay-menu {
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
+.cosplayhq-name {
+	font-weight:bold;
+}
+
+.cosplayhq-header {
+	text-align: center;
+}
+
+.cosplayhq-menu {
+	background-color: #dbdbdb;
+	padding-bottom: 2px;
+}
+
+.cosplayhq-info, .cosplayhq-costume-header, .cosplayhq-costume, .cosplayhq-history, .cosplayhq-application {
+	background-color: #DBDBDB;
+	margin-bottom: 10px;
+	padding: 5px;
+	border: 2px solid black;
+	border-radius: 4px;
+}
+
+.cosplayhq-history {
+	font-size: 12px;
+}
+
+.cosplayhq-buttons {
+	margin-bottom: 5px;
+}
+
+/* ==========================================================================
+   Dealers' Room
+   ========================================================================== */
+
+.dealers-form-image {
+	text-align: center;
+	border: 1px solid black;
+	position: relative;
+	padding: 0px;
+	display: inline-block;
+	user-select: none;
+	margin: 0 60px;
+}
+
+.dealers-table {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+}
+
+.dealers-table td, .dealers-table th {
+	padding: 5px;
+}
+
+/* ==========================================================================
+   Admin
+   ========================================================================== */
+
+#admin-table_wrapper, .admin-table-container {
+	clear: both;
+	margin-top: 10px;
+}
+
+.action-container {
+	text-align: center;
+}
+
+.action-buttons {
+	text-align: center;
+}
+
+.action-buttons a, .action-buttons input {
+	margin-bottom: 5px;
+	width: 100%;
+}
+
+/* ==========================================================================
+   Misc
+   ========================================================================== */
+
+.submit-buttons {
+	text-align: center;
+}
+
+.required {
+	color: #a94442;
+	font-weight: bold;
+}
+
+.alert:empty {
+	display: none;
+}
+
+.filter-form .form-group {
+	display: inline-block;
+}
+
+.label-separate {
+	margin-top: 10px;
+}
+
+.center {
+	text-align: center;
+}
+
+.input-subtitle {
+	font-style: italic;
+	font-size: 12px;
+}
+
+.ab-error-summary {
+	font-weight: bold;
+	margin: 10px 0;
+	padding: 5px;
+}
+
+/* ==========================================================================
+   Bootstrap Overrides
+   ========================================================================== */
+
+.control-label {
+	text-align: left !important;
+	padding-right: 0;
+}
+
+.radio-label {
+	font-weight: normal;
+	margin-bottom: 0;
+}
