@@ -39,15 +39,13 @@ footer {
    Dividing Header Bar
    ========================================================================== */
 
-#top-nav {
+.top-nav {
 	background-color: #f6921e;
-	padding-top: 5px;
-	margin-bottom: 5px;
-	margin-top: -1px;
+	padding: 5px 5px 0 5px;
 }
 
 @media (max-width: 768px) {
-	#top-nav {
+	.top-nav {
 		text-align: center;
 	}
 }
