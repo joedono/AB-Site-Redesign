@@ -39,6 +39,10 @@ footer {
    Dividing Header Bar
    ========================================================================== */
 
+.main-header {
+	margin-bottom: 5px;
+}
+
 .top-nav {
 	background-color: #f6921e;
 	padding: 5px 5px 0 5px;
