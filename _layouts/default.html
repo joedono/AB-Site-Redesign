@@ -11,7 +11,12 @@
           {% include nav.html %}
         </div>
         <div id="content-container" class="col-xl-8 col-lg-6 col-md-9 col-sm-12">
-          {{ content }}
+          <ul class="breadcrumb hidden-xs">
+            {{ page.breadcrumb }}
+          </ul>
+          <div class="page-body clearfix">
+            {{ content }}
+          </div>
           <footer>
             <a href="/">Home</a> |
             <a href="/coninfo/convention_policies">Convention Policies</a> |
