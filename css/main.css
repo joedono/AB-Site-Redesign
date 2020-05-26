@@ -21,18 +21,61 @@ h1 {
 	margin-top: 5px;
 }
 
+#nav-container, #content-container, #sidebar-container {
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+/* ==========================================================================
+   Footer Styling
+   ========================================================================== */
 footer {
-	text-align: center;
-	font-size: 10px;
 	padding: 10px 5px;
 	margin-bottom: 10px;
 	background-color: white;
 	border-radius: 4px;
+	font-size: 0.75em;
 }
 
-#nav-container, #content-container, #sidebar-container {
-	padding-right: 5px;
-	padding-left: 5px;
+footer h2 {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+footer h3 {
+	font-size: 1.3em;
+}
+
+.footer-subsection {
+	margin-bottom: 15px;
+	border-bottom: 1px solid #aaa;
+}
+
+.news-subtitle {
+	display: block;
+	font-size: 0.6em;
+	font-style: italic;
+	font-weight: normal;
+	text-align: right;
+}
+
+.schedule-date {
+	float: right;
+	font-weight: bold;
+}
+
+.gallery-link {
+	font-weight: bold;
+	font-size: 1.3em;
+	margin-bottom: 10px;
+	display: block;
+	text-align: center;
+}
+
+.footer-copyright {
+	border-top: 1px solid #26A9E1;
+	text-align: center;
+	padding-top: 20px;
 }
 
 /* ==========================================================================
@@ -227,12 +270,6 @@ canvas {
 	padding: 4px;
 }
 
-#link-gallery {
-	font-weight: bold;
-	text-decoration: underline;
-	margin-bottom: 10px;
-}
-
 .list-schedule {
 	text-align: left;
 	list-style-type: none;
@@ -248,11 +285,6 @@ canvas {
 .list-schedule li:last-child {
 	border-bottom: none;
 	padding-bottom: 0;
-}
-
-.schedule-date {
-	display: block;
-	font-weight: bold;
 }
 
 /* ==========================================================================

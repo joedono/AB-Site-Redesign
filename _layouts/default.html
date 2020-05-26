@@ -7,10 +7,7 @@
     <div id="main-container" class="container">
       {% include header.html %}
       <div class="main-content row">
-        <div id="nav-container" class="col-xl-2 col-lg-3 col-md-3 col-sm-12">
-          {% include nav.html %}
-        </div>
-        <div id="content-container" class="col-xl-8 col-lg-6 col-md-9 col-sm-12">
+        <div id="content-container" class="col-12">
           <ul class="breadcrumb hidden-xs">
             {{ page.breadcrumb }}
           </ul>
@@ -18,22 +15,6 @@
             {{ content }}
           </div>
           {% include footer.html %}
-        </div>
-        <div id="sidebar-container" class="col-xl-2 col-lg-3 col-md-12">
-          <div class="right-sidebar">
-            <div class="sidebar-section">
-              <div class="sidebar-title">Featured Photo</div>
-              <a href="https://gallery.animeboston.com/p1023243068/edf3d0dbb"><img class="img-fluid" src="https://gallery.animeboston.com/img/s/v-10/p3745320379-2.jpg" alt="Anime Unscripted" title="Anime Unscripted"></a>    <a id="link-gallery" href="http://gallery.animeboston.com">VISIT OUR GALLERY</a>
-            </div>
-            <div class="sidebar-section clearfix">
-              <div class="sidebar-title">Upcoming Schedule</div>
-              <ul class="list-schedule">
-                <li class="clearfix">
-                  <span class="schedule-date">04/2/21 - 04/4/21</span><a class="schedule-link" href="http://www.animeboston.com">Anime Boston 2021</a>
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
       </div>
     </div>
