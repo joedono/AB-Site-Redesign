@@ -1,4 +1,4 @@
 \build
 \node_modules
-\jekyll-cache
+\.jekyll-cache
 npm-debug.log
