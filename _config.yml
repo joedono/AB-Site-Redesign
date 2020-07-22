@@ -1,6 +1,6 @@
 name: "AB Site Redesign"
 path: "/AB-Site-Redesign/"
-url: "http://joedono.github.io/AB-Site-Redesign"
+url: "http://joedono.github.io/AB-Site-Redesign/"
 exclude: [package.json, package-lock.json, README.md, RUNME.bat, RUNME.js, node_modules]
 defaults:
   -
