@@ -1,0 +1,30 @@
+---
+title: Convention Policies
+breadcrumb:
+    <li class="breadcrumb-item"><a href="/AB-Site-Redesign/">Home</a></li>
+    <li class="breadcrumb-item"><a href="/AB-Site-Redesign/attend">Attend</a></li>
+    <li class="breadcrumb-item">Convention Policies</li>
+---
+<h1>Convention Policies</h1>
+
+<button class="policy-header" data-toggle="collapse" data-target="#convention-faq">
+  <h2>Convention FAQ</h2>
+</button>
+<section id="convention-faq" class="policy-section collapse">
+  {% capture conventionfaq %}{% include policy/convention-faq.md %}{% endcapture %}
+  {{ conventionfaq | markdownify }}
+</section>
+
+<button class="policy-header" data-toggle="collapse" data-target="#convention-policy">
+  <h2>Convention Policy</h2>
+</button>
+<section id="convention-policy" class="policy-section collapse">
+  {% capture conventionpolicy %}{% include policy/convention-policy.md %}{% endcapture %}
+  {{ conventionpolicy | markdownify }}
+</section>
+
+Convention Policy
+Privacy Policy
+Registration Policy
+Registration FAQ
+Social Media Policy
