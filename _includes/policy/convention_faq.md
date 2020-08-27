@@ -1,33 +1,33 @@
 Below are Frequently Asked Questions about Anime Boston. If you don't find an answer to your question, feel free to ask on [our forums](https://forums.animeboston.com/viewforum.php?f=2)
 
-1. [What is Anime Boston?](#1)
-2. [What's going on at Anime Boston {currentyear}?](#2)
-3. [What time does it start and end?](#3)
-4. [I heard I have to bring an ID. Why? What types of IDs are okay?](#4)
-5. [How old are the people coming to Anime Boston? Will there be a lot of kids?](#5)
-6. [Can I take pictures or video at Anime Boston?](#6)
-7. [How can I volunteer to help Anime Boston?](#7)
-8. [Can I buy Pocky, ramune, or other snacks at the convention?](#8)
-9. [Is Anime Boston {currentyear} on Easter weekend?](#9)
-10. [Why does Anime Boston occur on Easter sometimes?](#10)
-11. [Is there a limit on the number of people you'll allow at the convention?](#11)
-12. [What are the dates for future Anime Boston conventions?](#12)
-13. [What is the New England Anime Society?](#13)
+1. [What is Anime Boston?](#confaq1)
+2. [What's going on at Anime Boston {currentyear}?](#confaq2)
+3. [What time does it start and end?](#confaq3)
+4. [I heard I have to bring an ID. Why? What types of IDs are okay?](#confaq4)
+5. [How old are the people coming to Anime Boston? Will there be a lot of kids?](#confaq5)
+6. [Can I take pictures or video at Anime Boston?](#confaq6)
+7. [How can I volunteer to help Anime Boston?](#confaq7)
+8. [Can I buy Pocky, ramune, or other snacks at the convention?](#confaq8)
+9. [Is Anime Boston {currentyear} on Easter weekend?](#confaq9)
+10. [Why does Anime Boston occur on Easter sometimes?](#confaq10)
+11. [Is there a limit on the number of people you'll allow at the convention?](#confaq11)
+12. [What are the dates for future Anime Boston conventions?](#confaq12)
+13. [What is the New England Anime Society?](#confaq13)
 
 ---
 
-**1\. <a name="1">What is Anime Boston?</a>**  
+**1\. <a name="confaq1">What is Anime Boston?</a>**  
 Anime Boston is an annual three-day Japanese animation convention held in Boston, Massachusetts. Anime Boston {currentyear} will be held {startdate} through {enddate} at the Hynes Convention Center and Sheraton Boston Hotel.
 
 Anime Boston is a 501(c)(3) non-profit organization. The staff members that prepare and run the convention are all unpaid volunteers. The cost of your membership to Anime Boston is used directly to create a fun and wonderful experience.
 
-**2\. <a name="2">What's going on at Anime Boston {currentyear}?</a>**  
+**2\. <a name="confaq2">What's going on at Anime Boston {currentyear}?</a>**  
 As in past years, Anime Boston {currentyear} will be presenting popular events including a masquerade, an anime music video contest, video programming rooms, an artists' alley and art show, karaoke, game shows, video games, manga library, dances, and much more. Our dealers' room will be located in the cavernous Halls A and B of the Hynes Convention Center. We also have some special guests and industry representatives who are excited about coming to Anime Boston.
 
-**3\. <a name="3">What time does it start and end?</a>**  
+**3\. <a name="confaq3">What time does it start and end?</a>**  
 Anime Boston usually runs from the early morning until late at night. Video programming will run about 20 hours a day starting at 8am. Panel programming generally starts around 10am and runs through the evening. The dance runs from the evening late into the night. On Sunday, things usually settle down around dinner time.
 
-**4\. <a name="4">I heard I have to bring an ID. Why? What types of IDs are okay?</a>**  
+**4\. <a name="confaq4">I heard I have to bring an ID. Why? What types of IDs are okay?</a>**  
 There are three places at Anime Boston that you will need a photo ID:
 1. Checking into the hotel:
     * The hotel will ask to see a valid photo ID when you check into the hotel. A driver's license, passport, or other government issued identification (with a photo) is recommended.
@@ -42,10 +42,10 @@ There are three places at Anime Boston that you will need a photo ID:
 
 If you do not have a photo ID, we strongly suggest that you get one as soon as possible. Even if you do not have a driver's license, your state can issue you an ID. Contact your local Registry of Motor Vehicles for information. If you are in Massachusetts, you can find ID information <a href="http://mass.gov/rmv/license/13bMAID.htm" target="\_blank">here</a>.
 
-**5\. <a name="5">How old are the people coming to Anime Boston? Will there be a lot of kids?</a>**  
+**5\. <a name="confaq5">How old are the people coming to Anime Boston? Will there be a lot of kids?</a>**  
 Anime fans come in all shapes and sizes, including kids. While most of the people attending anime conventions typically falls in the 16 to 26 age range, expect to see people of all ages, from 8 months to eighty-eight years.
 
-**6\. <a name="6">Can I take pictures or video at Anime Boston?</a>**  
+**6\. <a name="confaq6">Can I take pictures or video at Anime Boston?</a>**  
 Cameras are welcome throughout the convention except in the following places:
 * Video Rooms
 * The Anime Music Video Contest
@@ -54,25 +54,25 @@ Cameras are welcome throughout the convention except in the following places:
 
 If you wish to take photos of cosplayers, we strongly recommend that you ask the person first. They will often pose for you to give you a better photo. If you wish to take photos of art in Artists' Alley, please ask the artist first.
 
-**7\. <a name="7">How can I volunteer to help Anime Boston?</a>**  
+**7\. <a name="confaq7">How can I volunteer to help Anime Boston?</a>**  
 You can either [join our Staff](/staff/staff_listing/) or [join our Support Squad](/staff/support_squad/).
 
-**8\. <a name="8">Can I buy Pocky, ramune, or other snacks at the convention?</a>**  
+**8\. <a name="confaq8">Can I buy Pocky, ramune, or other snacks at the convention?</a>**  
 No. Convention center policies prohibit the sale or distribution of food and drinks by outside vendors. Having convention center concession stands open selling Pocky, ramune, etc. is not possible (Yes, we asked them). If you absolutely must have Pocky, bring it with you or ask the Information Desk how to get to local Japanese snack retailers.
 
-**9\. <a name="9">Is Anime Boston {currentyear} on Easter weekend?</a>**  
+**9\. <a name="confaq9">Is Anime Boston {currentyear} on Easter weekend?</a>**  
 {easteranswer}
 
-**10\. <a name="10">Why does Anime Boston occur on Easter sometimes?</a>**  
+**10\. <a name="confaq10">Why does Anime Boston occur on Easter sometimes?</a>**  
 The date for the convention depends on a number of factors, including the availability of both the Hynes and Sheraton, room rates at the Sheraton, and rates for renting the facilities. As such the convention dates tend to move around to keep costs low for attendees. As Easter is also a "floating" holiday, Anime Boston may occur on the same weekend.
 
 Although we have had several Anime Boston conventions on Easter, we have not noticed an impact on our attendance numbers. Attendance continues to increase each year at a steady pace.
 
-**11\. <a name="11">Is there a limit on the number of people you'll allow at the convention?</a>**  
+**11\. <a name="confaq11">Is there a limit on the number of people you'll allow at the convention?</a>**  
 Starting in 2015, we have established an [Attendance Cap](/registration/registration_cap/) to prevent us from reaching the Maximum Occupancy for the facilities as set by the Massachusetts Fire Marshall.
 
-**12\. <a name="12">What are the dates for future Anime Boston conventions?</a>**  
+**12\. <a name="confaq12">What are the dates for future Anime Boston conventions?</a>**  
 {conventiondates}
 
-**13\. <a name="13">What is the New England Anime Society?</a>**  
+**13\. <a name="confaq13">What is the New England Anime Society?</a>**  
 <a href="http://www.neanime.org/" target="\_blank">The New England Anime Society, Inc.</a> is a New England-based non-profit organization dedicated to furthering public education and understanding of the Japanese language and culture through written and visual media. It is Anime Boston's parent organization and also hosts events such as Providence Anime Conference and anime screenings at <a href="http://www.firstnight.org/" target="\_blank">First Night Boston</a>.
