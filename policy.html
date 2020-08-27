@@ -7,24 +7,57 @@ breadcrumb:
 ---
 <h1>Convention Policies</h1>
 
-<button class="policy-header" data-toggle="collapse" data-target="#convention-faq">
-  <h2>Convention FAQ</h2>
-</button>
-<section id="convention-faq" class="policy-section collapse">
-  {% capture conventionfaq %}{% include policy/convention-faq.md %}{% endcapture %}
-  {{ conventionfaq | markdownify }}
-</section>
-
-<button class="policy-header" data-toggle="collapse" data-target="#convention-policy">
-  <h2>Convention Policy</h2>
-</button>
-<section id="convention-policy" class="policy-section collapse">
-  {% capture conventionpolicy %}{% include policy/convention-policy.md %}{% endcapture %}
-  {{ conventionpolicy | markdownify }}
-</section>
-
-Convention Policy
-Privacy Policy
-Registration Policy
-Registration FAQ
-Social Media Policy
+<div class="policy-section">
+  <button class="policy-header btn btn-primary" data-toggle="collapse" data-target="#convention-faq">
+    <h2>Convention FAQ</h2>
+  </button>
+  <section id="convention-faq" class="policy-body collapse">
+    {% capture convention_faq %}{% include policy/convention_faq.md %}{% endcapture %}
+    {{ convention_faq | markdownify }}
+  </section>
+</div>
+<div class="policy-section">
+  <button class="policy-header btn btn-primary" data-toggle="collapse" data-target="#convention-policy">
+    <h2>Convention Policy</h2>
+  </button>
+  <section id="convention-policy" class="policy-body collapse">
+    {% capture convention_policy %}{% include policy/convention_policy.md %}{% endcapture %}
+    {{ convention_policy | markdownify }}
+  </section>
+</div>
+<div class="policy-section">
+  <button class="policy-header btn btn-primary" data-toggle="collapse" data-target="#privacy-policy">
+    <h2>Privacy Policy</h2>
+  </button>
+  <section id="privacy-policy" class="policy-body collapse">
+    {% capture privacy_policy %}{% include policy/privacy_policy.md %}{% endcapture %}
+    {{ privacy_policy | markdownify }}
+  </section>
+</div>
+<div class="policy-section">
+  <button class="policy-header btn btn-primary" data-toggle="collapse" data-target="#registration-policy">
+    <h2>Registration Policy</h2>
+  </button>
+  <section id="registration-policy" class="policy-body collapse">
+    {% capture registration_policy %}{% include policy/registration_policy.md %}{% endcapture %}
+    {{ registration_policy | markdownify }}
+  </section>
+</div>
+<div class="policy-section">
+  <button class="policy-header btn btn-primary" data-toggle="collapse" data-target="#registration-faq">
+    <h2>Registration FAQ</h2>
+  </button>
+  <section id="registration-faq" class="policy-body collapse">
+    {% capture registration_faq %}{% include policy/registration_faq.md %}{% endcapture %}
+    {{ registration_faq | markdownify }}
+  </section>
+</div>
+<div class="policy-section">
+  <button class="policy-header btn btn-primary" data-toggle="collapse" data-target="#social-media-policy">
+    <h2>Social Media Policy</h2>
+  </button>
+  <section id="social-media-policy" class="policy-body collapse">
+    {% capture social_media_policy %}{% include policy/social_media_policy.md %}{% endcapture %}
+    {{ social_media_policy | markdownify }}
+  </section>
+</div>
