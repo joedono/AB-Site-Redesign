@@ -2,3 +2,39 @@
 title: Attend
 ---
 <h1>How to Attend Anime Boston</h1>
+
+- Actually Attending AB
+Online Registration
+Group Registration
+Registration Rates
+Registration Cap
+Registration Events
+Registration Policy
+Registration FAQ
+Hotel Information
+Travel Information
+Hotel Code of Conduct
+Location FAQ
+Convention FAQ?
+Contact Us
+
+- About Anime Boston
+About Us
+Anime Boston History
+
+- About Boston
+Area Dining
+Points of Interest
+Tipping Guide
+
+
+<div class="row">
+  {% for menu in site.data.menu.attend %}
+    <div class="col-12 col-sm-6 col-md-3 menu-section">
+      <a href="{{ menu.title }}">
+        <img src="https://via.placeholder.com/250x250" class="img-fluid">
+        <h2 class="menu-title">{{ menu.title }}</h2>
+      </a>
+    </div>
+  {% endfor %}
+</div>
