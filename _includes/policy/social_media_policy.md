@@ -15,3 +15,5 @@ By using and participating in any of our Social Media platforms, you agree to th
 * Unauthorized solicitation is not allowed. Posts selling or promoting services and products will be removed. Exceptions are made on the forums for participants in the Artists' Alley and Dealers' Room.
 
 Failure to comply with the forum use policy may result in warnings from staff and ultimately being banned. If you have any questions, please [contact the Webmaster](/coninfo/contact/68).
+
+Joe was also here
