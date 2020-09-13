@@ -1,0 +1,96 @@
+<ul class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li><a href="/registration/">Registration</a></li>
+  <li>Registration Rates</li>
+</ul>
+
+<div class="page-body clearfix">
+  <h1>Registration Rates</h1>
+
+  <?php if($show_content == 0) { ?>
+    <p>Online registration information for Anime Boston <?=$currentyear?> will be available in the upcoming months. Please check back later for updates.</p>
+    <p>For Online Registration Rates and Prices, please check the <a href="/registration/registration_rates/#pre-reg">Registration Rates</a> page.</p>
+  <?php } else { ?>
+    <p>Below you'll find the Anime Boston membership registration rates.  Please read carefully, as there are different rates posted.</p>
+    <p>All Convention Memberships purchased during pre-registration grant the member access to all three days of Anime Boston.</p>
+
+    <div class="table-responsive">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>
+              Date Range<br>
+              <small>the cut-off is 11:59pm EST</small>
+            </th>
+            <th>
+              Adults<br>
+              <small>13+ yrs</small>
+            </th>
+            <th>
+              Children<br>
+              <small>6-12 yrs</small>
+            </th>
+            <th>
+              Children<br>
+              <small>under 5 yrs</small>
+            </th>
+            <th>
+              School/Education Groups<br>
+              <small>10+ people per group</small>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Up to December 21, 2019</td>
+            <td>$65</td>
+            <td>$55</td>
+            <td>$0</td>
+            <td>n/a</td>
+          </tr>
+          <tr>
+            <td>December 22, 2019 - January 31, 2020</td>
+            <td>$70</td>
+            <td>$60</td>
+            <td>$0</td>
+            <td>$65/person</td>
+          </tr>
+          <tr>
+            <td>February 1, 2020 - April 5, 2020</td>
+            <td>$75</td>
+            <td>$65</td>
+            <td>$0</td>
+            <td>$70/person</td>
+          </tr>
+          <tr>
+            <td>April 6, 2020 - April 11, 2020</td>
+            <td>$80</td>
+            <td>$70</td>
+            <td>$0</td>
+            <td>n/a</td>
+          </tr>
+          <tr>
+            <td>At the Door (Sunday Only)</td>
+            <td>$35</td>
+            <td>$25</td>
+            <td>$0</td>
+            <td>n/a</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <strong>Registration Hours of Operation</strong>
+    Hours of operation will be as follows:
+    <ul>
+      <li>Thursday, April 9: 3:00 PM - 8:30 PM <strong>Pre-registered members ONLY</strong></li>
+      <li>Friday, April 10: 8:30 AM - 8:00 PM (We will be open from 8:00 AM - 8:30 AM for pre-registered members)</li>
+      <li>Saturday, April 11: 8:30 AM - 8:00 PM (We will be open from 8:00 AM - 8:30 AM for pre-registered members)</li>
+      <li>Sunday, April 12: 8:00 AM - 1:00 PM</li>
+    </ul>
+
+    <p>Please note that these are <em>registration</em> hours, NOT convention hours! The convention does not start until Friday morning. Our Thursday hours are so people who have pre-registered can pick up their membership badge the night before the convention starts and not have to wait in line on Friday morning. It also helps to cut down on the lines.</p>
+
+    <?php echo reg_fine_print(); ?>
+  <?php } ?>
+</div>
