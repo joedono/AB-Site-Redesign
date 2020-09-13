@@ -1,114 +1,109 @@
 Top Level Nav,Sub Nav,Purpose,Possible Category,Notes
 Home,Home,News Feed,,"General Redesign with space for important links, a more prominent space for the most recent news posting, and a smaller place for the rest of the news"
 Convention Info,Menu,,,
-,About Us,What is Anime Boston?,Attend,
-,Contact Us,Contact us for support on various issues,Attend,
-,Convention Schedule,Schedule for all events,See,
-,Hours of Operation,Open hours for things that don't have a fixed event time,See,
-,Convention Policies,"General convention policies such as what membership means, general rules, props policy, hotel code of conduct, autograph policy, dealers policy, flyer policy, photograph policy, and accessibility",See?,This seems like it'd be better served if some of the latter policies were split into other documents
+,About Us,What is Anime Boston?,Info,
+,Contact Us,Contact us for support on various issues,Info,
+,Convention Schedule,Schedule for all events,Activities,
+,Hours of Operation,Open hours for things that don't have a fixed event time,Activities,
+,Convention Policies,"General convention policies such as what membership means, general rules, props policy, hotel code of conduct, autograph policy, dealers policy, flyer policy, photograph policy, and accessibility",Activities?,This seems like it'd be better served if some of the latter policies were split into other documents
 ,Privacy Policy,"Official legal policy on how much information we collect from attendees, how long we keep it, and what we do with it",Footer,
-,Convention FAQ,"General questions about the convention itself, such as the general age range, what happens at the convention, buying food, being on Easter, attendance limits, and what is NEAS",Attend?,A lot of this information is available in the About page and other places. Maybe we don't need this at all. We at least probably don't need this as as top-level navigation page
-,Anime Boston History,Various statistics and figures for past Abs,Attend,This should definitely be relegated to a lower navigation level
+,Convention FAQ,"General questions about the convention itself, such as the general age range, what happens at the convention, buying food, being on Easter, attendance limits, and what is NEAS",Info?,A lot of this information is available in the About page and other places. Maybe we don't need this at all. We at least probably don't need this as as top-level navigation page
+,Anime Boston History,Various statistics and figures for past Abs,Info,This should definitely be relegated to a lower navigation level
 Registration,Menu,,,
-,Registration Rates,How much tickets cost in various time frames,Attend,
-,Online Registration,General information about registering online and the actual link to buying a ticket to AB,Attend,"This is arguably the most important page on the site. The information can be moved lower, but the link to the registration should be front-and-center on the site."
-,Registration Cap,FAQ regarding what our attendance limit is and our reasons for setting it,Attend,Move lower in navigation
-,Registration Events,Outreach events,Attend,Move lower in navigation
-,Group Registration,Group registration for schools or other educational groups,Attend,Move lower in navigation
-,Registration Policy,Rules regarding registration that apply whether buying online or at the door,Attend,Merge with the rules in Online Registration
-,Registration FAQ,"FAQ regarding buying tickets, what you can do with the badge after you buy it, group registration, and a bunch of other questions",Attend,Merge with the rules in Online Registration
-,Community Row,Information for other conventions who want to set up a table at AB,Sell,Why is this under Registration?
+,Registration Rates,How much tickets cost in various time frames,Info,
+,Online Registration,General information about registering online and the actual link to buying a ticket to AB,Info,"This is arguably the most important page on the site. The information can be moved lower, but the link to the registration should be front-and-center on the site."
+,Registration Cap,FAQ regarding what our attendance limit is and our reasons for setting it,Info,Move lower in navigation
+,Registration Events,Outreach events,Info,Move lower in navigation
+,Group Registration,Group registration for schools or other educational groups,Info,Move lower in navigation
+,Registration Policy,Rules regarding registration that apply whether buying online or at the door,Info,Merge with the rules in Online Registration
+,Registration FAQ,"FAQ regarding buying tickets, what you can do with the badge after you buy it, group registration, and a bunch of other questions",Info,Merge with the rules in Online Registration
+,Community Row,Information for other conventions who want to set up a table at AB,Exhibitors,Why is this under Registration?
 Location,Menu,,,
-,Hotel Information,Link to book your hotel,Attend,Probably should just be a direct link
-,Travel Information,"Information about traveling to Boston, parking deals, and travel discounts",Attend,
+,Hotel Information,Link to book your hotel,Info,Probably should just be a direct link
+,Travel Information,"Information about traveling to Boston, parking deals, and travel discounts",Info,
 ,Area Dining,Map with places to eat in Boston,,"Not sure what to do with these. Other than the Hotel Conduct, they're all about Boston the city, rather than Anime Boston"
 ,Points of Interest,"Historic Sites, Tours, and Museums in the Boston area",,
 ,Tipping Guide,Our tips for how much to tip various service workers,,
 ,Hotel Code of Conduct,Link to the Hotel Code of Conduct section of the Convention Policies,,
 ,Location FAQ,"FAQ about where AB is, parking, and hotels",,
 Guests,Menu,,,
-,Guest Listing,List of guests who will be at AB,See,
-,Guest FAQ,FAQ regarding guests,See,
-,Autograph Policy,Link to the Autograph section of the Convention Policies,See?,Probably should just be a direct link
+,Guest Listing,List of guests who will be at AB,Activities,
+,Guest FAQ,FAQ regarding guests,Activities,
+,Autograph Policy,Link to the Autograph section of the Convention Policies,Activities?,Probably should just be a direct link
 Exhibits,Menu,,,
-,Dealer Info,"Map of the dealers room, information about how to become a dealer",Sell,
-,Dealer Registration,Form for registering t be a dealer,Sell,
-,Dealers Listing,Map of the dealers room and a list of all the dealers selling things at AB,See,
-,Dealers Policy,Link to Dealers Policy of Convention Policies,Sell,Merge into Convention Policies
-,Exhibitor Tax IDs,"Information about getting a Boston Tax ID, which is necessary to sell things at AB",Sell,
-,Tax ID Submission,Form for giving AB your exhibitor tax id that you received from the state of Massachussets,Sell,
-,Charity Auction Listing,List of items up for auction at the Charity Auction,See,
+,Dealer Info,"Map of the dealers room, information about how to become a dealer",Exhibitors,
+,Dealer Registration,Form for registering t be a dealer,Exhibitors,
+,Dealers Listing,Map of the dealers room and a list of all the dealers selling things at AB,Activities,
+,Dealers Policy,Link to Dealers Policy of Convention Policies,Exhibitors,Merge into Convention Policies
+,Exhibitor Tax IDs,"Information about getting a Boston Tax ID, which is necessary to sell things at AB",Exhibitors,
+,Tax ID Submission,Form for giving AB your exhibitor tax id that you received from the state of Massachussets,Exhibitors,
+,Charity Auction Listing,List of items up for auction at the Charity Auction,Activities,
 Programming,Menu,,,
-,AMV Contest,General rules for the AMV Contest directed at editors,Do,
-,AMV Contest FAQ,FAQs for submitting to the AMV Contest,Do,Should be combined with general info page
-,AMV Contest Submission,Form for submitting to the AMV Contest,Do,
-,Blood Drive,Page with link to Red Cross for our blood donation program,Do,
-,Formal Ball,Guidelines about the Formal Ball like what to wear and where to get tickets,See,
-,Formal Ball Guide,Examples of formal outfits for the ball,See,Combine with general guidelines page
-,Semi-Formal Ball,SemiFormal info page,See,Probably shouldn't be it's own page
-,Game Shows,Info about anime game shows,See,
-,Karaoke,Info about karaoke,See,
-,Live Gaming,Info about live/board gaming,See,
-,Maid Caf‚,Info about the maid caf‚,See,
-,Manga Library,"Info about the manga library, including the full catalog",See,
-,Swap Meet,Info about the Swap Meet,See,
-,Panel Application,Form for applying to be a panelist,Do,
-,Panel and Programming FAQ,FAQs about applying to be a panelist,Do,
-,Video Games,Info about the video gaming room and tournaments,See,
+,AMV Contest,General rules for the AMV Contest directed at editors,Participation,
+,AMV Contest FAQ,FAQs for submitting to the AMV Contest,Participation,Should be combined with general info page
+,AMV Contest Submission,Form for submitting to the AMV Contest,Participation,
+,Blood Drive,Page with link to Red Cross for our blood donation program,Participation,
+,Formal Ball,Guidelines about the Formal Ball like what to wear and where to get tickets,Activities,
+,Formal Ball Guide,Examples of formal outfits for the ball,Activities,Combine with general guidelines page
+,Semi-Formal Ball,SemiFormal info page,Activities,Probably shouldn't be it's own page
+,Game Shows,Info about anime game shows,Activities,
+,Karaoke,Info about karaoke,Activities,
+,Live Gaming,Info about live/board gaming,Activities,
+,Maid Cafï¿½,Info about the maid cafï¿½,Activities,
+,Manga Library,"Info about the manga library, including the full catalog",Activities,
+,Swap Meet,Info about the Swap Meet,Activities,
+,Panel Application,Form for applying to be a panelist,Participation,
+,Panel and Programming FAQ,FAQs about applying to be a panelist,Participation,
+,Video Games,Info about the video gaming room and tournaments,Activities,
 Cosplay,Menu,,,
-,Masquerade,Info for applying to be in the masquerade,Do,Should have an equivalent page under See
-,Masquerade Judges,This year's craftsmanship and performance judges,Do,
-,Featured Cosplayers,Info about guest cosplayers,See,
-,Cosplot,Summary of previous year's cosplot and general information,See,
-,Cosplay Games,Info about all the cosplay games and notes on applying for them,See/Do,
-,Cosplay FAQ,"FAQs about cosplaying, being in cosplay games, and attending/organizing photoshoots",See/Do,
-,Cosplay Repair,General info and hours of operation for the Cosplay Repair shop,See,
-,Cosplay Gatherings,General info about casual and scheduled cosplay gatherings,See/Do,
-,Cosplay HQ,Central dashboard for applying to cosplay games stuff,Do,
-,Idol Showcase,Info for applying to be in the Idol Showcase,Do,Should have an equivalent page under See
-,Props Policy,Link to props policy section of Convention Policies,See?,
-,Cosplay Forums,Direct link to the Cosplay section of the forums,See/Do,
+,Masquerade,Info for applying to be in the masquerade,Participation,Should have an equivalent page under See
+,Masquerade Judges,This year's craftsmanship and performance judges,Participation,
+,Featured Cosplayers,Info about guest cosplayers,Activities,
+,Cosplot,Summary of previous year's cosplot and general information,Activities,
+,Cosplay Games,Info about all the cosplay games and notes on applying for them,Activities/Participation,
+,Cosplay FAQ,"FAQs about cosplaying, being in cosplay games, and attending/organizing photoshoots",Activities/Participation,
+,Cosplay Repair,General info and hours of operation for the Cosplay Repair shop,Activities,
+,Cosplay Gatherings,General info about casual and scheduled cosplay gatherings,Activities/Participation,
+,Cosplay HQ,Central dashboard for applying to cosplay games stuff,Participation,
+,Idol Showcase,Info for applying to be in the Idol Showcase,Participation,Should have an equivalent page under See
+,Props Policy,Link to props policy section of Convention Policies,Activities?,
+,Cosplay Forums,Direct link to the Cosplay section of the forums,Activities/Participation,
 Artists,Menu,,,
-,Artists Alley,General Info about being an artist in the alley,Sell,
-,Artists Alley Pro Row,"General info about applying to be in the pro row, a section where professional artists can sell stuff",Sell,
-,Artists Alley Listing,Alley map and listing of all artists in the alley,See,
-,Artists Alley FAQ,FAQ for applying to be in the alley and setting up your table,Sell,
-,Artists Alley Beginner Guide,More info and FAQ for selling art in the alley,Sell,
-,Artists Alley Application,Application to actually be in the alley,Sell,
-,Exhibitor Tax IDs,"Information about getting a Boston Tax ID, which is necessary to sell things at AB",Sell,Same page as Exhibits
-,Tax ID Submission,Form for giving AB your exhibitor tax id that you received from the state of Massachussets,Sell,Same page as Exhibits
-,Art Track,"Info about all the art-related things to see at AB, specifically the featured artists",See,
-,Art Show,Info about how to show/sell art in the Art Show,Sell,
-,Art Show Application,Application to be in the art show,Sell,
-,Artists Forum,Link to artists section of the forums,Sell,
+,Artists Alley,General Info about being an artist in the alley,Exhibitors,
+,Artists Alley Pro Row,"General info about applying to be in the pro row, a section where professional artists can sell stuff",Exhibitors,
+,Artists Alley Listing,Alley map and listing of all artists in the alley,Activities,
+,Artists Alley FAQ,FAQ for applying to be in the alley and setting up your table,Exhibitors,
+,Artists Alley Beginner Guide,More info and FAQ for selling art in the alley,Exhibitors,
+,Artists Alley Application,Application to actually be in the alley,Exhibitors,
+,Exhibitor Tax IDs,"Information about getting a Boston Tax ID, which is necessary to sell things at AB",Exhibitors,Same page as Exhibits
+,Tax ID Submission,Form for giving AB your exhibitor tax id that you received from the state of Massachussets,Exhibitors,Same page as Exhibits
+,Art Track,"Info about all the art-related things to see at AB, specifically the featured artists",Activities,
+,Art Show,Info about how to show/sell art in the Art Show,Exhibitors,
+,Art Show Application,Application to be in the art show,Exhibitors,
+,Artists Forum,Link to artists section of the forums,Exhibitors,
 Media,Menu,,,
-,Photo Gallery,External link to AB Gallery,Do,
-,Photo Gallery FAQ,Information about getting pictures into the gallery and what can be done once they're there,Do,
-,Cosplay Photo Suite,Information on how to get your photo taken by our staff of professional photographers,Do,
-,AB Concast,Our podcast,See,
-,Program Guides,Previous years' program guides,See,
-,Wallpapers,Computer wallpapers or press kit,See,
+,Photo Gallery,External link to AB Gallery,Participation,
+,Photo Gallery FAQ,Information about getting pictures into the gallery and what can be done once they're there,Participation,
+,Cosplay Photo Suite,Information on how to get your photo taken by our staff of professional photographers,Participation,
+,AB Concast,Our podcast,Activities,
+,Program Guides,Previous years' program guides,Activities,
+,Wallpapers,Computer wallpapers or press kit,Activities,
 Community,Menu,,,
-,Forums,AB Forums,See,
-,Facebook Page,AB Facebook Page,See,
-,Twitter,AB Twitter,See,
-,YouTube Channel,AB YouTube Channel,See,
-,Instagram,AB Instagram,See,
-,RSS Feed,AB RSS Feed,See,
-,Social Media Policy,Policy about using and participating in our social media stuff,See,
+,Forums,AB Forums,Activities,
+,Facebook Page,AB Facebook Page,Activities,
+,Twitter,AB Twitter,Activities,
+,YouTube Channel,AB YouTube Channel,Activities,
+,Instagram,AB Instagram,Activities,
+,RSS Feed,AB RSS Feed,Activities,
+,Social Media Policy,Policy about using and participating in our social media stuff,Activities,
 Press,Menu,,,
 ,Press Pass,"Info about what a press pass is, what it gives you, and how to get one",Sell?,"I'm not sure what to do about these either. This could fall under Sell or Work, since you're not actually selling things at the convention, but it's the sort of ""official"" thing that Sell is supposed to encompass"
 ,Press Pass Application,Form for applying to be press at AB,Sell?,
 Volunteer,Menu,,,
-,Staff Listing,Listing of AB Staff,See,
-,Staff HQ,Staff applications handling,Work,
-,Staff Guidelines,Guidelines for AB Staff to follow,Work,
-,Staff FAQ,FAQ for AB Staffers,Work,
-,Support Squad,General info about the Volunteer program (now Support Squad),Work,
-,Support Squad FAQ,FAQ about the Volunteer program,Work,
-,Support Application,Link to external form for applying to be a Volunteer,Work,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
+,Staff Listing,Listing of AB Staff,Activities,
+,Staff HQ,Staff applications handling,Volunteer,
+,Staff Guidelines,Guidelines for AB Staff to follow,Volunteer,
+,Staff FAQ,FAQ for AB Staffers,Volunteer,
+,Support Squad,General info about the Volunteer program (now Support Squad),Volunteer,
+,Support Squad FAQ,FAQ about the Volunteer program,Volunteer,
+,Support Application,Link to external form for applying to be a Volunteer,Volunteer,

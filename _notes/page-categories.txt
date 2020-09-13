@@ -1,4 +1,4 @@
-Attend
+Info
 - Convention Info -> About Us
 - Convention Info -> Contact Us
 - Convention Info -> Convention FAQ
@@ -13,7 +13,7 @@ Attend
 - Location -> Hotel Information
 - Location -> Travel Information
 
-See
+Activities
 - Convention Info -> Convention Schedule
 - Convention Info -> Hours of Operation
 - Guests -> Guest Listing
@@ -46,7 +46,7 @@ See
 - Media -> Wallpapers
 - Volunteer -> Staff Listing
 
-Do
+Participation
 - Programming -> AMV Contest
 - Programming -> AMV Contest FAQ
 - Programming -> AMV Contest Submission
@@ -61,7 +61,7 @@ Do
 - Media -> Photo Gallery FAQ
 - Media -> Cosplay Photo Suite
 
-Sell
+Exhibitors
 - Registration -> Community Row
 - Dealers -> Dealer Info
 - Dealers -> Dealer Registration
@@ -81,7 +81,7 @@ Sell
 - Press -> Press Pass
 - Press -> Press Pass Application
 
-Work
+Volunteer
 - Volunteer -> Staff HQ
 - Volunteer -> Staff Guidelines
 - Volunteer -> Staff FAQ
