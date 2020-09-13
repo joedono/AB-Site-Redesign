@@ -1,16 +1,50 @@
 ---
-title: Attend
+title: Information
 ---
-<h1>How to Attend Anime Boston</h1>
+<div class="jumbotron text-center">
+  <h1>Online Registration is OPEN!!</h1>
+  <p>
+    <span class="registration-counter">
+      40,000 Tickets Remaining
+      <span class="registration-counter-update">Updated June 18, 2020</span>
+    </span>
+  </p>
+  <a class="btn btn-primary btn-lg float-right" href="#" role="button">Register for AB</a>
+  <div class="clearfix text-right"><small><a href="/AB-Site-Redesign/policy.html">Registration Policy</a></small></div>
+</div>
+
+<div class="row">
+  {% for information in site.data.information %}
+  <div class="col-12">
+    <div class="collapse-section">
+      <button class="collapse-header btn btn-secondary" data-toggle="collapse" data-target="#{{ information.section }}">
+        <h2>{{ information.title }}</h2>
+      </button>
+      <section id="{{ information.section }}" class="collapse-body collapse">
+        {% if information.html %}
+          {% include information/{{ information.file }}.html %}
+        {% else %}
+          {% capture informationbody %}{% include information/{{ information.file }}.md %}{% endcapture %}
+          {{ informationbody | markdownify }}
+        {% endif %}
+      </section>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+
+
+
 
 - Actually Attending AB
-Online Registration
-Group Registration
-Registration Rates
-Registration Cap
+X Online Registration
+X Group Registration
+X Registration Rates
+X Registration Cap
 Registration Events
-Registration Policy
-Registration FAQ
+X Registration Policy
+X Registration FAQ
 Hotel Information
 Travel Information
 Hotel Code of Conduct

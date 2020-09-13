@@ -1,0 +1,14 @@
+- title: Price
+  section: price
+  file: price
+  html: true
+
+- title: School or Education Groups
+  section: group-registration
+  file: group_registration
+  html: false
+
+- title: Frequently Asked Questions
+  section: registration-faq
+  file: registration_faq
+  html: false

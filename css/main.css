@@ -167,25 +167,25 @@ footer h3 {
 }
 
 /* ==========================================================================
-   Convention Policies
+   Collapsible Sections
    ========================================================================== */
-.policy-section {
+.collapse-section {
 	border: 1px solid black;
 	border-radius: .25rem;
 	margin-bottom: 5px;
 	width: 100%;
 }
 
-.policy-header {
+.collapse-header {
 	text-align: left;
 	width: 100%;
 }
 
-.policy-header h2 {
+.collapse-header h2 {
 	font-size: 1.3em;
 }
 
-.policy-body {
+.collapse-body {
 	padding: 10px;
 }
 
