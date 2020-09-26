@@ -12,3 +12,18 @@
   section: registration-faq
   file: registration_faq
   html: false
+
+- title: Registration Events
+  section: registration-events
+  file: registration_events
+  html: false
+
+- title: Hotel Information
+  section: hotel-information
+  file: hotel_information
+  html: true
+
+- title: Travel Information
+  section: travel-information
+  file: travel_information
+  html: false

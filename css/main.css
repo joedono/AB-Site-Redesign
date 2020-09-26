@@ -148,7 +148,7 @@ footer h3 {
 }
 
 /* ==========================================================================
-   Registration Counter
+   Information
    ========================================================================== */
 
 .registration-counter {
@@ -164,6 +164,10 @@ footer h3 {
 .registration-counter-update {
 	font-size: 0.5rem;
 	font-style: italic;
+}
+
+.registration-jumbotron {
+	padding-bottom: 2rem;
 }
 
 /* ==========================================================================

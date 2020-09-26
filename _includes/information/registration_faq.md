@@ -1,4 +1,4 @@
-These are Frequently Asked Questions regarding our Registration process. Please review them and if your question still isn't answered, feel free to contact [Registration Customer](/coninfo/contact/52) Service or ask on [our forums](https://forums.animeboston.com/viewforum.php?f=2).
+These are Frequently Asked Questions regarding our Registration process and how to attend Anime Boston. Please review them and if your question still isn't answered, feel free to contact [Registration Customer](/coninfo/contact/52) Service or ask on [our forums](https://forums.animeboston.com/viewforum.php?f=2).
 
 ### Before you register:
 
@@ -43,19 +43,30 @@ These are Frequently Asked Questions regarding our Registration process. Please 
 36. [How do I register for a VIP pass?](#reg36)
 37. [Other than entrance to Anime Boston, what else can my membership get me?](#reg37)
 
+### Location
+
+38. [Where is Anime Boston {currentyear} located?](#reg38)
+39. [Is the Hynes Convention Center connected to any hotels?](#reg39)
+40. [Where do I park my car?](#reg40)
+41. [Will you book a hotel room for me?](#reg41)
+42. [What happens if the hotel fills up before I reserve a room?](#reg42)
+43. [Why do I need a hotel room? Can't I just sleep in a video room or in the lobby?](#reg43)
+44. [Do I have to tip the hotel people?](#reg44)
+45. [Is there a pool at the Sheraton Boston?](#reg45)
+
 ### Attendance Cap:
 
-38. [I pre-registered for a Weekend Membership already. Will I be able to get in?](#reg38)
-39. [Will I not be able to buy a Weekend Membership at the doors?](#reg39)
-40. [How do I know how many Weekend Memberships are available?](#reg40)
-41. [How can I get in if you are sold out of Weekend Memberships?](#reg41)
-42. [Why are you capping Weekend Memberships?](#reg42)
-43. [Are Sunday Memberships capped?](#reg43)
-44. [Why are Sunday Memberships not capped?](#reg44)
-45. [Can I transfer a Weekend Membership from someone who can no longer attend?](#reg45)
-46. [Will you move Anime Boston to a larger capacity venue, like the BCEC?](#reg46)
-47. [Other events held at the Hynes Convention Center have 100,000 in attendance. What gives?](#reg47)
-48. [Can I purchase more than one badge?](#reg48)
+46. [I pre-registered for a Weekend Membership already. Will I be able to get in?](#reg46)
+47. [Will I not be able to buy a Weekend Membership at the doors?](#reg47)
+48. [How do I know how many Weekend Memberships are available?](#reg48)
+49. [How can I get in if you are sold out of Weekend Memberships?](#reg49)
+50. [Why are you capping Weekend Memberships?](#reg50)
+51. [Are Sunday Memberships capped?](#reg51)
+52. [Why are Sunday Memberships not capped?](#reg52)
+53. [Can I transfer a Weekend Membership from someone who can no longer attend?](#reg53)
+54. [Will you move Anime Boston to a larger capacity venue, like the BCEC?](#reg54)
+55. [Other events held at the Hynes Convention Center have 100,000 in attendance. What gives?](#reg55)
+56. [Can I purchase more than one badge?](#reg56)
 
 ---
 
@@ -136,6 +147,8 @@ Your badge name cannot contain anything obscene or offensive in our judgement; w
 
 #### 20. <a name="reg20">Can I purchase more than one badge?</a>
 No, in light of the attendance cap, members may only purchase one badge per person.
+
+---
 
 #### 21. <a name="reg21">I moved after I sent in my pre-registration or I changed my e-mail address. How can I update my address, badge name, etc.?</a>
 You can only change your email address and badge name. You must have your current email address used to pre-register, as well as your confirmation code in order to update your information.  If you need to make any other changes to your registration, please [contact Registration Customer Service](/coninfo/contact/127) and we will make the requested changes for you. Please make sure you include your registration information in the email.
@@ -221,8 +234,34 @@ Anime Boston's executive staff members are the only ones who can send out VIP pa
 #### 37. <a name="reg37">Other than entrance to Anime Boston, what else can my membership get me?</a>
 A membership purchased for Anime Boston only admits you to Anime Boston for that year. It does not admit you to other conventions or events run by the New England Anime Society nor will it admit you to future Anime Boston conventions. For information on other NEAS events, visit <a href="http://www.neanime.org/" target="\_blank">neanime.org</a>.
 
+---
 
+#### 38. <a name="reg38">Where is Anime Boston {currentyear} located?</a>
+Anime Boston {currentyear} will be held at the <a href="http://www.mccahome.com/jhcc.html" target="\_blank">Hynes Convention Center</a> at 900 Boylston Street, Boston, MA 02199. The official convention hotel is the [Sheraton Boston Hotel](/location/hotel) at 39 Dalton Street, Boston, MA 02116. Some convention events will be located within the Sheraton, which is attached directly to the convention center.
 
+#### 39. <a name="reg39">Is the Hynes Convention Center connected to any hotels?</a>
+The Hynes Convention Center is connected to both the Sheraton Boston Hotel and the Boston Marriott Copley Place Hotel via the Prudential Mall. The Sheraton is next to the Prudential's entrance into the Hynes. The Marriott is further away, but still connected indoors via a sky bridge. Though the Hilton Boston Back Bay is close, it is not attached to the Hynes Convention Center. You can reach it by a quick walk across the street from the Sheraton.
+
+#### 40. <a name="reg40">Where do I park my car?</a>
+Check our [Driving and Parking](/location/travel_info/) page for assistance on getting here by car and other modes of transportation.
+
+#### 41. <a name="reg41">Will you book a hotel room for me?</a>
+No. Except for Guests of Honor, Anime Boston staff, and some lucky volunteers, *everyone staying in a hotel is required to book their own hotel rooms*. See our [Hotel Information](/location/hotel_info/) page for more details.
+
+#### 42. <a name="reg42">What happens if the hotel fills up before I reserve a room?</a>
+When a hotel fills up, you'll have to find a hotel room someplace else. We might have a big convention center, but hotel space *IS* limited. If the Sheraton fills early, we may talk to nearby hotels about overflow space, but we cannot guarantee that we will be able to arrange space elsewhere. If we do, it will *never* be cheaper than the main hotel.
+
+#### 43. <a name="reg43">Why do I need a hotel room?  Can't I just sleep in a video room or in the lobby?</a>
+Anyone caught sleeping in any function room (video room, panel room, etc) will be removed from the room. If we catch you sleeping multiple times, we will ask you to leave the convention. Anyone found sleeping in the lobby will be asked to leave by the hotel. Save yourself the trouble and get a room.
+
+#### 44. <a name="reg44">Do I have to tip the hotel people?</a>
+You should. It's how a lot of the hotel staff make their living. Refer to our handy [Tipping Guide](/location/tipping_guide/) for information on what tips are expected in return for various services.
+
+#### 45. <a name="reg45">Is there a pool at the Sheraton Boston?</a>
+Yes. The Sheraton has one of the area's largest indoor pools as well as a Jacuzzi, Sauna and Fitness Center available to all hotel guests. Please note that you must be a
+hotel guest if you wish to use the pool or fitness center facilities.
+
+---
 
 For every year except one, more vendors, industry, panelists and, most importantly, attendees are excited to come to Anime Boston. To handle this growth, we moved from our humble beginnings at the Boston Park Plaza to our current home at the Hynes Convention Center and Sheraton Boston hotel.
 
@@ -232,40 +271,36 @@ This year is no exception. After reviewing our pre-registration numbers and afte
 
 To keep you informed, we will be sending out updates on how many available memberships are left on our webpage and via our social media channels on a daily basis. Please follow us on [Twitter](http://twitter.com/#!/AnimeBoston) or [Facebook](http://www.facebook.com/AnimeBoston) for our latest updates.
 
-
-
----
-
-#### 38. <a name="reg38">I pre-registered for a Weekend Membership already. Will I be able to get in?</a>
+#### 46. <a name="reg46">I pre-registered for a Weekend Membership already. Will I be able to get in?</a>
 Yes, as a pre-registered member you are counted in the max number and can get your badge at anytime during open [Registration hours](/registration/registration_rates/#hours).
 
-#### 39. <a name="reg39">Will I not be able to buy a Weekend Membership at the doors?</a>
+#### 47. <a name="reg47">Will I not be able to buy a Weekend Membership at the doors?</a>
 Weekend Memberships will be available for sale at the doors as long as we have not hit our cap number.
 
-#### 40. <a name="reg40">How do I know how many Weekend Memberships are still available?</a>
+#### 48. <a name="reg48">How do I know how many Weekend Memberships are still available?</a>
 The most recent tally of available Weekend Memberships will be listed at the top of each page on the Anime Boston website, beneath the banner image. We will also post updates on on [Twitter](http://twitter.com/#!/AnimeBoston) or [Facebook](http://www.facebook.com/AnimeBoston).
 
-#### 41. <a name="reg41">How can I get in if you are sold out of Weekend Memberships?</a>
+#### 49. <a name="reg49">How can I get in if you are sold out of Weekend Memberships?</a>
 If we are sold out of Weekend Memberships, you may still purchase a [Sunday Membership](/registration/registration_rates/#at-con). Sunday Memberships are available for purchase only on Sunday.
 
-#### 42. <a name="reg42">Why are you capping Weekend Memberships?</a>
+#### 50. <a name="reg50">Why are you capping Weekend Memberships?</a>
 The Hynes Convention Center and Sheraton Hotel have a Maximum Capacity of occupants, set by the Massachusetts Fire Marshall. Exceeding the maximum occpancy would not only be extremely dangerous for everyone, but also illegal. We have chosen to enact this cap on our own to prevent the Fire Marshall from having to do it at the convention.
 
-#### 43. <a name="reg43">Are Sunday only memberships capped?</a>
+#### 51. <a name="reg51">Are Sunday only memberships capped?</a>
 Sunday only memberships are not capped and do not count towards the cap.
 
-#### 44. <a name="reg44">Why are Sunday Memberships not capped?</a>
+#### 52. <a name="reg52">Why are Sunday Memberships not capped?</a>
 Traditionally Sunday has a much lower occupancy compared to Friday or Saturday. We do not run the risk of hitting the Maximum Capacity.
 
-#### 45. <a name="reg45">Can I transfer a Weekend Membership from someone who can no longer attend?</a>
+#### 53. <a name="reg53">Can I transfer a Weekend Membership from someone who can no longer attend?</a>
 No. Registration is a commitment that *you* plan to attend the convention. This means *the name you register with must match the name on your ID*, and you are not allowed to change it in your registration (with obvious exceptions such as getting married between registration and the convention).
 
-#### 46. <a name="reg46">Will you move Anime Boston to a larger capacity venue, like the BCEC?</a>
+#### 54. <a name="reg54">Will you move Anime Boston to a larger capacity venue, like the BCEC?</a>
 Anime Boston is currently contracted to remain at the Hynes Convention Center and Sheraton Boston hotel through 2025. We have no plans to change venues prior to that.
 
 Any possible new venues would have to be a good match for our convention, and Maximum Capacity is only one concern. There are other criteria to consider, such as room sizes and layout, accessible hotels, restaurant availability, and more.
 
-#### 47. <a name="reg47">Other events held at the Hynes Convention Center have 100,000 in attendance. What gives?</a>
+#### 55. <a name="reg55">Other events held at the Hynes Convention Center have 100,000 in attendance. What gives?</a>
 Some other events that are held at the Hynes Convention Center do advertise they have 100,000 attendees. But the number presented isn't the whole story.
 
 Typically anime conventions count their attendance according to the number of badges sold (a "warm body" count). You count as 1 attendee whether you buy a Weekend Membership or a Sunday Membership.
@@ -274,5 +309,5 @@ But different industry conventions usually count their numbers in turnstile mann
 
 There's no right or wrong way to do it; the difference is just industry standards. However, we do give a turnstile attendance report in addition to our regular warm body count. When you look at our recent [Convention History](/coninfo/convention_history) stats, the turnstile numbers are closer to the numbers that other conventions may publish.
 
-#### 48. <a name="reg48">Can I purchase more than one badge?</a>
+#### 56. <a name="reg56">Can I purchase more than one badge?</a>
 No, in light of the attendance cap, members may only purchase one badge per person.
