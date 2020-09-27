@@ -7,7 +7,8 @@
     "express": "^4.17.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "jekyll build -s ./ -d ./build/AB-Site-Redesign",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",

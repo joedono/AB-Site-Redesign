@@ -1,2 +1,0 @@
-node RUNME.js
-pause
