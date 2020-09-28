@@ -1,5 +1,4 @@
-cmd: jekyll
+cmd: npm
 args:
+  - run
   - build
-  - -s {PROJECT_PATH}
-  - -d {PROJECT_PATH}/_build/AB-Site-Redesign
