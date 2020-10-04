@@ -1,3 +1,8 @@
+---
+title: Group Registration
+---
+# Group Registration
+
 * Only school or educational groups are eligible for a group discount. You are a school or educational group if your group is organized and/or recognized by your school/university and you have a member of the faculty or student president as your advisor/chaperone.
 * The group discount is $5.00 off the current registration rate.
   * From December 21, 2019 to January 31, 2020, groups get $5.00 off the $70.00 pre-registration rate for those attendees 13 years of age and over (making the cost per person $65.00).  Children 6 to 12 save $5.00 off the $60.00 pre-registration rate (making the cost per child $55.00).

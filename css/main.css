@@ -202,6 +202,18 @@ a.dropdown-item {
 	padding: 10px;
 }
 
+.page-menu-link {
+	border: 1px solid black;
+	border-radius: .25rem;
+	margin-bottom: 5px;
+	text-align: left;
+	width: 100%;
+}
+
+.page-menu-link h2 {
+	font-size: 1.3em;
+}
+
 /* ==========================================================================
    OLD STUFF
    ========================================================================== */

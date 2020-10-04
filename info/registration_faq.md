@@ -1,3 +1,8 @@
+---
+title: Registration FAQ
+---
+# Registration FAQ
+
 These are Frequently Asked Questions regarding our Registration process and how to attend Anime Boston. Please review them and if your question still isn't answered, feel free to contact [Registration Customer](/coninfo/contact/52) Service or ask on [our forums](https://forums.animeboston.com/viewforum.php?f=2).
 
 ### Before you register:

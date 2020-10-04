@@ -1,3 +1,8 @@
+---
+title: Travel Information
+---
+# Travel Information
+
 1. [Anime Boston by Air](#travel1)
 2. [Anime Boston by Train](#travel2)
 3. [Anime Boston by Bus](#travel3)
