@@ -100,8 +100,8 @@ footer h3 {
 }
 
 .top-nav {
-	background-color: #f6921e;
-	padding: 0 5px;
+	background-color: #0000ff;
+	padding: 5px 0;
 }
 
 .top-nav a {
@@ -116,7 +116,7 @@ footer h3 {
 
 #form-search {
 	max-width: 300px;
-	padding-bottom:5px;
+	padding: 0 5px;
 }
 
 .collapse-xs {
