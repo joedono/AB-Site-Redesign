@@ -3,10 +3,10 @@
   file: price
   html: true
 
-- title: School or Education Groups
-  section: group-registration
-  file: group_registration
-  html: false
+- title: Hotel Information
+  section: hotel-information
+  file: hotel_information
+  html: true
 
 - title: Frequently Asked Questions
   section: registration-faq
@@ -18,10 +18,10 @@
   file: registration_events
   html: false
 
-- title: Hotel Information
-  section: hotel-information
-  file: hotel_information
-  html: true
+- title: School or Education Groups
+  section: group-registration
+  file: group_registration
+  html: false
 
 - title: Travel Information
   section: travel-information
