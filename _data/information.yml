@@ -1,29 +1,17 @@
 - title: Price
-  section: price
-  file: price
-  html: true
+  link: /AB-Site-Redesign/info/price.html
 
 - title: Hotel Information
-  section: hotel-information
-  file: hotel_information
-  html: true
+  link: /AB-Site-Redesign/info/hotel_information.html
 
 - title: Frequently Asked Questions
-  section: registration-faq
-  file: registration_faq
-  html: false
+  link: /AB-Site-Redesign/policy.html
 
 - title: Registration Events
-  section: registration-events
-  file: registration_events
-  html: false
+  link: /AB-Site-Redesign/info/registration_events.html
 
 - title: School or Education Groups
-  section: group-registration
-  file: group_registration
-  html: false
+  link: /AB-Site-Redesign/info/group_registration.html
 
 - title: Travel Information
-  section: travel-information
-  file: travel_information
-  html: false
+  link: /AB-Site-Redesign/info/travel_information.html

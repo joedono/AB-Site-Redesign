@@ -20,7 +20,7 @@ title: Attend & Registration
 <div class="row">
   {% for information in site.data.information %}
   <div class="col-12 col-lg-6 col-xl-4">
-    <a class="page-menu-link btn btn-secondary" href="/AB-Site-Redesign/info/{{ information.file }}.html">
+    <a class="page-menu-link btn btn-secondary" href="{{ information.link }}">
       <h2>{{ information.title }}</h2>
     </a>
   </div>
