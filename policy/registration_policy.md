@@ -1,3 +1,8 @@
+---
+title: Registration Policy
+---
+# Registration Policy
+
 These policies apply to all members, whether they pre-register or purchase a membership at the door.
 
 1. All members agree to comply with Anime Boston rules and policies, the directions of Anime Boston, Massachusetts Convention Center Authority, and Hotel staff, and all applicable local, state, and federal laws.

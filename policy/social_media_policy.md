@@ -1,3 +1,8 @@
+---
+title: Social Media Policy
+---
+# Social Media Policy
+
 Anime Boston's Social Media platforms include the Anime Boston forums, Facebook, Twitter, and Youtube. Anime Boston staff regularly monitor these channels.
 
 By using and participating in any of our Social Media platforms, you agree to the following terms:

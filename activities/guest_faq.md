@@ -2,25 +2,12 @@
 title: Guests FAQ
 ---
 # Guests FAQ
+{:.no_toc}
 
 These are Frequently Asked Questions regarding our Guests of Honor. Please review them and if your question still isn't answered, feel free to ask on [our forums](https://forums.animeboston.com).
 
-1. [How are guests selected?](#1-how-are-guests-selected)
-2. [Can I be a guest?](#2-can-i-be-a-guest)
-3. [Will you be getting a Japanese guest?](#3-will-you-be-getting-a-japanese-guest)
-4. [Why do you get so many dub voice actors as guests?](#4-why-do-you-get-so-many-dub-voice-actors-as-guests)
-5. [I heard a rumor that XXXXX would be a guest. Is that true?](#5-i-heard-a-rumor-that-xxxxx-would-be-a-guest-is-that-true)
-6. [Why don't you say who you're considering as guests?](#6-why-dont-you-say-who-youre-considering-as-guests)
-7. [Where do you announce guests?](#7-where-do-you-announce-guests)
-8. [I noticed that another con had a guest list similar to yours? Did you steal their idea?  Did they steal yours?](#8-i-noticed-that-another-con-had-a-guest-list-similar-to-yours--did-you-steal-their-idea--did-they-steal-yours)
-9. [I'm friends with someone you may want as a guest. Should I invite them for you?](#9-im-friends-with-someone-you-may-want-as-a-guest-should-i-invite-them-for-you)
-10. [I'm friends with someone you have as a guest. Can I meet up with them at the con?](#10-im-friends-with-someone-you-have-as-a-guest-can-i-meet-up-with-them-at-the-con)
-11. [Why don't you get more web comic guests?](#11-why-dont-you-get-more-web-comic-guests)
-12. [What days will the guests be there?](#12-what-days-will-the-guests-be-there)
-13. [When can I get autographs?](#13-when-can-i-get-autographs)
-14. [What can I have guests sign?](#14-what-can-i-have-guests-sign)
-15. [Can I give the guest a present?](#15-can-i-give-the-guest-a-present)
-16. [What is Anime Boston's Autograph Policy?](#16-what-is-anime-bostons-autograph-policy)
+* TOC
+{:toc}
 
 ---
 

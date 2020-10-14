@@ -1,0 +1,14 @@
+---
+title: Convention Policies
+---
+<h1>Convention Policies</h1>
+
+<div class="row">
+  {% for policy in site.data.policy %}
+  <div class="col-12 col-lg-6">
+    <a class="page-menu-link btn btn-secondary" href="{{ policy.link }}">
+      <h2>{{ policy.title }}</h2>
+    </a>
+  </div>
+  {% endfor %}
+</div>

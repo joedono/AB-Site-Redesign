@@ -1,3 +1,8 @@
+---
+title: Privacy Policy
+---
+# Privacy Policy
+
 Last Updated: December 08, 2018
 
 The New England Anime Society, Inc. (“NEAS”, "us", "we",  or "our") operates the “Anime Boston” convention, “Anime Day at the Museum of Science” event, “Anime Boston x Honey Pot Hill Orchards” event, and the animeboston.com and neanime.org websites (hereinafter referred to as the "Service").
