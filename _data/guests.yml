@@ -1,0 +1,46 @@
+- title: Japanese Guests
+  guests:
+    - name: Hiromi Wakabayashi
+      description: Creative Producer, Script Writer
+    - name: Hiroyuki Imaishi
+      description: Director, Studio TRIGGER Co-founder
+    - name: Minami Takahashi
+      description: Voice Actor
+    - name: Shigeto Koyama
+      description: Designer
+
+- title: Voice Acting Guests
+  guests:
+    - name: Abby Trott
+      description: Voice Actor
+    - name: Brittany Lauda
+      description: Voice Actor, Director
+    - name: Brittney Karbowski
+      description: Voice Actor
+    - name: Greg Ayres
+      description: Voice Actor
+    - name: Jād Saxton
+      description: Voice Actor, Director
+    - name: Lauren Landa
+      description: Voice Actor
+    - name: Maile Flanagan
+      description: Voice Actor
+    - name: Matt Shipman
+      description: Voice Actor, Director, Writer
+    - name: Max Mittelman
+      description: Voice Actor
+    - name: Michelle Ruff
+      description: Voice Actor
+    - name: Ray Chase
+      description: Voice Actor
+    - name: Robbie Daymond
+      description: Voice Actor
+    - name: Zach Aguilar
+      description: Voice Actor
+
+- title: Musical Guests
+  guests:
+    - name: Girlfriend
+      description: Band
+    - name: m-flo
+      description: Musical Artist

@@ -28,6 +28,7 @@ h1 {
 
 .media-button-link {
 	margin-top: 5px;
+	margin-bottom: 2em;
 	width: 100%;
 }
 
@@ -177,6 +178,19 @@ a.dropdown-item {
 
 .registration-jumbotron {
 	padding-bottom: 2rem;
+}
+
+/* ==========================================================================
+   Activities
+   ========================================================================== */
+
+.guest-years {
+	list-style: none;
+}
+
+.guest-years li {
+	display: inline;
+	margin-right: 5px;
 }
 
 /* ==========================================================================
@@ -466,23 +480,6 @@ canvas {
 
 .interests-list li {
 	margin-bottom: 10px;
-}
-
-/* ==========================================================================
-   Guests
-   ========================================================================== */
-
-.guest-years {
-	list-style: none;
-}
-
-.guest-years li {
-	display: inline;
-	margin-right: 5px;
-}
-
-.guest-row {
-	margin-bottom: 20px;
 }
 
 /* ==========================================================================
