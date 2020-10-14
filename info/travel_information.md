@@ -4,12 +4,12 @@ title: Travel Information
 # Travel Information
 {:.no_toc}
 
-* TOC
+1. TOC
 {:toc}
 
 ---
 
-## 1. Anime Boston by Air
+## Anime Boston by Air
 Sell me a ticket for that airplane, ain't got time to take a fast train. Lonely days are gone, I'm a going to Anime Boston...
 
 There are many flights into Logan International Airport (the closest airport to Anime Boston) and even more ways to make your way from the airport to us! Here we have a few ways that will help you leave the safety of the airlines and join your fellow Otaku in celebrating all things Anime Boston!!
@@ -61,7 +61,7 @@ We'd recommend taking the subway, taxi, or van before renting a car unless you p
 For detailed information to and from Logan Airport, call 1-800-23-LOGAN (TTY: 1-800-262-3335)
 -->
 
-## 2. Anime Boston by Train
+## Anime Boston by Train
 Choo Choo! If you hate to fly, and can't bring yourself to drive THAT far to Anime Boston, you may want to consider the alternative yet entertaining modes of transportation known as “The Train” or “The Bus”.
 
 There are several trains that you can take into Boston all the way from Amtrak to the Commuter Rail train. Each one will drop you off at one of Boston's finest Centralized Stations! Here's how to get to us once you arrive at your fabulous Destination Station!
@@ -101,7 +101,7 @@ If you are coming to Boston via commuter rail, it provides service to a number o
 
 Maps and schedules are available on the <a href="http://www.mbta.com/" target="\_blank">MBTA web site</a>.
 
-## 3. Anime Boston by Bus
+## Anime Boston by Bus
 Of course you may prefer to get to Anime Boston by Bus.
 
 Bus lines (such as Greyhound, Peter Pan, Vermont Trailways) provide service to Boston's South Station.
@@ -115,7 +115,7 @@ Bus lines (such as Greyhound, Peter Pan, Vermont Trailways) provide service to B
 
 Subway maps are available on the <a href="http://www.mbta.com/" target="\_blank">MBTA web site</a> and on the walls of every subway station for your convenience.
 
-## 4. Driving to Anime Boston
+## Driving to Anime Boston
 So you're brave enough to face Boston traffic? We admire your courage. We recommend that you also review [parking options](#5) before heading into the city. Driving to Anime Boston.
 
 **Driving to the convention from the west:**  
@@ -168,7 +168,7 @@ For traffic reports every 10 minutes during the day, turn to <a href="http://www
 * Baltimore, MD = 8 hours
 * Toronto, ON = 9 hours
 
-## 5. Where to Park the Car
+## Where to Park the Car
 We recommend booking convenient and affordable parking in advance through SpotHero, the nation’s leading parking reservation app.
 
 To reserve your parking spot for Anime Boston, visit the [Hynes Convention Center Parking Page](https://spothero.com/boston/hynes-convention-center-parking?sha_affiliate=ANIMEBOS20) and book a spot with rates up to 50% off drive-up.
@@ -272,7 +272,7 @@ This is the second to last southern stop on the Braintree branch of the Red Line
 * Flat rate: $7.00 per day, $8 overnight
 * Subway fare: $2.75 with a Charlie Ticket and $2.25 with a Charlie Card per person each way
 
-## 6. Travel Discounts
+## Travel Discounts
 There are no travel discounts currently available.
 
 <!--

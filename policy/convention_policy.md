@@ -6,18 +6,18 @@ title: Convention Policy
 
 The following are Anime Boston's policies and rules regarding membership to the convention. These policies and rules apply to all members of Anime Boston, upon acceptance of their membership and badge.
 
-* TOC
+1. TOC
 {:toc}
 
 ---
 
-## 1. What Membership to Anime Boston Entails
+## What Membership to Anime Boston Entails
 * Upon acceptance of Membership to Anime Boston, members become responsible for their personal liability. Members assume all risks with respect to the dangers incidental to Anime Boston.
 * Membership Badges are required for entry into Anime Boston and must be visible at all times. Membership Badges are non-replaceable, non-refundable, and non-transferable.
 * Acceptance of a Membership Badge constitutes consent to the use of the wearer's image or likeness in any recording, transmission, or reproduction of Anime Boston for use by Anime Boston or the New England Anime Society (NEAS).
 * Failure to comply with the published rules of Anime Boston, including disruptive or inappropriate behavior, will result in the revocation of Membership and ejection from Anime Boston. Anime Boston may revoke membership and eject anyone from the convention at anytime for any reason without a refund.
 
-## 2. General Convention Rules
+## General Convention Rules
 * Follow requests and directions of Anime Boston, Facility, and hotel staff.
 * Anime Boston, NEAS, the Massachusetts Convention Center Authority (MCCA), and hotels are not responsible for personal items. Unattended and lost items will be turned over to proper authorities (Facility Management, Boston Police Department, Boston Fire Department, Massachusetts State Police).
 * Appropriate attire is required at all times, including shoes, pants/shorts/skirts, and shirts/tops.
@@ -32,9 +32,9 @@ The following are Anime Boston's policies and rules regarding membership to the 
 * Individuals may be asked to remove large or unwieldy bags, props, or other accessories from the convention areas.
 * Questions, concerns, or complaints should be brought to Anime Boston staff at either Convention Operations, the Info Desk, or Registration Customer Service.
 
-## 3. Supplementary Policies
+## Supplementary Policies
 
-### 1. Props Policy (Updated 2/22/16):
+### Props Policy (Updated 2/22/16):
 * Real weapons are banned in the convention areas, regardless if they are functional or not, per <a href="http://massconvention.com/assets/pdf/planners_guide/bcec/BCEC_Guide.pdf" target="\_blank">MCCA Regulations</a> and <a href="http://www.malegislature.gov/Laws/GeneralLaws/PartIV/TitleI/Chapter269/Section10" target="\_blank">Massachusetts General Laws</a>.
 * All items as listed in the <a href="#prohibited_items">Prohibited Items list</a> are not allowed. There are no exceptions to this list, regardless as to whether the item is functional or not.
 * All prop weapons must be inspected and peace-bonded <strong>each day of the convention</strong>.
@@ -46,12 +46,12 @@ The following are Anime Boston's policies and rules regarding membership to the 
 http://library.amlegal.com/nxt/gateway.dll/Massachusetts/boston/chapterxviprohibitionspenaltiesandpermit?f=templates$fn=default.htm$3.0$vid=amlegal:boston_ma$anc=JD_16-5A" target="\_blank">Boston City Ordinance 16-5A</a>.
 * Members who do not comply with this policy or are deemed repeat offenders will be subject to removal from MCCA facilities.
 
-### 2. Hotel Code of Conduct
+### Hotel Code of Conduct
 * If an individual is responsible for damages to hotel property, or endangering his, her, or their own or anyone else's safety, he, she, or they and potentially any or all of his, her, or their roommates will be ejected from the hotel and have his, her, or their Membership to Anime Boston revoked. Individuals involved will be held legally and financially responsible. Hotel administration may prosecute the offenders to the fullest extent of the law.
 * Noise levels must be kept to a minimum at all times. After three disturbances from a room, the guests will be ejected from hotel property and their Membership to Anime Boston may be revoked.
 * Hotel guests must comply with the listed occupancy limits for each room. Failure to do so may result in being ejected from hotel property.
 
-### 3. Autograph Policy
+### Autograph Policy
 
 **How to obtain a free autograph pass**
 * Autograph passes will be given out starting at **8 a.m.** on Friday, Saturday, and Sunday in the Sheraton’s Constitution B.
@@ -87,13 +87,13 @@ Some guests may choose to sign autographs at a table in the Exhibit Hall for a s
 * Attendees participating in disruptive or rude behavior may be asked to leave the autograph area.
 * Attendees must follow all staff instructions.
 
-### 4. Dealers' Room Policy
+### Dealers' Room Policy
 * Dealers will charge the current Massachusetts State Sales Tax of 6.25%. They may not charge sales tax from other states.
 * Individual clothing items under $175 are exempt from MA State Sales Tax. Clothing items over $175 are only taxed on the amount over $175.
 * Bootleg and unlicensed merchandise are not permitted to be sold in the Dealers' Room.
 * If you have any questions, issues, or complaints, please contact Anime Boston staff at the table located at the main Dealers' Room entrance.
 
-### 5. Flyer Policy
+### Flyer Policy
 * One pile of flyers may be placed on the table near the Hynes Info Desk by a person with a Membership Badge at no charge.
 * Flyers from other businesses and conventions are welcomed provided they do not contain any adult, illegal, or inappropriate content.
 * Do not move or obscure other flyers.
@@ -101,24 +101,24 @@ Some guests may choose to sign autographs at a table in the Exhibit Hall for a s
 * Remaining flyers will be discarded at the end of the convention if not reclaimed.
 * Anime Boston staff may remove flyers for any reason at any time.
 
-### 6.Photography Policy
+### Photography Policy
 * Please ask for permission before photographing other attendees and respect an individual's choice to decline being photographed.
 * Photography umbrellas, backdrops, tripods, and stand-alone lighting units are not permitted in the convention center, except for those who are credentialed members of the Press.
 * All official Anime Boston Photographers can be identified by their Staff Badge. You may always ask to see a Staff Badge to verify if someone is a member of  Anime Boston Staff.
 * If participating in off-site photography sessions, use public locations such as a park rather than private locations such as hotel rooms.
 
-### 7. Personal Sound Device Policy
+### Personal Sound Device Policy
 * Keep the volume low within the convention facilities and other public areas.
 * If Anime Boston or Facility staff asks any individual to turn down the volume on a device, he, she, or they must comply immediately.
 * Three incidents will result in the offender having his, her, or their Membership to Anime Boston revoked and he, she, or they may potentially be prohibited from attending future Anime Boston and NEAS events.
 
-### 8. Special Event Seating
+### Special Event Seating
 * If you've been to Anime Boston before, you might know all about the tickets for concerts and the masquerade. If you haven't joined us before, welcome! We have lots of fun and some fantastic acts lined up!
 * This year, we’ve changed our process to hopefully make things clearer. For free events that have a limited number of seats, you’ll need to pick up a Queued Event Pass to be guaranteed a seat. This does not mean you will be turned away at the door without a pass. It does mean people with passes will be seated first. Once they’ve been seated, anyone without a pass will be seated. These passes are only to guarantee you’ll have a seat. So fret not if you missed getting a pass on Friday because you were too busy adulting at work (we feel you).
 * Our staff members will be at the Queued Event Pass table located on the third floor of the Hynes across from room 308 on Friday and Saturday, from 8 a.m. to 4 p.m. (or sooner if all passes are given out). Queued Event Passes will only be available on the day of their event. So you can’t pick up passes to Saturday’s event on Friday, they won’t be available yet!
 * One Queued Event Pass per person, per event, and each person must be present with their own badge to pick it up. If you're not sure when your friend will arrive at Anime Boston to pick up their own pass, we recommend selecting floor seating when in the Auditorium; there are more seats available.
 
-## 4. Prohibited Items
+## Prohibited Items
 * Alcohol and illegal substances.
 * Wheeled items (excluding mobility assistance devices), including but not limited to:
     * Rollerblades
@@ -142,7 +142,7 @@ Some guests may choose to sign autographs at a table in the Exhibit Hall for a s
 * Laser pointers or similar devices. These items may not be used in public unless you are officially sanctioned to lead or present a convention seminar, panel, workshop, or other convention-sanctioned event.
 * Drones and other aerial devices.
 
-## 5. Prohibited Conduct
+## Prohibited Conduct
 * Disruptive behavior, including but not limited to:
     * Running.
     * Screaming, shouting, or yelling.
@@ -157,7 +157,7 @@ Some guests may choose to sign autographs at a table in the Exhibit Hall for a s
 * Theft, assault, drug use, and any other illegal activities.
 * Nudity and inappropriate attire.
 
-## 6. Repercussions for Violations
+## Repercussions for Violations
 *Any of the following repercussions may occur for violations, subject to the discretion of Anime Boston and Facility staff.*
 * Verbal warning from Anime Boston or Facility staff.
 * Confiscation of prohibited items. Confiscation may be permanent, or until the item can be safely removed from convention premises.
@@ -167,7 +167,7 @@ Some guests may choose to sign autographs at a table in the Exhibit Hall for a s
 * Financial and legal responsibility for damages.
 * Reporting to the Boston Police Department for illegal activities or substances.
 
-## 7. Accessibility at Anime Boston
+## Accessibility at Anime Boston
 * *Accessibility Stickers*
 Accessibility Stickers can be obtained at the Accessibility Services booth, located in Registration. These stickers are given to any person who might require advanced seating to an event or who may be unable to stand for long periods of time as a result of a disability or injury. One additional sticker may be given to an assistant or companion. Stickers are given out at the discretion of Anime Boston staff to those in need. The sticker is applied to a person’s badge. This sticker allows priority access through the security line and also allows a person advanced seating to major events. Please see the Advanced Seating policy for more information.
 * *Advanced Seating*
