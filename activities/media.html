@@ -16,7 +16,7 @@ title: Media
 <div class="row">
   {% for program_guide in site.data.program_guides %}
     <div class="col-12 col-md-2 text-center">
-      <a href="{{ program_guide.file }}">
+      <a href="{{ program_guide.link }}">
         <h3>{{ program_guide.year }}</h3>
         <img class="img-fluid" src="{{ program_guide.image }}" alt="Program Guide AB {{ program_guide.year }}">
       </a>
@@ -40,7 +40,7 @@ title: Media
 <div class="row">
   {% for wp in wallpaper.wallpapers %}
     <div class="col-12 col-md-3 text-center">
-      <h4>{{ wp.title }}</h4>
+      <label class="d-block">{{ wp.title }}</label>
       <img class="img-fluid" src="https://www.animeboston.com{{ wp.image }}">
       <small>
         {% for download in wp.downloads %}

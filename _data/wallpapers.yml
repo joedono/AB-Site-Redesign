@@ -99,6 +99,7 @@
           file: /images/media/wallpapers/2012/AB2012_Chibi_iPhone.jpg
         - title: PSP
           file: /images/media/wallpapers/2012/AB2012_Chibi_PSP.jpg
+
 - title: Anime Boston 10th Anniversary Wallpapers
   wallpapers:
     - title: 2003
@@ -254,3 +255,145 @@
           file: /images/media/wallpapers/10th_anniversary/AB2011_iPhone.jpg
         - title: PSP
           file: /images/media/wallpapers/10th_anniversary/AB2011_PSP.jpg
+
+- title: Anime Boston 2010 "Mad Science" Themed Wallpapers
+  wallpapers:
+    - title: 2010 Theme A-chan
+      image: /images/media/wallpapers/2010/2010-Theme-Wallpaper-A-chan-thumbnail.jpg
+      downloads:
+        - title: 1024x768
+          file: /images/media/wallpapers/2010/2010-Theme-Wallpaper-A-chan-1024x768.jpg
+        - title: 1280x720
+          file: /images/media/wallpapers/2010/2010-Theme-Wallpaper-A-chan-1280x720.jpg
+        - title: 1280x1024
+          file: /images/media/wallpapers/2010/2010-Theme-Wallpaper-A-chan-1280x1024.jpg
+        - title: 1600x1200
+          file: /images/media/wallpapers/2010/2010-Theme-Wallpaper-A-chan-1600x1200.jpg
+        - title: 1920x1080
+          file: /images/media/wallpapers/2010/2010-Theme-Wallpaper-A-chan-1920x1080.jpg
+        - title: iPhone
+          file: /images/media/wallpapers/2010/2010-Theme-Wallpaper-A-chan-iPhone-Size.jpg
+        - title: PSP
+          file: /images/media/wallpapers/2010/2010-Theme-Wallpaper-A-chan-PSP.jpg
+    - title: 2010 Theme B-kun
+      image: /images/media/wallpapers/2010/2010-Theme-Wallpaper-B-kun-thumbnail.jpg
+      downloads:
+        - title: 1024x768
+          file: /images/media/wallpapers/2010/2010-Theme-Wallpaper-B-kun-1024x768.jpg
+        - title: 1280x720
+          file: /images/media/wallpapers/2010/2010-Theme-Wallpaper-B-kun-1280x720.jpg
+        - title: 1280x1024
+          file: /images/media/wallpapers/2010/2010-Theme-Wallpaper-B-kun-1280x1024.jpg
+        - title: 1600x1200
+          file: /images/media/wallpapers/2010/2010-Theme-Wallpaper-B-kun-1600x1200.jpg
+        - title: 1920x1080
+          file: /images/media/wallpapers/2010/2010-Theme-Wallpaper-B-kun-1920x1080.jpg
+        - title: iPhone
+          file: /images/media/wallpapers/2010/2010-Theme-Wallpaper-B-kun-iPhone-Size.jpg
+        - title: PSP
+          file: /images/media/wallpapers/2010/2010-Theme-Wallpaper-B-kun-PSP.jpg
+    - title: 2010 Theme A-chan &amp; B-kun
+      image: /images/media/wallpapers/2010/2010-Theme-Wallpaper-Both-Mascots-thumbnail.jpg
+      downloads:
+        - title: 1024x768
+          file: /images/media/wallpapers/2010/2010-Theme-Wallpaper-Both-Mascots-1024x768.jpg
+        - title: 1280x720
+          file: /images/media/wallpapers/2010/2010-Theme-Wallpaper-Both-Mascots-1280x720.jpg
+        - title: 1280x1024
+          file: /images/media/wallpapers/2010/2010-Theme-Wallpaper-Both-Mascots-1280x1024.jpg
+        - title: 1600x1200
+          file: /images/media/wallpapers/2010/2010-Theme-Wallpaper-Both-Mascots-1600x1200.jpg
+        - title: 1920x1080
+          file: /images/media/wallpapers/2010/2010-Theme-Wallpaper-Both-Mascots-1920x1080.jpg
+        - title: iPhone
+          file: /images/media/wallpapers/2010/2010-Theme-Wallpaper-Both-Mascots-iPhone-Size.jpg
+        - title: PSP
+          file: /images/media/wallpapers/2010/2010-Theme-Wallpaper-Both-Mascots-PSP.jpg
+
+- title: Anime Boston General Wallpapers
+  wallpapers:
+    - title: A-chan
+      image: /images/media/wallpapers/general/A-chan-Wallpaper-thumbnail.jpg
+      downloads:
+        - title: 1024x768
+          file: /images/media/wallpapers/general/A-chan-Wallpaper-1024x768.jpg
+        - title: 1280x720
+          file: /images/media/wallpapers/general/A-chan-Wallpaper-1280x720.jpg
+        - title: 1280x1024
+          file: /images/media/wallpapers/general/A-chan-Wallpaper-1280x1024.jpg
+        - title: 1600x1200
+          file: /images/media/wallpapers/general/A-chan-Wallpaper-1600x1200.jpg
+        - title: 1920x1080
+          file: /images/media/wallpapers/general/A-chan-Wallpaper-1920x1080.jpg
+        - title: iPhone
+          file: /images/media/wallpapers/general/A-chan-Wallpaper-iPhone-Size.jpg
+        - title: PSP
+          file: /images/media/wallpapers/general/A-chan-Wallpaper-PSP.jpg
+    - title: B-kun
+      image: /images/media/wallpapers/general/B-kun-Wallpaper-thumbnail.jpg
+      downloads:
+        - title: 1024x768
+          file: /images/media/wallpapers/general/B-kun-Wallpaper-1024x768.jpg
+        - title: 1280x720
+          file: /images/media/wallpapers/general/B-kun-Wallpaper-1280x720.jpg
+        - title: 1280x1024
+          file: /images/media/wallpapers/general/B-kun-Wallpaper-1280x1024.jpg
+        - title: 1600x1200
+          file: /images/media/wallpapers/general/B-kun-Wallpaper-1600x1200.jpg
+        - title: 1920x1080
+          file: /images/media/wallpapers/general/B-kun-Wallpaper-1920x1080.jpg
+        - title: iPhone
+          file: /images/media/wallpapers/general/B-kun-Wallpaper-iPhone-Size.jpg
+        - title: PSP
+          file: /images/media/wallpapers/general/B-kun-Wallpaper-PSP.jpg
+    - title: Kimono Pattern
+      image: /images/media/wallpapers/general/Kimono-Pattern-thumbnail.jpg
+      downloads:
+        - title: 1024x768
+          file: /images/media/wallpapers/general/Kimono-Pattern-1024x768.jpg
+        - title: 1280x720
+          file: /images/media/wallpapers/general/Kimono-Pattern-1280x720.jpg
+        - title: 1280x1024
+          file: /images/media/wallpapers/general/Kimono-Pattern-1280x1024.jpg
+        - title: 1600x1200
+          file: /images/media/wallpapers/general/Kimono-Pattern-1600x1200.jpg
+        - title: 1920x1080
+          file: /images/media/wallpapers/general/Kimono-Pattern-1920x1080.jpg
+        - title: iPhone
+          file: /images/media/wallpapers/general/Kimono-Pattern-iPhone-Size.jpg
+        - title: PSP
+          file: /images/media/wallpapers/general/Kimono-Pattern-PSP.jpg
+    - title: A-chan &amp; B-kun
+      image: /images/media/wallpapers/general/Generic-Mascot-thumbnail.jpg
+      downloads:
+        - title: 1024x768
+          file: /images/media/wallpapers/general/Generic-Mascot-1024x768.jpg
+        - title: 1280x720
+          file: /images/media/wallpapers/general/Generic-Mascot-1280x720.jpg
+        - title: 1280x1024
+          file: /images/media/wallpapers/general/Generic-Mascot-1280x1024.jpg
+        - title: 1600x1200
+          file: /images/media/wallpapers/general/Generic-Mascot-1600x1200.jpg
+        - title: 1920x1080
+          file: /images/media/wallpapers/general/Generic-Mascot-1920x1080.jpg
+        - title: iPhone
+          file: /images/media/wallpapers/general/Generic-Mascot-iPhone-Size.jpg
+        - title: PSP
+          file: /images/media/wallpapers/general/Generic-Mascot-PSP.jpg
+    - title: Cherry Blossoms
+      image: /images/media/wallpapers/general/ABCherryBlossoms_thumbnail.jpg
+      downloads:
+        - title: 1024x768
+          file: /images/media/wallpapers/general/ABCherryBlossoms_1024x768.jpg
+        - title: 1280x720
+          file: /images/media/wallpapers/general/ABCherryBlossoms_1280x720.jpg
+        - title: 1280x1024
+          file: /images/media/wallpapers/general/ABCherryBlossoms_1280x1024.jpg
+        - title: 1600x1200
+          file: /images/media/wallpapers/general/ABCherryBlossoms_1600x1200.jpg
+        - title: 1920x1080
+          file: /images/media/wallpapers/general/ABCherryBlossoms_1920x1080.jpg
+        - title: iPhone
+          file: /images/media/wallpapers/general/ABCherryBlossoms_iPhone-Size.jpg
+        - title: PSP
+          file: /images/media/wallpapers/general/ABCherryBlossoms_PSP.jpg
