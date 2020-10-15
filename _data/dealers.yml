@@ -1,0 +1,372 @@
+%YAML 1.1
+---
+# abmain_prod.drv
+-
+  display_name: "Aardvark Tees"
+  website: ""
+  final_booth_number: 131
+-
+  display_name: "Akiba HQ"
+  website: "http://www.akibahq.com"
+  final_booth_number: "147, 702"
+-
+  display_name: "Alik's Cosplay"
+  website: ""
+  final_booth_number: 141
+-
+  display_name: "Anime Boston Merchandise"
+  website: "http://www.animeboston.com"
+  final_booth_number: 100
+-
+  display_name: "Anime Castle"
+  website: "http://www.animecastle.com"
+  final_booth_number: 811
+-
+  display_name: "Anime Crew LLC"
+  website: ""
+  final_booth_number: 1502
+-
+  display_name: "Anime NYC"
+  website: "http://animenyc.com"
+  final_booth_number: 826
+-
+  display_name: "Anime Pavilion LLC"
+  website: "http://www.animepavilion.com"
+  final_booth_number: 1500
+-
+  display_name: "Anime Remix"
+  website: "http://www.anime-remix.com"
+  final_booth_number: 600
+-
+  display_name: "Anime Sekai LLC"
+  website: "http://www.animesekai.com"
+  final_booth_number: 502
+-
+  display_name: "Anime World"
+  website: "http://www.animeworldusa.com"
+  final_booth_number: 1900
+-
+  display_name: "ANIMETRASHSWAG"
+  website: "http://WWW.ANIMETRASHSWAG.COM"
+  final_booth_number: 723
+-
+  display_name: "anine palace"
+  website: "http://www.theanimepalace.com"
+  final_booth_number: 307
+-
+  display_name: "Another Anime Con (AAC)"
+  website: "http://www.anotheranimecon.com"
+  final_booth_number: 1301
+-
+  display_name: "Arda Wigs"
+  website: "http://arda-wigs.com"
+  final_booth_number: 1400
+-
+  display_name: "Arise bazaar"
+  website: "http://www.arisebazaar.com"
+  final_booth_number: 1701
+-
+  display_name: "Asylum Anime"
+  website: "http://www.asylum-anime.com/store/"
+  final_booth_number: 155
+-
+  display_name: "Belladonna"
+  website: "https://www.instagram.com/belladonnalolita/"
+  final_booth_number: 202
+-
+  display_name: "Best Anime Shop"
+  website: "http://www.bestanimeshop.com"
+  final_booth_number: 1906
+-
+  display_name: "BIBISAMA"
+  website: "http://Bibisama.com"
+  final_booth_number: "500, 1508"
+-
+  display_name: "Black Knight: Anime, Games, &amp; More"
+  website: ""
+  final_booth_number: 1403
+-
+  display_name: "Bull Moose"
+  website: "http://bullmoose.com"
+  final_booth_number: 160
+-
+  display_name: "Cartoon Passion"
+  website: "http://www.cartoonpassion.wix.com/main"
+  final_booth_number: 408
+-
+  display_name: "CEI - Cultural Exchange Initiative"
+  website: "https://www.ceinitiative.org"
+  final_booth_number: 820
+-
+  display_name: "Collectors universe and anime "
+  website: "https://collectorsuniverseandanime.com/"
+  final_booth_number: 720
+-
+  display_name: "Comicopia"
+  website: "http://www.comicopia.com"
+  final_booth_number: 103
+-
+  display_name: "Cosplay And Photography Expo"
+  website: "http://cape.nerdcaliber.com/"
+  final_booth_number: 821
+-
+  display_name: "cosplaymoomoo"
+  website: "http://cosplaymoomoo.com"
+  final_booth_number: "136, 716, 1409"
+-
+  display_name: "Crunchyroll"
+  website: "http://www.crunchyroll.com"
+  final_booth_number: 1200
+-
+  display_name: "Discotek Media"
+  website: "http://www.discotekmedia.com"
+  final_booth_number: 800
+-
+  display_name: "Eleven Arts"
+  website: "http://www.elevenarts.com"
+  final_booth_number: 828
+-
+  display_name: "Epic Cosplay Wigs"
+  website: "http://www.epiccosplay.com"
+  final_booth_number: 824
+-
+  display_name: "FAKKU"
+  website: ""
+  final_booth_number: 1300
+-
+  display_name: "Foam Brain Games"
+  website: ""
+  final_booth_number: 700
+-
+  display_name: "Funimation"
+  website: "http://www.funimation.com"
+  final_booth_number: "822, 1100"
+-
+  display_name: "Game of HAM"
+  website: "https://gameofham.com/"
+  final_booth_number: 1304
+-
+  display_name: "Girlfriend"
+  website: "https://www.animeboston.com/guests/guest_info/313"
+  final_booth_number: 807
+-
+  display_name: "GKIDS"
+  website: "https://gkids.com/"
+  final_booth_number: 829
+-
+  display_name: "Glitch Gaming Apparel"
+  website: "http://www.glitchgear.com"
+  final_booth_number: 112
+-
+  display_name: "Great American Gothic"
+  website: ""
+  final_booth_number: 813
+-
+  display_name: "Gundam Pros"
+  website: "http://www.gundampros.com"
+  final_booth_number: 1401
+-
+  display_name: "Hen Da Ne! Inc."
+  website: "http://www.hendane.com "
+  final_booth_number: 305
+-
+  display_name: "HKT Import Toys"
+  website: "http://www.mugentoys.com"
+  final_booth_number: 607
+-
+  display_name: "Human Rights Campaign"
+  website: ""
+  final_booth_number: 803
+-
+  display_name: "Ichigo Black"
+  website: "http://ichigoblack.com"
+  final_booth_number: 1903
+-
+  display_name: "Image Anime"
+  website: "http://www.imageanime.com"
+  final_booth_number: 300
+-
+  display_name: "International Otaku Expo Association"
+  website: "http://IOEA.info"
+  final_booth_number: 819
+-
+  display_name: "Itabag Palace"
+  website: ""
+  final_booth_number: 138
+-
+  display_name: "japanwave"
+  website: "http://www.japanwave.us"
+  final_booth_number: 130
+-
+  display_name: "Jellymomoshop"
+  website: ""
+  final_booth_number: 207
+-
+  display_name: "JET Program"
+  website: "https://jetprogramusa.org/"
+  final_booth_number: 809
+-
+  display_name: "Jukebox Imports"
+  website: ""
+  final_booth_number: 1801
+-
+  display_name: "KPoppin USA"
+  website: "http://www.kpoppinusa.com"
+  final_booth_number: 165
+-
+  display_name: "Lunar Toy Store"
+  website: "https://www.lunartoystore.com/"
+  final_booth_number: 900
+-
+  display_name: "m-flo"
+  website: "https://www.animeboston.com/guests/guest_info/316"
+  final_booth_number: 808
+-
+  display_name: "Media Blasters, Inc."
+  website: ""
+  final_booth_number: 710
+-
+  display_name: "Megaroad Toys and Entertainment"
+  website: "http://www.megaroad.com"
+  final_booth_number: "125, 135, 603"
+-
+  display_name: "Michelle Ruff"
+  website: "https://www.animeboston.com/guests/guest_info/310"
+  final_booth_number: 806
+-
+  display_name: "Neko-jin Designs"
+  website: "http://NekojinDesigns.com"
+  final_booth_number: 400
+-
+  display_name: "New England Comics"
+  website: "http://www.newenglandcomics.com"
+  final_booth_number: 113
+-
+  display_name: "Noms designs "
+  website: ""
+  final_booth_number: 509
+-
+  display_name: "OhMonah"
+  website: "http://www.OHMONAH.SHOP"
+  final_booth_number: 201
+-
+  display_name: "Otaku Joe's"
+  website: "https://www.facebook.com/OtakuJoes/"
+  final_booth_number: 815
+-
+  display_name: "Pawstar"
+  website: "http://www.pawstar.com"
+  final_booth_number: 162
+-
+  display_name: "PulsArt Studio"
+  website: "http://www.pulsartstudio.com"
+  final_booth_number: 133
+-
+  display_name: "Purple Plum Inc"
+  website: "http://www.AnimeStuffStore.com"
+  final_booth_number: 402
+-
+  display_name: "Rhode Island Comic Con"
+  website: "http://www.RIComicCon.com"
+  final_booth_number: 827
+-
+  display_name: "ROCK THE VOTE"
+  website: "http://www.rockthevote.org"
+  final_booth_number: 508
+-
+  display_name: "Sanshee LLC"
+  website: "http://www.sanshee.com"
+  final_booth_number: 203
+-
+  display_name: "Science Fiction Continuum  "
+  website: "http://www.sfcontinuum.com"
+  final_booth_number: 121
+-
+  display_name: "Sentai Filmworks"
+  website: "http://www.sentaifilmworks.com"
+  final_booth_number: 1600
+-
+  display_name: "Skully Kouture"
+  website: "http://skullykouture.com"
+  final_booth_number: 1305
+-
+  display_name: "Sorbet Jungle"
+  website: "https://www.sorbetjungle.com/"
+  final_booth_number: 706
+-
+  display_name: "Storyofthedoor"
+  website: "http://storyofthedoor.etsy.com"
+  final_booth_number: 1902
+-
+  display_name: "Sun Anime"
+  website: ""
+  final_booth_number: 1703
+-
+  display_name: "Sweet Mildred"
+  website: ""
+  final_booth_number: 804
+-
+  display_name: "Tangerine Mountain"
+  website: "https://www.tangerinemountain.com/"
+  final_booth_number: 1700
+-
+  display_name: "Tasty Peach"
+  website: "https://www.tastypeachstudios.com/"
+  final_booth_number: 1302
+-
+  display_name: "tawniebow"
+  website: "http://www.tawniebow.com"
+  final_booth_number: 810
+-
+  display_name: "The Boston Uprising"
+  website: "https://uprising.overwatchleague.com/en-us"
+  final_booth_number: 1800
+-
+  display_name: "The Dragon's Lair "
+  website: "http://www.anddragonsohmy.com "
+  final_booth_number: 139
+-
+  display_name: "The Five Wits LLC"
+  website: "http://www.thefivewitswigs.com"
+  final_booth_number: 127
+-
+  display_name: "The Gundam Galaxy"
+  website: ""
+  final_booth_number: 1408
+-
+  display_name: "toyslogic"
+  website: "http://www.toyslogic.com"
+  final_booth_number: "143, 151"
+-
+  display_name: "trilogy shop inc"
+  website: ""
+  final_booth_number: 1802
+-
+  display_name: "Trollandtoad"
+  website: "http://www.trollandtoad.com"
+  final_booth_number: 164
+-
+  display_name: "Twylite Fashion"
+  website: ""
+  final_booth_number: 1912
+-
+  display_name: "Valeza"
+  website: "http://www.valezalifestyle.com "
+  final_booth_number: 1406
+-
+  display_name: "Verizon"
+  website: "http://www.verizon.com"
+  final_booth_number: 711
+-
+  display_name: "VideoGamesNewYork"
+  website: "http://www.videogamesnewyork.com"
+  final_booth_number: 604
+-
+  display_name: "Volante Design"
+  website: "http://www.volantedesign.us"
+  final_booth_number: 205
+-
+  display_name: "YES ANIME"
+  website: "http://YESANIME.COM"
+  final_booth_number: 707
+...

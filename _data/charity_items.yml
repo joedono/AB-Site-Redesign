@@ -1,0 +1,246 @@
+%YAML 1.1
+---
+# abmain_prod.cai
+- timeslot: "10:00-10:15am"
+  items:
+    -
+      item_id: 36
+      title: "Detective Conan Towel"
+      description: "A rally towel from Japan for the Yakult Swallows Baseball team. "
+      thumbnail_url: "https://www.animeboston.com/images/charity/2019/36/thumbnail.jpg"
+      image_url: "https://www.animeboston.com/images/charity/2019/36/image.jpg"
+      timeslot_id: 1
+      con_year: 2019
+      timeslot: "10:00-10:15am"
+    -
+      item_id: 23
+      title: "My Hero Academia Deku POP Figure"
+      description: "A POP figure of Izuku Midorya (&quot;Deku&quot;) from My Hero Academia. The figure box is signed by Deku's voice actor, Justin Briner."
+      thumbnail_url: "https://www.animeboston.com/images/charity/2019/23/thumbnail.jpg"
+      image_url: "https://www.animeboston.com/images/charity/2019/23/image.jpg"
+      timeslot_id: 1
+      con_year: 2019
+      timeslot: "10:00-10:15am"
+    -
+      item_id: 22
+      title: "One Piece Bundle"
+      description: "A bundle of One Piece items including a beach towel and Easter themed tote bag, both featuring the Straw Hat pirates. "
+      thumbnail_url: "https://www.animeboston.com/images/charity/2019/22/thumbnail.jpg"
+      image_url: "https://www.animeboston.com/images/charity/2019/22/image.jpg"
+      timeslot_id: 1
+      con_year: 2019
+      timeslot: "10:00-10:15am"
+    -
+      item_id: 34
+      title: "Signed Food Wars Apron"
+      description: "A costume quality Food Wars apron (not meant for cooking with!) signed by Scott Gibbs."
+      thumbnail_url: "https://www.animeboston.com/images/charity/2019/34/thumbnail.jpg"
+      image_url: "https://www.animeboston.com/images/charity/2019/34/image.jpg"
+      timeslot_id: 1
+      con_year: 2019
+      timeslot: "10:00-10:15am"
+- timeslot: "10:15-10:30am"
+  items:
+    -
+      item_id: 13
+      title: "Children of Ether Poster"
+      description: "A poster for the Children of Ether movie signed by the film&rsquo;s director, LeSean Thomas."
+      thumbnail_url: "https://www.animeboston.com/images/charity/2019/13/thumbnail.jpg"
+      image_url: "https://www.animeboston.com/images/charity/2019/13/image.jpg"
+      timeslot_id: 2
+      con_year: 2019
+      timeslot: "10:15-10:30am"
+- timeslot: "10:30-10:45am"
+  items:
+    -
+      item_id: 20
+      title: "Dragonball Broly Figure"
+      description: "A figure of Broly from Dragonball. An exclusive color edition Figuarts model from the 2018 Dragonball North American tour. "
+      thumbnail_url: "https://www.animeboston.com/images/charity/2019/20/thumbnail.jpg"
+      image_url: "https://www.animeboston.com/images/charity/2019/20/image.jpg"
+      timeslot_id: 3
+      con_year: 2019
+      timeslot: "10:30-10:45am"
+    -
+      item_id: 25
+      title: "My Hero Academia Bakugou POP Figure"
+      description: "A POP Figure of Katsuki Bakugou from My Hero Academia. The figure box is signed by Clifford Chapin, Bakugou's voice actor. "
+      thumbnail_url: "https://www.animeboston.com/images/charity/2019/25/thumbnail.jpg"
+      image_url: "https://www.animeboston.com/images/charity/2019/25/image.jpg"
+      timeslot_id: 3
+      con_year: 2019
+      timeslot: "10:30-10:45am"
+    -
+      item_id: 19
+      title: "Rukia Pop Figure"
+      description: "A POP figure of Rukia from Bleach. Box is signed by Michelle Ruff, the voice actor of Rukia. Ruff had to unfortunately cancel her Anime Boston appearance, so this is one of the only chances to snag something signed by her! "
+      thumbnail_url: ""
+      image_url: ""
+      timeslot_id: 3
+      con_year: 2019
+      timeslot: "10:30-10:45am"
+    -
+      item_id: 15
+      title: "Summer Festival Pikachu Plushes"
+      description: "A set of two Pikachu plush dolls from the Pokemon Center store in Japan. Dressed in Japanese summer festival outfits. Tags still attached. Soft, squishy, adorable, 8 inches tall. "
+      thumbnail_url: "https://www.animeboston.com/images/charity/2019/15/thumbnail.jpg"
+      image_url: "https://www.animeboston.com/images/charity/2019/15/image.jpg"
+      timeslot_id: 3
+      con_year: 2019
+      timeslot: "10:30-10:45am"
+- timeslot: "10:45-11:00am"
+  items:
+    -
+      item_id: 21
+      title: "Signed Macross Postcard"
+      description: "A postcard featuring the anime Macross. Signed by the creator, Shoji Kawamori"
+      thumbnail_url: "https://www.animeboston.com/images/charity/2019/21/thumbnail.jpg"
+      image_url: "https://www.animeboston.com/images/charity/2019/21/image.jpg"
+      timeslot_id: 4
+      con_year: 2019
+      timeslot: "10:45-11:00am"
+    -
+      item_id: 18
+      title: "Tezuka Postcard Bundle"
+      description: "A set of super neat holographic postcards featuring various works by Osuma Tezuka including Hyoutantsugi, Black Jack, Princess Knight, Astro Boy, Phoenix, and Jungle Emperor Leo."
+      thumbnail_url: "https://www.animeboston.com/images/charity/2019/18/thumbnail.jpg"
+      image_url: "https://www.animeboston.com/images/charity/2019/18/image.jpg"
+      timeslot_id: 4
+      con_year: 2019
+      timeslot: "10:45-11:00am"
+- timeslot: "11:00-11:15am"
+  items:
+    -
+      item_id: 33
+      title: "Kiki's Delivery Service Silhouette Stand"
+      description: "A small figure stand featuring a stylized silhouette of Kiki and her cat Jiji from Kiki's Delivery Service. "
+      thumbnail_url: "https://www.animeboston.com/images/charity/2019/33/thumbnail.jpg"
+      image_url: "https://www.animeboston.com/images/charity/2019/33/image.jpg"
+      timeslot_id: 5
+      con_year: 2019
+      timeslot: "11:00-11:15am"
+- timeslot: "11:15-11:30am"
+  items:
+    -
+      item_id: 26
+      title: "Naruto Bundle"
+      description: "A set of Naruto themed items including a drink tumblr, coaster, and manga print! These items are exclusives from the Shonen Jump 50th Anniversary Exhibit at the Mori Art Museum! "
+      thumbnail_url: "https://www.animeboston.com/images/charity/2019/26/thumbnail.jpg"
+      image_url: "https://www.animeboston.com/images/charity/2019/26/image.jpg"
+      timeslot_id: 6
+      con_year: 2019
+      timeslot: "11:15-11:30am"
+- timeslot: "11:30-11:45am"
+  items:
+    -
+      item_id: 14
+      title: "Anime Boston 2018 Signed T-Shirt"
+      description: "An Anime Boston 2018 t-shirt signed by the 2018 convention guests!"
+      thumbnail_url: ""
+      image_url: ""
+      timeslot_id: 11
+      con_year: 2019
+      timeslot: "11:30-11:45am"
+    -
+      item_id: 24
+      title: "Autographed Anime Boston Hockey Jersey"
+      description: "An Anime Boston hockey jersey signed by an array of special convention guests of 2018! "
+      thumbnail_url: ""
+      image_url: ""
+      timeslot_id: 11
+      con_year: 2019
+      timeslot: "11:30-11:45am"
+    -
+      item_id: 32
+      title: "Signed Your Name DVD"
+      description: "Blu-Ray DVD of the animated film Your Name. The inside cover is signed by Stephanie Sheh, the voice of Mitsuha."
+      thumbnail_url: "https://www.animeboston.com/images/charity/2019/32/thumbnail.jpg"
+      image_url: "https://www.animeboston.com/images/charity/2019/32/image.jpg"
+      timeslot_id: 11
+      con_year: 2019
+      timeslot: "11:30-11:45am"
+    -
+      item_id: 28
+      title: "Tuxedo Mask Bundle"
+      description: "A POP Figure of Tuxedo Mask and mini memo pad. Both items are signed by Toru Furuya and Robbie Daymond. "
+      thumbnail_url: "https://www.animeboston.com/images/charity/2019/28/thumbnail.jpg"
+      image_url: "https://www.animeboston.com/images/charity/2019/28/image.jpg"
+      timeslot_id: 11
+      con_year: 2019
+      timeslot: "11:30-11:45am"
+- timeslot: "11:45am-12:00pm"
+  items:
+    -
+      item_id: 16
+      title: "Yukata Pikachu Plushes"
+      description: "A set of two Pikachu plush dolls from the Pokemon Center store in Japan. Tags still attached, dressed in traditional Yukata outfits, one with fan, one with floral headpiece. Tags still attached, soft, adorale, 8 inches tall. "
+      thumbnail_url: "https://www.animeboston.com/images/charity/2019/16/thumbnail.jpg"
+      image_url: "https://www.animeboston.com/images/charity/2019/16/image.jpg"
+      timeslot_id: 7
+      con_year: 2019
+      timeslot: "11:45am-12:00pm"
+- timeslot: "12:00-12:15pm"
+  items:
+    -
+      item_id: 17
+      title: "Pilot Pikachu Plush"
+      description: "Stuffed Pikachu toy in clean-cut and cute pilot outfit. Wearing a KIX emblem to represent Kansai International Airport. From the Pokemon Center store in Japan. Tags still attached, adorably professional in his little suit-top, 8 inches tall. "
+      thumbnail_url: "https://www.animeboston.com/images/charity/2019/17/thumbnail.jpg"
+      image_url: "https://www.animeboston.com/images/charity/2019/17/image.jpg"
+      timeslot_id: 8
+      con_year: 2019
+      timeslot: "12:00-12:15pm"
+    -
+      item_id: 31
+      title: "Signed Attack on Titan DVD"
+      description: "A combo DVD and Blu-Ray of Season 2 of Attack on Titan. The inside cover of the set is signed by Clifford Chapin, J Michael Tatum, and Josh Grelle. \n"
+      thumbnail_url: "https://www.animeboston.com/images/charity/2019/31/thumbnail.jpg"
+      image_url: "https://www.animeboston.com/images/charity/2019/31/image.jpg"
+      timeslot_id: 8
+      con_year: 2019
+      timeslot: "12:00-12:15pm"
+    -
+      item_id: 35
+      title: "Signed Detective Pikachu 3DS Game"
+      description: "A copy of Detective Pikachu for the 3DS signed by Kaiji Tang, the voice of Pikachu. "
+      thumbnail_url: "https://www.animeboston.com/images/charity/2019/35/thumbnail.jpg"
+      image_url: "https://www.animeboston.com/images/charity/2019/35/image.jpg"
+      timeslot_id: 8
+      con_year: 2019
+      timeslot: "12:00-12:15pm"
+    -
+      item_id: 30
+      title: "Signed Yurikuma Blu-Ray"
+      description: "A Blu-Ray copy of the complete Yurikuma series signed by the voice director Chris Bevins. "
+      thumbnail_url: "https://www.animeboston.com/images/charity/2019/30/thumbnail.jpg"
+      image_url: "https://www.animeboston.com/images/charity/2019/30/image.jpg"
+      timeslot_id: 8
+      con_year: 2019
+      timeslot: "12:00-12:15pm"
+    -
+      item_id: 27
+      title: "The Tick Bundle"
+      description: "A POP figure of The Tick and comic compilation."
+      thumbnail_url: "https://www.animeboston.com/images/charity/2019/27/thumbnail.jpg"
+      image_url: "https://www.animeboston.com/images/charity/2019/27/image.jpg"
+      timeslot_id: 8
+      con_year: 2019
+      timeslot: "12:00-12:15pm"
+    -
+      item_id: 12
+      title: "Yuri on Ice Plushes"
+      description: "Cute and squishy Matryoshka style plush dolls of Victor Nikiforov and Yuri Katsuki from Yuri on Ice! "
+      thumbnail_url: "https://www.animeboston.com/images/charity/2019/12/thumbnail.jpg"
+      image_url: "https://www.animeboston.com/images/charity/2019/12/image.jpg"
+      timeslot_id: 8
+      con_year: 2019
+      timeslot: "12:00-12:15pm"
+    -
+      item_id: 29
+      title: "Yuri on Ice Signed DVD"
+      description: "A Blu-Ray DVD combo set of the complete series of Yuri on Ice. The inside cover is signed by J Michael Tatum, Josh Grelle, Rachel Robinson, Monica Rial, Justin Briner, and Clifford Chappin. \n"
+      thumbnail_url: "https://www.animeboston.com/images/charity/2019/29/thumbnail.jpg"
+      image_url: "https://www.animeboston.com/images/charity/2019/29/image.jpg"
+      timeslot_id: 8
+      con_year: 2019
+      timeslot: "12:00-12:15pm"
