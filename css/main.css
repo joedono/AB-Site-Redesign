@@ -184,11 +184,11 @@ a.dropdown-item {
    Activities
    ========================================================================== */
 
-.guest-years {
+.years-menu {
 	list-style: none;
 }
 
-.guest-years li {
+.years-menu li {
 	display: inline;
 	margin-right: 5px;
 }
