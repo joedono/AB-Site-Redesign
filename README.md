@@ -38,3 +38,13 @@ Targeted to audience and purpose
 3. Rearrange navigation to target specific audiences instead of being all at the same level (general attendee, participant, professional)
 4. Re-design the Home Page to show more important site functionality more prominently, such as registering for the convention
 5. Add more images to the site
+
+# Timeline
+1. September 2020 - Basic Site Structure and Info section
+2. October 2020 - Activities section
+3. December 2020 - Participation section
+4. January 2020 - Exhibitors section
+5. February 2020 - Volunteer section
+6. March 2020 - Solicit Feedback from stakeholders
+7. April 2020 - Integrate feedback
+8. May 2020 until April 2021 - Make changes to actual site
