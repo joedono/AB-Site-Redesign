@@ -1,0 +1,1107 @@
+%YAML 1.1
+---
+# abmain_prod.aa
+-
+  listing: "Ngozi Ukazu"
+  show_listing: "Yes"
+  site_url: "http://www.ngoziu.com"
+  booth_row: "D"
+  booth_table: 1
+-
+  listing: "Johnny Wander &amp; Jenn Doyle"
+  show_listing: "Yes"
+  site_url: "http://www.johnnywander.com/"
+  booth_row: "D"
+  booth_table: 2
+-
+  listing: "Atomic Robo"
+  show_listing: "Yes"
+  site_url: "http://www.atomic-robo.com"
+  booth_row: "D"
+  booth_table: 3
+-
+  listing: "Tess Stone &amp; Ru Xu"
+  show_listing: "Yes"
+  site_url: "http://www.notdrunkenough.com"
+  booth_row: "D"
+  booth_table: 4
+-
+  listing: "Nigel Sade Fine Art"
+  show_listing: "Yes"
+  site_url: "http://www.nigelsade.com"
+  booth_row: "D"
+  booth_table: 5
+-
+  listing: "Sarah Wilkinson Art"
+  show_listing: "Yes"
+  site_url: "http://www.sarahwilkinson.net"
+  booth_row: "D"
+  booth_table: 6
+-
+  listing: "Silvered Fox Creations"
+  show_listing: "Yes"
+  site_url: "https://www.silveredfoxcreations.com"
+  booth_row: "D"
+  booth_table: 7
+-
+  listing: "Alternate Universe"
+  show_listing: "Yes"
+  site_url: ""
+  booth_row: "D"
+  booth_table: 8
+-
+  listing: "Curious Octopus"
+  show_listing: "Yes"
+  site_url: "http://curious-octopus.com"
+  booth_row: "E"
+  booth_table: 09
+-
+  listing: "skimlines comics &amp; pottery"
+  show_listing: "Yes"
+  site_url: "http://www.skimlines.com"
+  booth_row: "E"
+  booth_table: 10
+-
+  listing: "Maya Kern"
+  show_listing: "Yes"
+  site_url: "http://store.mayakern.com"
+  booth_row: "E"
+  booth_table: 11
+-
+  listing: "CloverPuff "
+  show_listing: "Yes"
+  site_url: "http://cloverPuff.com"
+  booth_row: "E"
+  booth_table: 12
+-
+  listing: "AR.GI.BI. Creative Studio"
+  show_listing: "Yes"
+  site_url: "http://www.argibi.net/"
+  booth_row: "E"
+  booth_table: 13
+-
+  listing: "Sincerely Sam "
+  show_listing: "Yes"
+  site_url: "http://www.mysincerelysam.com"
+  booth_row: "E"
+  booth_table: 14
+-
+  listing: "COSMIC * SPECTRUM"
+  show_listing: "Yes"
+  site_url: "https://www.instagram.com/cosmicspectrum/"
+  booth_row: "E"
+  booth_table: 15
+-
+  listing: "Techycutie"
+  show_listing: "Yes"
+  site_url: "https://www.techycutie.com/"
+  booth_row: "E"
+  booth_table: 16
+-
+  listing: "Akaminyan"
+  show_listing: "Yes"
+  site_url: "https://www.etsy.com/shop/akaminyan"
+  booth_row: "E"
+  booth_table: 17
+-
+  listing: "Magical Girl Soap Company"
+  show_listing: "Yes"
+  site_url: "http://www.magicalgirlsoap.com"
+  booth_row: "E"
+  booth_table: 18
+-
+  listing: "BunniikittyLivestreams"
+  show_listing: "Yes"
+  site_url: "https://www.deviantart.com/bunniikitty"
+  booth_row: "E"
+  booth_table: 20
+-
+  listing: "AK Art"
+  show_listing: "Yes"
+  site_url: "https://www.instagram.com/artofkraska"
+  booth_row: "E"
+  booth_table: 21
+-
+  listing: "Katizua"
+  show_listing: "Yes"
+  site_url: "http://Katizua.deviantart.com"
+  booth_row: "E"
+  booth_table: 22
+-
+  listing: "The Pastel Inkling"
+  show_listing: "Yes"
+  site_url: "https://www.deviantart.com/thepastelinkling/gallery/"
+  booth_row: "E"
+  booth_table: 23
+-
+  listing: "PolarArts Print Shop"
+  show_listing: "Yes"
+  site_url: "https://polarartsconfolio.carbonmade.com/"
+  booth_row: "E"
+  booth_table: 24
+-
+  listing: "Parakid"
+  show_listing: "Yes"
+  site_url: "https://parakid.com/"
+  booth_row: "E"
+  booth_table: 25
+-
+  listing: "nucheki &amp; stehpone"
+  show_listing: "Yes"
+  site_url: "http://twitter.com/nucheki"
+  booth_row: "E"
+  booth_table: 26
+-
+  listing: "MLCreatives"
+  show_listing: "Yes"
+  site_url: "http://Facebook.com/mklcreatives"
+  booth_row: "E"
+  booth_table: 27
+-
+  listing: "Taylor Mauldin &amp; Lyle Lynde"
+  show_listing: "Yes"
+  site_url: ""
+  booth_row: "E"
+  booth_table: 28
+-
+  listing: "Christian Angel"
+  show_listing: "Yes"
+  site_url: "https://christian-angel.artstation.com/"
+  booth_row: "E"
+  booth_table: 29
+-
+  listing: "Stacey Wheeler"
+  show_listing: "Yes"
+  site_url: ""
+  booth_row: "E"
+  booth_table: 30
+-
+  listing: "RISD Anime Club"
+  show_listing: "Yes"
+  site_url: "https://orgsync.com/79749/chapter"
+  booth_row: "E"
+  booth_table: 31
+-
+  listing: "Pegushi &amp; Allison Carl"
+  show_listing: "Yes"
+  site_url: "https://twitter.com/pegushi_"
+  booth_row: "E"
+  booth_table: 32
+-
+  listing: "Argama Witch"
+  show_listing: "Yes"
+  site_url: "http://instagram.com/argamawitch"
+  booth_row: "E"
+  booth_table: 33
+-
+  listing: "Shattered-Earth"
+  show_listing: "Yes"
+  site_url: "http://shattered-earth.com"
+  booth_row: "E"
+  booth_table: 34
+-
+  listing: "Danielle Sylvan"
+  show_listing: "Yes"
+  site_url: "http://www.daniellesylvan.com"
+  booth_row: "E"
+  booth_table: 35
+-
+  listing: "chumaruko"
+  show_listing: "Yes"
+  site_url: "http://chumaru.carbonmade.com "
+  booth_row: "E"
+  booth_table: 36
+-
+  listing: "Pibmo! "
+  show_listing: "Yes"
+  site_url: "http://pibmo.tumblr.com"
+  booth_row: "E"
+  booth_table: 37
+-
+  listing: "Epicycle Studios"
+  show_listing: "Yes"
+  site_url: "http://epicyclestudios.com/"
+  booth_row: "E"
+  booth_table: 38
+-
+  listing: "Hitsu"
+  show_listing: "Yes"
+  site_url: ""
+  booth_row: "E"
+  booth_table: 39
+-
+  listing: "Nightengale Needles"
+  show_listing: "Yes"
+  site_url: "http://NightengaleNeedles.store"
+  booth_row: "E"
+  booth_table: 40
+-
+  listing: "Tiffany Chao Art"
+  show_listing: "Yes"
+  site_url: " https://www.instagram.com/tchaoart/"
+  booth_row: "E"
+  booth_table: 41
+-
+  listing: "Shad Andrews"
+  show_listing: "Yes"
+  site_url: "http://shadandrewscon.weebly.com"
+  booth_row: "E"
+  booth_table: 42
+-
+  listing: "EmsySquared"
+  show_listing: "Yes"
+  site_url: ""
+  booth_row: "E"
+  booth_table: 43
+-
+  listing: "kite"
+  show_listing: "Yes"
+  site_url: "http://mitikokite.tumblr.com"
+  booth_row: "E"
+  booth_table: 44
+-
+  listing: "Octo Star Creations"
+  show_listing: "Yes"
+  site_url: "http://www.octo-star.com"
+  booth_row: "E"
+  booth_table: 45
+-
+  listing: "illusions artwork"
+  show_listing: "Yes"
+  site_url: "http://www.illusionsartwork.com"
+  booth_row: "E"
+  booth_table: 46
+-
+  listing: "Rose Catherine Khan"
+  show_listing: "Yes"
+  site_url: "https://www.rosecatherine.com/"
+  booth_row: "E"
+  booth_table: 47
+-
+  listing: "Studio Kitsu"
+  show_listing: "Yes"
+  site_url: "http://studiokitsu.etsy.com"
+  booth_row: "E"
+  booth_table: 48
+-
+  listing: "The Polymer Okapi"
+  show_listing: "Yes"
+  site_url: "https://www.etsy.com/shop/ThePolymerOkapi"
+  booth_row: "E"
+  booth_table: 49
+-
+  listing: "Kitsune Creations"
+  show_listing: "Yes"
+  site_url: "https://www.facebook.com/KitsuneCreation/"
+  booth_row: "E"
+  booth_table: 50
+-
+  listing: "Info Table"
+  show_listing: "Yes"
+  site_url: ""
+  booth_row: "G"
+  booth_table: 51
+-
+  listing: "STAR POWER"
+  show_listing: "Yes"
+  site_url: "http://www.starpowercomic.com"
+  booth_row: "G"
+  booth_table: 52
+-
+  listing: "Tea Fox Illustrations"
+  show_listing: "Yes"
+  site_url: "http://www.etsy.com/shop/TeaFoxIllustrations"
+  booth_row: "G"
+  booth_table: 53
+-
+  listing: "Ruby Art"
+  show_listing: "Yes"
+  site_url: "http://ruby--art.daportfolio.com/"
+  booth_row: "G"
+  booth_table: 54
+-
+  listing: "Karlen Tam"
+  show_listing: "Yes"
+  site_url: "http://riotofinvention.com"
+  booth_row: "G"
+  booth_table: 55
+-
+  listing: "TsaoShin"
+  show_listing: "Yes"
+  site_url: "https://www.deviantart.com/tsaoshin"
+  booth_row: "G"
+  booth_table: 56
+-
+  listing: "Caitlin Ono"
+  show_listing: "Yes"
+  site_url: "http://caitlin-ono.com"
+  booth_row: "G"
+  booth_table: 57
+-
+  listing: "Victoria Rivero Art"
+  show_listing: "Yes"
+  site_url: "https://www.instagram.com/victoria.rivero.g/"
+  booth_row: "G"
+  booth_table: 58
+-
+  listing: "Adventure Awaits!"
+  show_listing: "Yes"
+  site_url: "http://www.AdventureAwaitsME.com"
+  booth_row: "G"
+  booth_table: 59
+-
+  listing: "Comiku"
+  show_listing: "Yes"
+  site_url: "http://www.comiku.com"
+  booth_row: "G"
+  booth_table: 60
+-
+  listing: "Nikki O'Shea - Dragon Press Graphics"
+  show_listing: "Yes"
+  site_url: "http://www.dragonpressgraphics.com"
+  booth_row: "G"
+  booth_table: 61
+-
+  listing: "Info Table B"
+  show_listing: "Yes"
+  site_url: ""
+  booth_row: "G"
+  booth_table: 62
+-
+  listing: "Nat Rodgers"
+  show_listing: "Yes"
+  site_url: "http://www.natrodgers.com"
+  booth_row: "H"
+  booth_table: 63
+-
+  listing: "Spinnerette"
+  show_listing: "Yes"
+  site_url: "http://www.spinnyverse.com/"
+  booth_row: "H"
+  booth_table: 64
+-
+  listing: "Little Foolery"
+  show_listing: "Yes"
+  site_url: "http://littlefoolery.com"
+  booth_row: "H"
+  booth_table: 65
+-
+  listing: "Babyfrog Shop"
+  show_listing: "Yes"
+  site_url: "http://babyfrog.shop"
+  booth_row: "H"
+  booth_table: 66
+-
+  listing: "Wizyakuza"
+  show_listing: "Yes"
+  site_url: "http://www.wizyakuza.com"
+  booth_row: "H"
+  booth_table: 67
+-
+  listing: "Cindiq"
+  show_listing: "Yes"
+  site_url: "http://instagram.com/cindiq.art"
+  booth_row: "H"
+  booth_table: 68
+-
+  listing: "Pupcakes and Cupcats"
+  show_listing: "Yes"
+  site_url: "http://www.pupcakescupcats.com "
+  booth_row: "H"
+  booth_table: 69
+-
+  listing: "Kara Leopard"
+  show_listing: "Yes"
+  site_url: "http://karaleopard.wixsite.com/portfolio"
+  booth_row: "H"
+  booth_table: 70
+-
+  listing: "Missy Pe&ntilde;a"
+  show_listing: "Yes"
+  site_url: "https://www.deviantart.com/missypena"
+  booth_row: "H"
+  booth_table: 71
+-
+  listing: "Devil's Bakery"
+  show_listing: "Yes"
+  site_url: "http://devilsbakery.etsy.com"
+  booth_row: "H"
+  booth_table: 73
+-
+  listing: "Kimchi Kawaii"
+  show_listing: "Yes"
+  site_url: "https://www.kimchikawaii.com/"
+  booth_row: "H"
+  booth_table: 74
+-
+  listing: "MajikCraft"
+  show_listing: "Yes"
+  site_url: "https://www.etsy.com/shop/MajikCraft"
+  booth_row: "I"
+  booth_table: 75
+-
+  listing: "Kyuriin"
+  show_listing: "Yes"
+  site_url: "http://kyuriin.deviantart.com/gallery/"
+  booth_row: "I"
+  booth_table: 76
+-
+  listing: "YuliceChan/Ryethe"
+  show_listing: "Yes"
+  site_url: ""
+  booth_row: "I"
+  booth_table: 77
+-
+  listing: "PARA049 + ILLYCIA"
+  show_listing: "Yes"
+  site_url: "http://www.twitter.com/para049"
+  booth_row: "I"
+  booth_table: 78
+-
+  listing: "Hasu"
+  show_listing: "Yes"
+  site_url: "http://hasuyawwn.tumblr.com/"
+  booth_row: "I"
+  booth_table: 79
+-
+  listing: "Wood Crafts"
+  show_listing: "Yes"
+  site_url: ""
+  booth_row: "I"
+  booth_table: "80A"
+-
+  listing: "Marina Fraguas"
+  show_listing: "Yes"
+  site_url: "https://www.instagram.com/marinafraguasart/"
+  booth_row: "I"
+  booth_table: "80B"
+-
+  listing: "Dearhunters "
+  show_listing: "Yes"
+  site_url: "https://www.instagram.com/ddearhunters/"
+  booth_row: "I"
+  booth_table: "81A"
+-
+  listing: "Erinye"
+  show_listing: "Yes"
+  site_url: "http://erinye.tumblr.com"
+  booth_row: "I"
+  booth_table: "81B"
+-
+  listing: "ETs Designs"
+  show_listing: "Yes"
+  site_url: "http://www.ets-designs.com"
+  booth_row: "I"
+  booth_table: 82
+-
+  listing: "Art of Elaine Ho"
+  show_listing: "Yes"
+  site_url: "http://www.artofelaineho.com"
+  booth_row: "I"
+  booth_table: 83
+-
+  listing: "Eyes On Fire, Syertse and Celtis"
+  show_listing: "Yes"
+  site_url: "http://www.eyesonfireart.com"
+  booth_row: "I"
+  booth_table: 84
+-
+  listing: "JeredXD Prints"
+  show_listing: "Yes"
+  site_url: "https://www.deviantart.com/jeredxd"
+  booth_row: "I"
+  booth_table: "85A"
+-
+  listing: "Plushie Kingdom"
+  show_listing: "Yes"
+  site_url: "https://www.etsy.com/shop/daggerhime"
+  booth_row: "I"
+  booth_table: "85B"
+-
+  listing: "Ashley Riot"
+  show_listing: "Yes"
+  site_url: "http://www.ashleyriot.com"
+  booth_row: "I"
+  booth_table: 86
+-
+  listing: "Moonrise Lotus"
+  show_listing: "Yes"
+  site_url: "http://instagram.com/moonriselotus"
+  booth_row: "I"
+  booth_table: 87
+-
+  listing: "KomunHorangi"
+  show_listing: "Yes"
+  site_url: "https://www.instagram.com/komunhorangi/"
+  booth_row: "I"
+  booth_table: 88
+-
+  listing: "Midgart"
+  show_listing: "Yes"
+  site_url: "http://midgart.tumblr.com/"
+  booth_row: "I"
+  booth_table: 89
+-
+  listing: "Krochet Voodoo"
+  show_listing: "Yes"
+  site_url: "http://www.facebook.com/kristakrochets1"
+  booth_row: "I"
+  booth_table: 90
+-
+  listing: "Jackal and Hare"
+  show_listing: "Yes"
+  site_url: "http://jackalandhare.com"
+  booth_row: "I"
+  booth_table: 91
+-
+  listing: "Mintandapple "
+  show_listing: "Yes"
+  site_url: "http://mintandapple.com"
+  booth_row: "I"
+  booth_table: 92
+-
+  listing: " Zzyzzyy"
+  show_listing: "Yes"
+  site_url: "http://zzyzzyy.deviantart.com/gallery"
+  booth_row: "I"
+  booth_table: 93
+-
+  listing: "Kittygorian"
+  show_listing: "Yes"
+  site_url: "https://kittygorian.portfoliobox.net/"
+  booth_row: "I"
+  booth_table: 94
+-
+  listing: "Starving for idol boys"
+  show_listing: "Yes"
+  site_url: "http://instagram.com/ten_shika"
+  booth_row: "J"
+  booth_table: 100
+-
+  listing: "YSB"
+  show_listing: "Yes"
+  site_url: "http://instagram.com/ysbcreations"
+  booth_row: "J"
+  booth_table: 101
+-
+  listing: "blushsprout"
+  show_listing: "Yes"
+  site_url: "http://blushsprout.com"
+  booth_row: "J"
+  booth_table: 102
+-
+  listing: "phoodledoodles"
+  show_listing: "Yes"
+  site_url: "https://phoodledoodles.weebly.com"
+  booth_row: "J"
+  booth_table: 103
+-
+  listing: "radiostarkiller"
+  show_listing: "Yes"
+  site_url: "https://rsk-art.squarespace.com/"
+  booth_row: "J"
+  booth_table: 104
+-
+  listing: "Moorina"
+  show_listing: "Yes"
+  site_url: "https://moorinawork.wixsite.com/moorina"
+  booth_row: "J"
+  booth_table: 105
+-
+  listing: "Draconli"
+  show_listing: "Yes"
+  site_url: "https://www.deviantart.com/draconli"
+  booth_row: "J"
+  booth_table: 106
+-
+  listing: "Neurotic Sphynx"
+  show_listing: "Yes"
+  site_url: "https://www.etsy.com/shop/NeuroticSphynx"
+  booth_row: "J"
+  booth_table: 107
+-
+  listing: "SimArtWorks"
+  show_listing: "Yes"
+  site_url: "https://www.deviantart.com/simartworks/"
+  booth_row: "J"
+  booth_table: 108
+-
+  listing: "ToasterKiwi"
+  show_listing: "Yes"
+  site_url: "http://toastershop.tictail.com/"
+  booth_row: "J"
+  booth_table: 109
+-
+  listing: "RobotCat"
+  show_listing: "Yes"
+  site_url: "https://www.instagram.com/robotcatart/"
+  booth_row: "J"
+  booth_table: 110
+-
+  listing: "Shialatier"
+  show_listing: "Yes"
+  site_url: "http://shialatier.storenvy.com/"
+  booth_row: "J"
+  booth_table: 95
+-
+  listing: "SudiBear Art + Design"
+  show_listing: "Yes"
+  site_url: "http://www.sudirouhi.com"
+  booth_row: "J"
+  booth_table: 96
+-
+  listing: "Babirousa"
+  show_listing: "Yes"
+  site_url: "http://babirousa.storenvy.com"
+  booth_row: "J"
+  booth_table: 97
+-
+  listing: "Scrumpy Illustrations"
+  show_listing: "Yes"
+  site_url: "http://numbpinky.tumblr.com/"
+  booth_row: "J"
+  booth_table: 98
+-
+  listing: "Solosii"
+  show_listing: "Yes"
+  site_url: "http://bearprince.carbonmade.com"
+  booth_row: "J"
+  booth_table: 99
+-
+  listing: "Art of Tangmo"
+  show_listing: "Yes"
+  site_url: "http://www.artoftangmo.com"
+  booth_row: "K"
+  booth_table: 111
+-
+  listing: "Swan Drawn"
+  show_listing: "Yes"
+  site_url: "http://www.etsy.com/shop/swandrawn"
+  booth_row: "K"
+  booth_table: 112
+-
+  listing: "A Sunny Disposish"
+  show_listing: "Yes"
+  site_url: "https://www.etsy.com/shop/asunnydisposish"
+  booth_row: "K"
+  booth_table: 113
+-
+  listing: "anewworldxtine"
+  show_listing: "Yes"
+  site_url: "http://twitter.com/anewworldxtine"
+  booth_row: "K"
+  booth_table: 114
+-
+  listing: "Lock &amp; Key Curiosities"
+  show_listing: "Yes"
+  site_url: "http://pirateartisans.com"
+  booth_row: "K"
+  booth_table: 115
+-
+  listing: "Save the sperels!"
+  show_listing: "Yes"
+  site_url: "http://www.sperel.org"
+  booth_row: "K"
+  booth_table: 116
+-
+  listing: "Quite Contrary Creations"
+  show_listing: "Yes"
+  site_url: "http://etsy.com/shop/khelekmir"
+  booth_row: "K"
+  booth_table: 117
+-
+  listing: "Cas Nouveau"
+  show_listing: "Yes"
+  site_url: "http://casnouveau.com"
+  booth_row: "K"
+  booth_table: 118
+-
+  listing: "Janet Sung + Arielle Jovellanos"
+  show_listing: "Yes"
+  site_url: "http://instagram.com/kuru731"
+  booth_row: "K"
+  booth_table: 119
+-
+  listing: "Panda Fuzz"
+  show_listing: "Yes"
+  site_url: "http://pandaFuzzShop.com"
+  booth_row: "K"
+  booth_table: 120
+-
+  listing: "Arenia"
+  show_listing: "Yes"
+  site_url: "http://www.lenislucis.com"
+  booth_row: "K"
+  booth_table: 121
+-
+  listing: "SOZOMAIKA"
+  show_listing: "Yes"
+  site_url: "http://www.sozomaika.com"
+  booth_row: "K"
+  booth_table: 122
+-
+  listing: "Morbidprince"
+  show_listing: "Yes"
+  site_url: "https://www.deviantart.com/morbidprince/"
+  booth_row: "K"
+  booth_table: 124
+-
+  listing: "CrowzPerch LLC"
+  show_listing: "Yes"
+  site_url: "http://crowzperch.com"
+  booth_row: "K"
+  booth_table: 125
+-
+  listing: "Jinyjin"
+  show_listing: "Yes"
+  site_url: "https://www.etsy.com/ca/shop/jinyjin"
+  booth_row: "K"
+  booth_table: 126
+-
+  listing: "Kay R"
+  show_listing: "Yes"
+  site_url: "http://www.artkayr.tumblr.com"
+  booth_row: "K"
+  booth_table: 127
+-
+  listing: "Lievka"
+  show_listing: "Yes"
+  site_url: "https://vayonah.wixsite.com/mysite/gallery"
+  booth_row: "K"
+  booth_table: 128
+-
+  listing: "Cryptovolans"
+  show_listing: "Yes"
+  site_url: "http://cryptovolans.com"
+  booth_row: "K"
+  booth_table: 130
+-
+  listing: "Soltian"
+  show_listing: "Yes"
+  site_url: "https://twitter.com/soltian_"
+  booth_row: "P"
+  booth_table: 129
+-
+  listing: "Mallius"
+  show_listing: "Yes"
+  site_url: "http://mallius.net"
+  booth_row: "P"
+  booth_table: 131
+-
+  listing: "faiell"
+  show_listing: "Yes"
+  site_url: "https://twitter.com/faiell"
+  booth_row: "P"
+  booth_table: 132
+-
+  listing: "Crizltron"
+  show_listing: "Yes"
+  site_url: "https://crizltron.bigcartel.com/"
+  booth_row: "P"
+  booth_table: 133
+-
+  listing: "RootisTabootus"
+  show_listing: "Yes"
+  site_url: "http://www.rootistabootus.com"
+  booth_row: "P"
+  booth_table: 134
+-
+  listing: "Brit K. Caley"
+  show_listing: "Yes"
+  site_url: "https://www.britkcaley.com/"
+  booth_row: "P"
+  booth_table: 135
+-
+  listing: "YOVA"
+  show_listing: "Yes"
+  site_url: "https://twitter.com/Melonton"
+  booth_row: "P"
+  booth_table: 136
+-
+  listing: "Quantum Seahorse"
+  show_listing: "Yes"
+  site_url: "https://www.instagram.com/quantumseahorse/"
+  booth_row: "P"
+  booth_table: 137
+-
+  listing: "ChirpingFrog Studios"
+  show_listing: "Yes"
+  site_url: "http://chirpingfrog.tumblr.com/"
+  booth_row: "P"
+  booth_table: 138
+-
+  listing: "Kairi and Shea"
+  show_listing: "Yes"
+  site_url: "https://twitter.com/konoha_kairi , https://twitter.com/sheaparfait"
+  booth_row: "P"
+  booth_table: 139
+-
+  listing: "Olivine Arc"
+  show_listing: "Yes"
+  site_url: ""
+  booth_row: "P"
+  booth_table: 140
+-
+  listing: "Otaku Corner"
+  show_listing: "Yes"
+  site_url: "https://www.etsy.com/shop/otterbearstudios"
+  booth_row: "P"
+  booth_table: 141
+-
+  listing: "Yummy Suika"
+  show_listing: "Yes"
+  site_url: ""
+  booth_row: "P"
+  booth_table: 142
+-
+  listing: "Kristin Made Stuff"
+  show_listing: "Yes"
+  site_url: "https://www.facebook.com/kristinmadestuff/"
+  booth_row: "P"
+  booth_table: 143
+-
+  listing: "YuganShen"
+  show_listing: "Yes"
+  site_url: "https://www.deviantart.com/yuganshen/gallery/"
+  booth_row: "P"
+  booth_table: 144
+-
+  listing: "endy"
+  show_listing: "Yes"
+  site_url: "https://mightier.tumblr.com "
+  booth_row: "P"
+  booth_table: 145
+-
+  listing: "Art of Stace"
+  show_listing: "Yes"
+  site_url: "http://www.deviantart.com/artofstace"
+  booth_row: "P"
+  booth_table: 146
+-
+  listing: "Gay Breakfast"
+  show_listing: "Yes"
+  site_url: "https://gaybreakfast.carbonmade.com/"
+  booth_row: "P"
+  booth_table: 147
+-
+  listing: "Ugly Tarantula"
+  show_listing: "Yes"
+  site_url: "http://twitter.com/uglytarantula"
+  booth_row: "P"
+  booth_table: 148
+-
+  listing: "Fluorescent Finery"
+  show_listing: "Yes"
+  site_url: "https://www.facebook.com/FluorescentFinery/"
+  booth_row: "P"
+  booth_table: 149
+-
+  listing: "afterimages of ghostfire"
+  show_listing: "Yes"
+  site_url: "http://www.ghostfire.net/"
+  booth_row: "P"
+  booth_table: 150
+-
+  listing: "Cats Can't Draw"
+  show_listing: "Yes"
+  site_url: "http://catscantdraw.com/"
+  booth_row: "Q"
+  booth_table: 151
+-
+  listing: "Miku Miku Dance Party"
+  show_listing: "Yes"
+  site_url: ""
+  booth_row: "Q"
+  booth_table: 152
+-
+  listing: "Clinkorz"
+  show_listing: "Yes"
+  site_url: "http://clinkorz.etsy.com"
+  booth_row: "Q"
+  booth_table: 153
+-
+  listing: "raechos"
+  show_listing: "Yes"
+  site_url: "https://www.instagram.com/raechos/"
+  booth_row: "Q"
+  booth_table: 154
+-
+  listing: "AllKindsOfYES"
+  show_listing: "Yes"
+  site_url: "https://www.etsy.com/shop/AllKindsOfYES"
+  booth_row: "Q"
+  booth_table: 155
+-
+  listing: "Tee No Evil"
+  show_listing: "Yes"
+  site_url: "http://teeNoEvil.com"
+  booth_row: "Q"
+  booth_table: 156
+-
+  listing: "D4C4S"
+  show_listing: "Yes"
+  site_url: "http://d4c4s.tumblr.com"
+  booth_row: "Q"
+  booth_table: 157
+-
+  listing: "Wyze Guy"
+  show_listing: "No"
+  site_url: "http://instagram.com/yzeguy "
+  booth_row: "Q"
+  booth_table: 158
+-
+  listing: "Shibuya Division "
+  show_listing: "Yes"
+  site_url: "http://memimin.com"
+  booth_row: "Q"
+  booth_table: 159
+-
+  listing: "Yokohama Division"
+  show_listing: "Yes"
+  site_url: "http://sleeplock.tumblr.com"
+  booth_row: "Q"
+  booth_table: 160
+-
+  listing: "kojirumaru"
+  show_listing: "Yes"
+  site_url: "https://www.instagram.com/kojirumaru"
+  booth_row: "Q"
+  booth_table: 161
+-
+  listing: "milkbun"
+  show_listing: "Yes"
+  site_url: "http://www.milkbun.com"
+  booth_row: "Q"
+  booth_table: 162
+-
+  listing: "moonjellart"
+  show_listing: "Yes"
+  site_url: ""
+  booth_row: "Q"
+  booth_table: 163
+-
+  listing: "Seosamh &amp; Anka"
+  show_listing: "Yes"
+  site_url: "http://superposecomic.com"
+  booth_row: "Q"
+  booth_table: 164
+-
+  listing: "D-Pad Dungeon"
+  show_listing: "Yes"
+  site_url: ""
+  booth_row: "Q"
+  booth_table: 165
+-
+  listing: "itsMengo"
+  show_listing: "Yes"
+  site_url: "https://www.instagram.com/itsmengo/"
+  booth_row: "Q"
+  booth_table: 166
+-
+  listing: "Hazel Arch"
+  show_listing: "Yes"
+  site_url: "http://www.hazel-arch.net"
+  booth_row: "R"
+  booth_table: 167
+-
+  listing: "Starlidae"
+  show_listing: "Yes"
+  site_url: ""
+  booth_row: "R"
+  booth_table: "168A"
+-
+  listing: "paprikaSTUDIOS"
+  show_listing: "Yes"
+  site_url: "http://www.paprika-studios.com"
+  booth_row: "R"
+  booth_table: 169
+-
+  listing: "Mariposa Miniatures"
+  show_listing: "Yes"
+  site_url: "http://www.mariposa-miniatures.com"
+  booth_row: "R"
+  booth_table: 170
+-
+  listing: "Adorkabows &amp; SenshiStock "
+  show_listing: "Yes"
+  site_url: "http://Adorkabows.com"
+  booth_row: "R"
+  booth_table: 171
+-
+  listing: "whimsipop"
+  show_listing: "Yes"
+  site_url: "http://whimsipop.com"
+  booth_row: "R"
+  booth_table: 172
+-
+  listing: "Spicytunaa "
+  show_listing: "Yes"
+  site_url: "https://www.spicytunaa.com"
+  booth_row: "R"
+  booth_table: 173
+-
+  listing: "Maracuyas Art"
+  show_listing: "Yes"
+  site_url: "https://linktr.ee/lavenderice"
+  booth_row: "R"
+  booth_table: 174
+-
+  listing: "Auddities"
+  show_listing: "Yes"
+  site_url: "http://audreycolumbro.daportfolio.com/"
+  booth_row: "R"
+  booth_table: 175
+-
+  listing: "Ten Diadems Art"
+  show_listing: "Yes"
+  site_url: "https://theartofdiadems.tumblr.com/"
+  booth_row: "R"
+  booth_table: 176
+-
+  listing: "Bunnbly Sheep Creations"
+  show_listing: "Yes"
+  site_url: "https://twitter.com/TheBubblySheep, http://savy-collector.tumblr.com"
+  booth_row: "R"
+  booth_table: 177
+-
+  listing: "Rozarria"
+  show_listing: "Yes"
+  site_url: "http://www.rozarria.com"
+  booth_row: "R"
+  booth_table: 178
+-
+  listing: "Alisa Draws"
+  show_listing: "Yes"
+  site_url: ""
+  booth_row: "R"
+  booth_table: 179
+-
+  listing: "She-Jackal Arts"
+  show_listing: "Yes"
+  site_url: "http://facebook.com/shejackalarts"
+  booth_row: "R"
+  booth_table: 180
+-
+  listing: "Lucky Squid Studios"
+  show_listing: "Yes"
+  site_url: "http://www.luckysquidstudios.storenvy.com"
+  booth_row: "R"
+  booth_table: 181
+-
+  listing: "Topaz Strange"
+  show_listing: "Yes"
+  site_url: "http://www.topazstrange.myportfolio.com"
+  booth_row: "R"
+  booth_table: 182
+-
+  listing: "Wondrous Wares"
+  show_listing: "Yes"
+  site_url: "https://wondrouswares.carrd.co/"
+  booth_row: "R"
+  booth_table: 183
+-
+  listing: "Coey &amp; Shy"
+  show_listing: "Yes"
+  site_url: "http://www.etsy.com/shop/CoeyAndShy"
+  booth_row: "R"
+  booth_table: 184

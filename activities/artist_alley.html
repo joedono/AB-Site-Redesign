@@ -1,5 +1,5 @@
 ---
-title: Dealers Room
+title: Artists Alley
 ---
 <div class="side-submenu col-sm-3 float-right">
   <a href="#" class="btn btn-secondary">
@@ -8,13 +8,16 @@ title: Dealers Room
   <a href="#" class="btn btn-secondary">
     Are you an Artist?
   </a>
+  <a href="/AB-Site-Redesign/activities/art_track.html" class="btn btn-secondary">
+    Art Track
+  </a>
 </div>
 
-<h1>2020 Dealers Room</h1>
+<h1>2020 Artists Alley</h1>
 
 <div class="row">
   <div class="col">
-    <p>Please select a year to view its Dealers Room</p>
+    <p>Please select a year to view its Artists' Alley Listing</p>
     <ul class="years-menu">
       {% for year in (2009..2021) %}
         <li>
@@ -27,8 +30,8 @@ title: Dealers Room
 
 <div class="row">
   <div class="col text-center">
-    <a href="https://www.animeboston.com/images/dealers/dealers_room_2020.png">
-      <img class="img-fluid" src="https://www.animeboston.com/images/dealers/dealers_room_2020_small.png">
+    <a href="https://www.animeboston.com/images/artists/artists_alley_2019.png">
+      <img class="img-fluid" src="https://www.animeboston.com/images/artists/artists_alley_2019_small.png">
     </a>
     <br>
     <em>Click for larger view.</em>
@@ -39,14 +42,16 @@ title: Dealers Room
   <div class="col-md-12 col-lg-4">
     <table class="table table-striped">
       <tr>
-        <th>Exhibitor</th>
-        <th>Booth #</th>
+        <th>Row</th>
+        <th>Table</th>
+        <th>Name</th>
       </tr>
-      {% for dealer in site.data.dealers %}
+      {% for artist in site.data.artists %}
       {% assign threshold = forloop.length | divided_by: 3 %}{% assign temp = threshold | times: 3 %}{% assign temp = forloop.length | minus: temp %}{% assign threshold = threshold | plus: temp %}{% assign remainder = forloop.index | modulo: threshold %}
       <tr>
-        <td><a href="{{ dealer.website }}" target="_blank">{{ dealer.display_name }}</a></td>
-        <td>{{ dealer.final_booth_number }}</td>
+        <td>{{ artist.booth_row }}</td>
+        <td>{{ artist.booth_table }}</td>
+        <td><a href="{{ artist.site_url }}" target="_blank">{{ artist.listing }}</a></td>
       </tr>
       {% if remainder == 0 %}
     </table>
@@ -54,8 +59,9 @@ title: Dealers Room
   <div class="col-md-12 col-lg-4">
     <table class="table table-striped">
       <tr>
-        <th>Exhibitor</th>
-        <th>Booth #</th>
+        <th>Row</th>
+        <th>Table</th>
+        <th>Name</th>
       </tr>
       {% endif %}
       {% endfor %}
