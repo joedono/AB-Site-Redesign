@@ -55,6 +55,14 @@ function scrollToTop() {
   window.scrollTo(0, 0);
 }
 
+function changeImgSrc(file_path, alt_text) {
+  var img = eval((navigator.appName.indexOf('Netscape', 0) != -1) ? 'document.main_pic' : 'document.all.main_pic');
+  if(img) {
+    img.alt = alt_text;
+    img.src = file_path;
+  }
+}
+
 var categories = {
   1: "#FFCC66",
   2: "#FFCC99",
