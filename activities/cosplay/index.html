@@ -1,1 +1,26 @@
-Cosplay Games
+---
+title: Cosplay
+---
+<div class="side-submenu col-sm-3 float-right mb-3">
+  <a href="/AB-Site-Redesign/policy/convention_policy.html#props-policy-updated-22216" class="btn btn-secondary">
+    Props Policy
+  </a>
+  <a href="https://forums.animeboston.com/viewforum.php?f=5" class="btn btn-secondary">
+    Cosplay Forums
+  </a>
+</div>
+
+<h1>Cosplay</h1>
+
+<div class="row clearfix">
+  {% for cosplay in site.data.cosplay %}
+  <div class="col-12 col-lg-4 col-xl-3">
+    <a href="{{ cosplay.link }}">
+      <img class="img-fluid" src="https://via.placeholder.com/345x200">
+      <span class="btn btn-primary media-button-link">
+        {{ cosplay.title }}
+      </span>
+    </a>
+  </div>
+  {% endfor %}
+</div>
