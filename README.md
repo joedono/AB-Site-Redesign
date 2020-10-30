@@ -92,6 +92,12 @@ This person occupies a high level position on AB Staff already and requires vari
 4. Re-design the Home Page to show more important site functionality more prominently, such as registering for the convention
 5. Add more images to the site to make navigation friendlier
 
+## Inspiration
+- [Otakon](https://www.otakon.com/)
+- [Katsucon](https://www.katsucon.org/)
+- [PAX Unplugged](https://unplugged.paxsite.com/)
+- [ColossalCon](https://colossalcon.com/)
+
 ## Timeline
 1. September 2020 - Basic Site Structure and Info section
 2. October 2020 - Activities section
