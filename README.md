@@ -7,6 +7,19 @@ This project is a redesign and a rearrangement of the existing Anime Boston webs
 3. Too much text. A lot of other convention websites use graphics of their mascots to illustrate the purpose of a page. When the navigation is rearranged, we can use images to entice people to click links to things they might not care about otherwise.
 4. Unimportant Home Page. The home page right now is just the news feed. Other convention websites have a very "loud" home page with the most important information at that time up front. Examples are things like registration being open or the event being cancelled due to Covid.
 
+## Goals
+1. Consolidate the existing page structure so that we reduce the number of top-level navigation items and make it easier to navigate the site.
+2. Delete duplicate information or consolidate it onto fewer pages (FAQ pages and General Information pages, multiple "Policies" pages, etc)
+3. Add more images to the site to make navigation friendlier
+4. Rearrange navigation to target specific audiences instead of being all at the same level (general attendee, participant, professional)
+5. Re-design the Home Page to show more important site functionality more prominently, such as registering for the convention
+
+## Inspiration
+- [Otakon](https://www.otakon.com/)
+- [Katsucon](https://www.katsucon.org/)
+- [PAX Unplugged](https://unplugged.paxsite.com/)
+- [ColossalCon](https://colossalcon.com/)
+
 ## Audience Personas
 We want to rearrange the site to better serve the different types of people who come to it. We've come up with 6 different personas that come to the site.
 
@@ -84,19 +97,6 @@ We've served this person if they can easily learn what it takes to be on AB Staf
 
 ### Administrator
 This person occupies a high level position on AB Staff already and requires various tools from the website in order to do their job. This section will not be redesigned as part of this initiative, because it is not publicly accessible and those that do access it are already used to how pages and information are arranged.
-
-## Goals
-1. Consolidate the existing page structure so that we reduce the number of top-level navigation items and make it easier to navigate the site.
-2. Delete duplicate information or consolidate it onto fewer pages (FAQ pages and General Information pages, multiple "Policies" pages, etc)
-3. Rearrange navigation to target specific audiences instead of being all at the same level (general attendee, participant, professional)
-4. Re-design the Home Page to show more important site functionality more prominently, such as registering for the convention
-5. Add more images to the site to make navigation friendlier
-
-## Inspiration
-- [Otakon](https://www.otakon.com/)
-- [Katsucon](https://www.katsucon.org/)
-- [PAX Unplugged](https://unplugged.paxsite.com/)
-- [ColossalCon](https://colossalcon.com/)
 
 ## Timeline
 1. September 2020 - Basic Site Structure and Info section
