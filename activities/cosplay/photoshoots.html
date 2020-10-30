@@ -1,0 +1,92 @@
+---
+title: Cosplay Photoshoots
+layout: fullcalendar
+---
+<h1>Cosplay Photoshoots</h1>
+
+<div class="mb-3">
+  <strong>PLEASE NOTE:</strong> With the popularity of certain series and the expected number of participants, My Hero Academia (Boku no Hero Academia) and Demon Slayer (Kimetsu no Yaiba) will hold their photoshoots in Ballroom A on Friday and Saturday.
+  Photoshoots for those series can be scheduled in one of the areas below for Sunday only.
+  <br><br>
+  Friday in Ballroom A:
+  <ul>
+    <li><a href="https://www.facebook.com/events/346753786255298/" target="_blank">My Hero Academia</a> - 10:00AM-11:30AM</li>
+    <li><a href="https://www.facebook.com/events/543099296391390/" target="_blank">Demon Slayer</a> - 11:30AM-1:00PM</li>
+  </ul>
+  Saturday in Ballroom A:
+  <ul>
+    <li><a href="https://www.facebook.com/events/650827835677533/" target="_blank">My Hero Academia</a> - 10:00AM-11:30AM</li>
+    <li><a href="https://www.facebook.com/events/s/demon-slayer-meetup-anime-bost/2481976965375414/" target="_blank">Demon Slayer</a> - 11:30AM-1:00PM</li>
+  </ul>
+  If you are hosting a gathering and believe there will be more people in attendance than can safely fit into our large photoshoot areas (Miso and Mochi), then email cosplayphotoshoots@animeboston.com for Extra Large size photoshoot accommodations.
+</div>
+<div id="scheduler"></div>
+
+<script type="text/javascript">
+$(function() {
+  $("#scheduler").fullCalendar({
+    schedulerLicenseKey: '0177372636-fcs-1533899416',
+    defaultView: 'agendaDay',
+    defaultDate: '2019-04-19',
+    validRange: {
+      start: '2019-04-19',
+      end: moment('2019-04-21').add(1, 'days')
+    },
+    defaultTimedEventDuration: '00:60:00',
+    slotDuration: '00:30:00',
+    slotLabelFormat: 'h:mma',
+    minTime: '09:00:00',
+    maxTime: '24:00:00',
+    header: {
+      left: 'prev,next',
+      center: 'title',
+      right: ''
+    },
+    titleFormat: 'dddd, MMMM D, YYYY',
+    forceEventDuration: true,
+    allDaySlot: false,
+    slotEventOverlap: false,
+    eventOverlap: false,
+    groupByDateAndResource: true,
+    eventBackgroundColor: "#a5c4d3",
+    eventTextColor: "#000",
+    businessHours: [
+      {
+        dow: [5, 6],
+        start: '09:00',
+        end: '24:00'
+      },
+      {
+        dow: [0],
+        start: '09:00',
+        end: '15:00'
+      },
+    ],
+    eventConstraint: 'businessHours',
+    selectConstraint: 'businessHours',
+    resources: [
+      { id: 5, title: 'Udon - Outside Room 313' },{ id: 6, title: 'Sushi - Under Escalators near Room 105' },{ id: 7, title: 'Ramen - Hall B' },{ id: 8, title: 'Katsu - Hall B' },{ id: 9, title: 'Miso - Sheraton - The Fens' },{ id: 10, title: 'Mochi - Sheraton - Public Garden' }    ],
+    views: {
+      agendaConWeekend: {
+        type: 'agenda',
+        duration: { days: 1 }
+      }
+    },
+    eventClick: function(event, jsEvent, view) {
+      if(event.website != "") {
+        window.open(event.website);
+      }
+    },
+    eventRender: function(event, element) {
+      if(event.website == "") {
+        element.css("cursor", "not-allowed");
+      } else {
+        element.css("cursor", "pointer");
+      }
+    },
+    events: [
+      {id: '50', title: 'Hunter x Hunter', website: 'https://www.facebook.com/events/252817352003342/', start: '2019-04-19 16:00:00', end: '2019-04-19 17:00:00', resourceId: 5}
+    ]
+  });
+});
+</script>
