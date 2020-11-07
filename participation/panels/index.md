@@ -2,7 +2,7 @@
 title: Panel Application
 ---
 <div class="side-submenu col-sm-3 float-right">
-  <a href="/AB-Site-Redesign/participation/panels/panel_submission.html" class="btn btn-secondary">
+  <a href="/AB-Site-Redesign/participation/panels/panel_form.html" class="btn btn-secondary">
     Do you want to run a Panel?
   </a>
 </div>
