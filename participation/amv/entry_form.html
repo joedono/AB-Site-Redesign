@@ -1,5 +1,5 @@
 ---
-title: AMV Context Submission
+title: AMV Contest Submission
 ---
 {% assign ab_optional_label = "col-xl-3 col-lg-4 control-label" %}
 {% assign ab_required_label = "col-xl-3 col-lg-4 control-label required" %}
@@ -8,10 +8,10 @@ title: AMV Context Submission
 
 <h1>Anime Music Video Contest Submission</h1>
 
-<p>Please enter your information below to submit your entries to the 2020 Anime Music Video Contest.</p>
+<p>Please enter your information below to submit your entries to thes 2020 Anime Music Video Contest.</p>
 <p class="text-danger"><b>DO NOT SUBMIT THIS FORM UNTIL YOU ARE READY TO SEND IN YOUR VIDEO!</b></p>
 
-<form class="form-horizontal" name="amv_submission_form" action="/" method="post">
+<form class="form-horizontal" name="amv_submission_form" action="/AB-Site-Redesign/participation/amv/entry_finish.html" method="get">
   <p><span class="required">*</span> = Required information</p>
   <div class="row form-group">
     <label for="primary_first_name" class="{{ ab_required_label }}">First Name *</label>
@@ -87,169 +87,125 @@ title: AMV Context Submission
       </label>
     </div>
   </div>
-
-
-
-
-  
-  <div class="row form-group <?php echo ab_error_style("phone1"); ?>">
-    <?=form_label('Phone Number (Evenings or Weekend) *', 'phone1', $required_label)?>
+  <div class="row form-group">
+    <label for="phone1" class="{{ ab_required_label }}">Phone Number *</label>
     <div class="col-lg-4">
-      <input type="tel" name="phone1" class="form-control" maxlength="15" value="<?php echo set_value("phone1", $phone1); ?>">
+      <input type="tel" name="phone1" class="form-control" maxlength="15">
       <span class="input-subtitle">Numbers only, no letters or characters</span>
-      <?php echo ab_error_message("phone1"); ?>
     </div>
   </div>
-  <div class="row form-group <?php echo ab_error_style("email"); ?>">
-    <?=form_label('Contact E-Mail Address *', 'email', $required_label)?>
+  <div class="row form-group">
+    <label for="email" class="{{ ab_required_label }}">Contact E-Mail Address *</label>
     <div class="col-lg-6">
-      <input type="email" name="email" class="form-control" maxlength="70" value="<?php echo set_value("email", $email); ?>">
+      <input type="email" name="email" class="form-control" maxlength="70">
       <span class="input-subtitle">You will be emailed a copy of this information and submission instructions, so please ensure this address is accurate</span>
-      <?php echo ab_error_message("email"); ?>
     </div>
   </div>
-  <div class="row form-group <?php echo ab_error_style("email_confirm"); ?>">
-    <?=form_label('Confirm Contact E-Mail Address *', 'email_confirm', $required_label)?>
+  <div class="row form-group">
+    <label for="email_confirm" class="{{ ab_required_label }}">Confirm Contact E-Mail Address *</label>
     <div class="col-lg-6">
-      <input type="email" name="email_confirm" class="form-control" maxlength="70" value="<?php echo set_value("email_confirm", $email_confirm); ?>">
-      <?php echo ab_error_message("email_confirm"); ?>
+      <input type="email" name="email_confirm" class="form-control" maxlength="70">
     </div>
   </div>
-  <div class="row form-group <?php echo ab_error_style("submission_style"); ?>">
-    <?=form_label('Submission Method *', 'submission_style', $required_label)?>
+  <div class="row form-group">
+    <label for="submission_style" class="{{ ab_required_label }}">Submission Method *</label>
     <div class="col-lg-5">
-      <?php
-      $submissionoptions = array('' => 'Pick One', 'Online' => 'Electronic Submission (Online)');
-      echo form_dropdown("submission_style", $submissionoptions, $submission_style, ab_dropdown_class());
-      ?>
+      <select name="submission_style" class="form-control">
+        <option>Pick One</option>
+        <option>Electronic Submission (Online)</option>
+      </select>
       <span class="input-subtitle">Submission instructions will be emailed to you</span>
-      <?php echo ab_error_message("submission_style"); ?>
     </div>
   </div>
   <div class="row"><div class="col-xs-12"><hr></div></div>
-  <div class="row form-group <?php echo ab_error_style("amv_total"); ?>">
-    <?=form_label('Videos', 'amv_total', $optional_label)?>
+  <div class="row form-group">
+    <label for="amv_total" class="{{ ab_optional_label }}">Videos</label>
     <div class="col-lg-4">
       <span class="input-subtitle">How many videos are you submitting?</span><br>
       <select name="amv_total" class="form-control" onchange="show()">
-        <?php
-        $amvoptions = array();
-        for($i = 1; $i <= $max_amv; $i++)
-        {
-          $amvoptions[$i] = $i;
-        }
-
-        foreach($amvoptions as $key => $value)
-        {
-          $selected = ($amv_total == $key) ? 'selected' : '';
-          echo "<option value='$key' $selected>$value</option>";
-        }
-        ?>
+        <option value="1">1</option>
+        <option value="2">2</option>
       </select>
-      <?php echo ab_error_message("amv_total"); ?>
     </div>
   </div>
   <div class="row"><div class="col-xs-12"><hr></div></div>
-  <?php
-  for($i = 0; $i < $max_amv; $i++)
-    {
-    $displaystyle = ($i < $amv_total)? 'block':'none';
-    ?>
-    <div id="amv<?=$i?>" class="row form-group" style="display:<?=$displaystyle?>">
-      <?=form_label('Video ' . ($i+1) . ' *', '', $required_short_label)?>
+  {% for i in (1..2) %}
+    <div id="amv{{ i }}" class="row form-group" style="display:none">
+      <label class="{{ ab_required_short_label }}">Video {{ i }} *</label>
       <div class="col-lg-9">
-        <div class="row form-group <?php echo ab_error_style("amv_title[$i]"); ?>">
-          <?=form_label('Video Title *', "amv_title[$i]", $required_label)?>
+        <div class="row form-group">
+          <label for="amv_title[{{ i }}]" class="{{ ab_required_label }}">Video Title {{ i }} *</label>
           <div class="col-lg-8">
-            <input type="text" name="amv_title[<?=$i?>]" class="form-control" maxlength="70" value="<?php echo set_value("amv_title[$i]", $amv_title[$i]); ?>">
-            <?php echo ab_error_message("amv_title[$i]"); ?>
-          </div>
-        </div>
-        <div class="row form-group <?php echo ab_error_style("amv_song[$i]"); ?>">
-          <?=form_label('Song Title *', "amv_song[$i]", $required_label)?>
-          <div class="col-lg-8">
-            <input type="text" name="amv_song[<?=$i?>]" class="form-control" maxlength="70" value="<?php echo set_value("amv_song[$i]", $amv_song[$i]); ?>">
-            <?php echo ab_error_message("amv_song[$i]"); ?>
-          </div>
-        </div>
-        <div class="row form-group <?php echo ab_error_style("amv_artist[$i]"); ?>">
-          <?=form_label('Song Artist(s) *', "amv_artist[$i]", $required_label)?>
-          <div class="col-lg-8">
-            <input type="text" name="amv_artist[<?=$i?>]" class="form-control" maxlength="70" value="<?php echo set_value("amv_artist[$i]", $amv_artist[$i]); ?>">
-            <?php echo ab_error_message("amv_artist[$i]"); ?>
-          </div>
-        </div>
-        <div class="row form-group <?php echo ab_error_style("amv_sources[$i]"); ?>">
-          <?=form_label('Anime Title(s) Used *', "amv_sources[$i]", $required_label)?>
-          <div class="col-lg-8">
-            <textarea name="amv_sources[<?=$i?>]" class="form-control" rows="6" cols="40"><?php echo set_value("amv_sources[$i]", $amv_sources[$i]); ?></textarea>
-            <span class="input-subtitle">Separate each title with a semicolon (;)</span>
-            <?php echo ab_error_message("amv_sources[$i]"); ?>
-          </div>
-        </div>
-        <div class="row form-group <?php echo ab_error_style("amv_credits[$i]"); ?>">
-          <?=form_label('Name for Credits/Ballots', "amv_credits[$i]", $optional_label)?>
-          <div class="col-lg-8">
-            <input type="text" name="amv_credits[<?=$i?>]" class="form-control" maxlength="70" value="<?php echo set_value("amv_credits[$i]", $amv_credits[$i]); ?>"><br>
-            <span class="input-subtitle">If different from your first and last name</span>
-            <?php echo ab_error_message("amv_credits[$i]"); ?>
+            <input type="text" name="amv_title[{{ i }}]" class="form-control" maxlength="70">
           </div>
         </div>
         <div class="row form-group">
-          <?=form_label('Completion Date *', '', $required_label)?>
-          <div class="col-lg-8 form-inline">
-            <label class="required">Month</label>
-            <?php
-            $options = array("" => "");
-            for($month = 1; $month < 13; $month++)
-            {
-              $mon = sprintf('%02d',$month);
-              $options[$mon] = $mon;
-            }
-
-            echo form_dropdown("amv_month[$i]", $options, $amv_month[$i], ab_dropdown_class());
-            ?>
-            <label class="required">Day</label>
-            <?php
-            $options = array("" => "");
-            for($day = 1; $day < 32; $day++)
-            {
-              $da = sprintf('%02d',$day);
-              $options[$da] = $da;
-            }
-
-            echo form_dropdown("amv_day[$i]", $options, $amv_day[$i], ab_dropdown_class());
-            ?>
-            <label class="required">Year</label>
-            <?php
-            $thisyear = date('Y');
-            $thisyear = (int)$thisyear;
-            $options = array("" => "");
-            for($year = $thisyear; $year >= $thisyear - 15; $year--)
-            {
-              $options[$year] = $year;
-            }
-
-            echo form_dropdown("amv_year[$i]", $options, $amv_year[$i], ab_dropdown_class());
-            ?>
-            <?php echo ab_error_message("amv_month[$i]"); ?>
-            <?php echo ab_error_message("amv_day[$i]"); ?>
-            <?php echo ab_error_message("amv_year[$i]"); ?>
+          <label for="amv_song[{{ i }}]" class="{{ ab_required_label }}">Song Title *</label>
+          <div class="col-lg-8">
+            <input type="text" name="amv_song[{{ i }}]" class="form-control" maxlength="70">
           </div>
         </div>
-        <div class="row form-group <?php echo ab_error_style("amv_category[$i]"); ?>">
-          <?=form_label('Category *', "amv_category[$i]", $required_label)?>
+        <div class="row form-group">
+          <label for="amv_artist[{{ i }}]" class="{{ ab_required_label }}">Song Artist(s) *</label>
+          <div class="col-lg-8">
+            <input type="text" name="amv_artist[{{ i }}]" class="form-control" maxlength="70">
+          </div>
+        </div>
+        <div class="row form-group">
+          <label for="amv_sources[{{ i }}]" class="{{ ab_required_label }}">Anime Title(s) Used *</label>
+          <div class="col-lg-8">
+            <textarea name="amv_sources[{{ i }}]" class="form-control" rows="6" cols="40"></textarea>
+            <span class="input-subtitle">Separate each title with a semicolon (;)</span>
+          </div>
+        </div>
+        <div class="row form-group">
+          <label for="amv_credits[{{ i }}]" class="{{ ab_optional_label }}">Name ofr Credits/Ballots *</label>
+          <div class="col-lg-8">
+            <input type="text" name="amv_credits[{{ i }}]" class="form-control" maxlength="70"<br>
+            <span class="input-subtitle">If different from your first and last name</span>
+          </div>
+        </div>
+        <div class="row form-group">
+          <label class="{{ ab_required_label }}">Completion Date *</label>
+          <div class="col-lg-8 form-inline">
+            <label class="required">Month</label>
+            <select name="amv_month[{{ i }}]" class="form-control">
+              {% for month in (1..12) %}
+              <option value="{{ month }}">{{ month }}</option>
+              {% endfor %}
+            </select>
+            <label class="required">Day</label>
+            <select name="amv_day[{{ i }}]" class="form-control">
+              {% for day in (1..31) %}
+              <option value="{{ day }}">{{ day }}</option>
+              {% endfor %}
+            </select>
+            <label class="required">Year</label>
+            <select name="amv_day[{{ i }}]" class="form-control">
+              {% for year in (2005..2020) %}
+              <option value="{{ year }}">{{ year }}</option>
+              {% endfor %}
+            </select>
+          </div>
+        </div>
+        <div class="row form-group">
+          <label for="amv_category[{{ i }}]" class="{{ ab_required_label }}">Category *</label>
           <div class="col-lg-5">
-            <?php echo form_dropdown("amv_category[$i]", $amv_categories, $amv_category[$i], ab_dropdown_class()); ?>
-            <?php echo ab_error_message("amv_category[$i]"); ?>
+            <select name="amv_category[{{ i }}]" class="form-control">
+              <option>Comedy</option>
+              <option>Action</option>
+              <option>Drama</option>
+              <option>Romance</option>
+              <option>Other</option>
+            </select>
           </div>
         </div>
       </div>
     </div>
     <div class="row"><div class="col-xs-12"><hr></div></div>
-  <?php } ?>
+  {% endfor %}
   <div class="row form-group">
-    <?=form_label('Proxy', '', $optional_label)?>
+    <label class="{{ ab_optional_label }}">Proxy</label>
     <div class="col-lg-8">
       <span class="input-subtitle">
         If you will not be attending the convention and would like a friend to act as a proxy and accept any award(s) you may win,
@@ -258,50 +214,38 @@ title: AMV Context Submission
       </span>
     </div>
     <div class="col-lg-8 offset-xl-3 offset-lg-4">
-      <div class="form-inline <?php echo ab_error_style("proxy_first"); ?>">
+      <div class="form-inline">
         <label>First Name</label>
-        <input type="text" name="proxy_first" class="form-control" maxlength="70" value="<?php echo set_value("proxy_first", $proxy_first); ?>">
-        <?php echo ab_error_message("proxy_first"); ?>
+        <input type="text" name="proxy_first" class="form-control" maxlength="70">
       </div>
     </div>
     <div class="col-lg-8 offset-xl-3 offset-lg-4">
-      <div class="form-inline <?php echo ab_error_style("proxy_last"); ?>">
+      <div class="form-inline">
         <label>Last Name</label>
-        <input type="text" name="proxy_last" class="form-control" maxlength="70" value="<?php echo set_value("proxy_last", $proxy_last); ?>">
-        <?php echo ab_error_message("proxy_last"); ?>
+        <input type="text" name="proxy_last" class="form-control" maxlength="70">
       </div>
     </div>
   </div>
-  <div class="row form-group <?php echo ab_error_style("staff_check"); ?>">
-    <?=form_label('Staff Membership *', 'staff_check', $required_label)?>
+  <div class="row form-group">
+    <label for="staff_check" class="{{ ab_required_label }}">Staff Membership *</label>
     <div class="col-lg-8">
-      <?php
-      $staffyes = ($staff_check == 'Yes') ? 'checked' : '';
-      $staffno = ($staff_check == 'No') ? 'checked' : '';
-      ?>
       <span class="required">Are you (or any other contestant) a staff member for Anime Boston <?=$currentyear?> or the NEAS?</span><br>
-      <label><input type="radio" name="staff_check" value="Yes" <?=$staffyes?>> Yes</label>
-      <label><input type="radio" name="staff_check" value="No" <?=$staffno?>> No</label><br>
+      <label><input type="radio" name="staff_check" value="Yes"> Yes</label>
+      <label><input type="radio" name="staff_check" value="No"> No</label><br>
       <span class="input-subtitle">AB and NEAS Staff may compete in the AMV Contests, except for those directly involved with planning and running the contests.</span>
-      <?php echo ab_error_message("staff_check"); ?>
     </div>
   </div>
-  <div class="row form-group <?php echo ab_error_style("read_rules"); ?>">
-    <?=form_label('Contest Rules *', 'read_rules', $required_label)?>
+  <div class="row form-group">
+    <label for="read_rules" class="{{ ab_required_label }}">Contest Rules *</label>
     <div class="col-lg-8">
-      <?php
-      $rulesyes = ($read_rules == 'Yes') ? 'checked' : '';
-      $rulesno = ($read_rules == 'No') ? 'checked' : '';
-      ?>
-      <span class="required">Have you read and agree to the <a href="/programming/amv_contest/" target="_blank">AMV Contest Rules</a>?</span><br>
-      <label><input type="radio" name="read_rules" value="Yes" <?=$rulesyes?>> Yes</label>
-      <label><input type="radio" name="read_rules" value="No" <?=$rulesno?>> No</label><br>
-      <?php echo ab_error_message("read_rules"); ?>
+      <span class="required">Have you read and agree to the <a href="AB-Site-Redesign/participation/amv/" target="_blank">AMV Contest Rules</a>?</span><br>
+      <label><input type="radio" name="read_rules" value="Yes"> Yes</label>
+      <label><input type="radio" name="read_rules" value="No"> No</label><br>
     </div>
   </div>
   <div class="submit-buttons">
     <input type="submit" name="submit" class="btn btn-success" value="Submit">
-    <input type="reset" name="reset" class="btn btn-default" value="Reset">
+    <input type="reset" name="reset" class="btn btn-secondary" value="Reset">
   </div>
 </form>
 
@@ -311,14 +255,14 @@ title: AMV Context Submission
     var intCount = document.amv_submission_form.amv_total.options.length;
     var intValue = document.amv_submission_form.amv_total.value;
 
-    for(i = 0; i < intValue; i++)
+    for(i = 1; i <= intValue; i++)
     {
       assoc = "amv"+i;
       hidden_row_object = document.getElementById(assoc);
       hidden_row_object.style.display = '';
     }
 
-    for(j = intCount - 1; j >= intValue; j--)
+    for(j = intCount; j > intValue; j--)
     {
       assoc = "amv"+j;
       hidden_row_object = document.getElementById(assoc);
