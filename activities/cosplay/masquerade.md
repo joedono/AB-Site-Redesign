@@ -13,4 +13,4 @@ Anime Boston, unlike many other conventions across the United States, has merged
 
 Indicate when you sign up whether you wish to be judged on craftsmanship, performance, or both. If you choose only craftsmanship, you will not be expected to have a skit planned, though you are still welcome to participate in the catwalk.
 
-<a href="/AB-Site-Redesign/participation/masquerade.html" class="btn btn-primary float-right">Apply to be in the Masquerade</a>
+<a href="/AB-Site-Redesign/participation/cosplay/masquerade.html" class="btn btn-primary float-right">Apply to be in the Masquerade</a>
