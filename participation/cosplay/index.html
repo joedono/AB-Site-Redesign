@@ -1,36 +1,7 @@
 ---
 title: Cosplay Events
 ---
-<div class="row mb-3">
-  <div class="col-md-6">
-    <h1>Cosplay Events</h1>
-  </div>
-  <div class="col-md-3 side-submenu">
-    <a href="/AB-Site-Redesign/participation/cosplay/user/index.html" class="btn btn-secondary">
-      My Profile
-    </a>
-    <a href="/AB-Site-Redesign/participation/cosplay/user/events.html" class="btn btn-secondary">
-      My Events
-    </a>
-    <a href="/AB-Site-Redesign/participation/cosplay/user/history.html" class="btn btn-secondary">
-      My History
-    </a>
-    <a href="/AB-Site-Redesign/participation/cosplay/user/costumes.html" class="btn btn-secondary">
-      My Costumes
-    </a>
-  </div>
-  <div class="col-md-3 side-submenu">
-    <a href="/AB-Site-Redesign/participation/cosplay/help.html" class="btn btn-secondary">
-      Help
-    </a>
-    <a href="https://forums.animeboston.com/ucp.php" class="btn btn-secondary">
-      My Forum Profile
-    </a>
-    <a href="https://forums.animeboston.com/ucp.php" class="btn btn-secondary">
-      Logout
-    </a>
-  </div>
-</div>
+{% include participation/cosplay_events_menu.html %}
 
 <div class="row">
   {% for cosplay in site.data.cosplay_events %}

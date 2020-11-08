@@ -1,0 +1,247 @@
+---
+title: My Profile
+---
+{% assign ab_optional_label = "col-xl-3 col-lg-4 control-label" %}
+{% assign ab_required_label = "col-xl-3 col-lg-4 control-label required" %}
+{% assign ab_optional_short_label = "col-xl-2 col-lg-4 control-label" %}
+{% assign ab_required_short_label = "col-xl-2 col-lg-4 control-label required" %}
+
+{% include participation/cosplay_events_menu.html %}
+
+<p>Below is your personal information used when applying to Cosplay Events at Anime Boston.</p>
+
+<p class="text-danger">
+  NOTICE: Our records indicate your information has not been updated for <?=$currentyear?>.<br>
+  Please ensure that your information is accurate and up-to-date.
+</p>
+
+<form method="get" action="/AB-Site-Redesign/participation/cosplay/user/index.html">
+  <p><span class="required">*</span> = Required information</p>
+  <div class="row form-group">
+    <label for="first_name" class="{{ ab_required_label }}">First Name *</label>
+    <div class="col-lg-5">
+      <input type="text" name="first_name" class="form-control" maxlength="70">
+      <span class="input-subtitle">Must be your real first name.</span>
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="last_name" class="{{ ab_required_label }}">Last Name *</label>
+    <div class="col-lg-5">
+      <input type="text" name="last_name" class="form-control" maxlength="70">
+      <span class="input-subtitle">Must be your real last name.</span>
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="preferred_name" class="{{ ab_optional_label }}">Preferred Name</label>
+    <div class="col-lg-5">
+      <input type="text" name="preferred_name" class="form-control" maxlength="200">
+      <span class="input-subtitle">If different from your legal name.</span>
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="pseudonym" class="{{ ab_optional_label }}">Pseudonym</label>
+    <div class="col-lg-5">
+      <input type="text" name="pseudonym" class="form-control" maxlength="70">
+      <span class="input-subtitle">Any nickname or stagename you go by.</span>
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="email" class="{{ ab_required_label }}">Email Address *</label>
+    <div class="col-lg-6">
+      <input type="email" name="email" class="form-control" maxlength="70">
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="email_confirm" class="{{ ab_required_label }}">Confirm Email Address *</label>
+    <div class="col-lg-6">
+      <input type="email" name="email_confirm" class="form-control" maxlength="70">
+    </div>
+  </div>
+  <div class="row form-group">
+    <label class="{{ ab_required_label }}">Date of Birth *</label>
+    <div class="col-lg-8">
+      <div class="input-subtitle required">Some events may require you to be 18 years of age to participate.</div>
+      <div class="form-inline">
+        <label class="required">Month</label>
+        <select name="birth_month" class="form-control">
+          {% for month in (1..12) %}
+          <option value="{{ month }}">{{ month }}</option>
+          {% endfor %}
+        </select>
+        <label class="required">Day</label>
+        <select name="birth_day" class="form-control">
+          {% for day in (1..31) %}
+          <option value="{{ day }}">{{ day }}</option>
+          {% endfor %}
+        </select>
+        <label class="required">Year</label>
+        <select name="birth_year" class="form-control">
+          {% for year in (1940..2010) %}
+          <option value="{{ year }}">{{ year }}</option>
+          {% endfor %}
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="row form-group">
+    <label class="{{ ab_optional_label }}">Parent/Guardian Signature</label>
+    <div class="col-lg-8">
+      <div class="input-subtitle">If you are under the age of 18, please fill in your parent/guardian's name, phone number, and their consent for us to store your information and allow you to participate in Cosplay Events.</div>
+      <div class="form-inline">
+        <label>Name</label>
+        <input type="text" name="parent_name" class="form-control" maxlength="70">
+      </div>
+    </div>
+    <div class="col-lg-8 offset-xl-3 offset-lg-4">
+      <div class="form-inline">
+        <label>Phone Number</label>
+        <input type="tel" name="parent_phone" class="form-control" maxlength="15">
+      </div>
+    </div>
+    <div class="col-lg-8 offset-xl-3 offset-lg-4">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" name="parent_consent" value="1">
+          I consent to allow Anime Boston to store this information and to let my son/daughter participate in Cosplay Events
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="row form-group">
+    <label class="{{ ab_required_label }}">Mailing Address *</label>
+    <div class="col-lg-8">
+      <div class="form-inline">
+        <label class="required">Address 1</label>
+        <input type="text" name="address_1" class="form-control" maxlength="70">
+      </div>
+    </div>
+    <div class="col-lg-8 offset-xl-3 offset-lg-4">
+      <div class="form-inline">
+        <label>Address 2</label>
+        <input type="text" name="address_2" class="form-control" maxlength="70">
+      </div>
+    </div>
+    <div class="col-lg-8 offset-xl-3 offset-lg-4">
+      <div class="form-inline">
+        <label class="required">City</label>
+        <input type="text" name="city" class="form-control" maxlength="70">
+      </div>
+    </div>
+    <div class="col-lg-8 offset-xl-3 offset-lg-4">
+      <div class="form-inline">
+        <label class="required">State</label>
+        <input type="text" name="state" class="form-control" maxlength="3" size="2">
+      </div>
+    </div>
+    <div class="col-lg-8 offset-xl-3 offset-lg-4">
+      <div class="form-inline">
+        <label class="required">Zip Code</label>
+        <input type="text" name="zip" class="form-control" maxlength="10">
+      </div>
+    </div>
+    <div class="col-lg-8 offset-xl-3 offset-lg-4">
+      <div class="form-inline">
+        <label class="required">Country</label>
+        <select class="form-control">
+          <option>United States</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="phone_number" class="{{ ab_required_label }}">Phone Number *</label>
+    <div class="col-lg-8">
+      <div class="form-inline">
+        <input type="tel" name="phone_number" class="form-control" maxlength="25">
+        <select class="form-control">
+          <option>Select Type</option>
+          <option>Mobile</option>
+          <option>Home</option>
+          <option>Work</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="height_feet" class="{{ ab_required_label }}">Height *</label>
+    <div class="col-lg-8">
+      <div class="form-inline">
+        <label class="required">Feet</label>
+        <select class="form-control">
+          {% for foot in (1..13) %}
+          <option>{{ foot }}</option>
+          {% endfor %}
+        </select>
+        <label class="required">Inches</label>
+        <select class="form-control">
+          {% for inch in (1..12) %}
+          <option>{{ inch }}</option>
+          {% endfor %}
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="con_reg" class="{{ ab_required_label }}">Convention Registration *</label>
+    <div class="col-lg-6">
+      <span class="required">Are you already registered for Anime Boston <?php echo $currentyear; ?>?</span><br>
+      <select class="form-control">
+        <option>Select One</option>
+        <option>Yes</option>
+        <option>No</option>
+      </select>
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="other_info" class="{{ ab_optional_label }}">Other Information</label>
+    <div class="col-lg-8">
+      <span class="input-subtitle">Any other information about yourself you may feel is relevant.</span>
+      <textarea name="other_info" class="form-control" rows="8" cols="40"></textarea>
+    </div>
+  </div>
+  <div class="row form-group">
+    <label class="{{ ab_required_label }}">Emergency Contact *</label>
+    <div class="col-lg-8">
+      <div class="required">For safety purposes, please submit an emergency contact.</div>
+      <div class="form-inline">
+        <label class="required">Name</label>
+        <input type="text" name="emergency_contact" class="form-control" maxlength="70">
+      </div>
+    </div>
+    <div class="col-lg-8 offset-xl-3 offset-lg-4">
+      <div class="form-inline">
+        <label class="required">Relation</label>
+        <select class="form-control">
+          <option>Select One</option>
+          <option>Parent</option>
+          <option>Legal Guardian</option>
+          <option>Sibling</option>
+          <option>Spouse</option>
+          <option>Significant Other</option>
+          <option>Extended Family</option>
+          <option>Other</option>
+        </select>
+      </div>
+    </div>
+    <div class="col-lg-8 offset-xl-3 offset-lg-4">
+      <div class="form-inline">
+        <label class="required">Phone Number</label>
+        <input type="tel" name="emergency_contact_phone" class="form-control" maxlength="15">
+      </div>
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="medical_info" class="{{ ab_optional_label }}">Medical Information</label>
+    <div class="col-lg-8">
+      <div class="input-subtitle">
+        Please list any medical conditions or concerns you may have.
+        Please note that this is only for in the event of an emergency at the convention
+        and will have absolutely no effect on your applications to any Cosplay Events.
+      </div>
+      <textarea name="medical_info" class="form-control" rows="8" cols="40"></textarea>
+    </div>
+  </div>
+  <div class="submit-buttons">
+    <input type="submit" name="submit" class="btn btn-success" value="Update Info">
+  </div>
+</form>

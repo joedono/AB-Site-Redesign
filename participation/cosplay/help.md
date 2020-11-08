@@ -1,7 +1,7 @@
 ---
 title: Cosplay Events Help
 ---
-# Cosplay Events Help
+{% include participation/cosplay_events_menu.html %}
 
 Welcome, [Cosplayer] to Cosplay HQ. The Cosplay HQ is our new system to manage your applications to different Cosplay Events at Anime Boston.
 
@@ -14,7 +14,7 @@ Here is a brief rundown of the sections of Cosplay HQ:
 * **My History:** Tracks your participation of previous Anime Boston Cosplay Events. Events prior to 2013 will need to be manually entered by you.
 * **My Costumes:** Allows you to input and track your costumes for applying to Cosplay Games with. This makes it easier to apply to Cosplay Games, as you only have to enter your costume's information once.
 * **Cosplay Games:** Here you may view Cosplay Games occurring this year at Anime Boston and apply for them.
-* **Masquerade:** Apply for you and your group to participate in this year's Masquerade. Please note that Hall Cosplay has been merged with the Masquerade this year.
+* **Masquerade:** Apply for you and your group to participate in this year's Masquerade. Please note that Hall Cosplay has been merged with the Masquerade this year.alho
 * **My Forum Profile:** The User Control Panel for the Anime Boston forums. Here you may change your forum username, password, avatar, and other settings.
 * **Log Out:** Will log you out of the Cosplay HQ and the Anime Boston forums.
 
