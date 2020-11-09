@@ -1,5 +1,5 @@
 ---
-title: Masquerade Application
+title: Death Match Application
 ---
 {% assign ab_optional_label = "col-xl-3 col-lg-4 control-label" %}
 {% assign ab_required_label = "col-xl-3 col-lg-4 control-label required" %}
@@ -8,11 +8,11 @@ title: Masquerade Application
 
 {% include participation/cosplay_events_menu.html %}
 
-<p>Please fill out the information below to apply to Masquerade Events for Anime Boston 2020</p>
+<p>Please fill out the information below to apply to Death Match Events for Anime Boston 2020</p>
 <p>Once you've submitted an application, you may still edit it below.</p>
 <p><span class="required">*</span> = Required information</p>
 
-<form class="form-horizontal" name="CosplayHQ_Application" action="/cosplayhq/applications/<?=$type_id?>" enctype="multipart/form-data" method="post">
+<form class="form-horizontal" action="/AB-Site-Redesign/participation/cosplay/events/index.html" method="get">
   <?php echo ab_error_summary(); ?>
   <?php
   foreach($app_master as $event_id => $row) {
