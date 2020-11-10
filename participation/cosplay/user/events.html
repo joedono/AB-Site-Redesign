@@ -1,0 +1,20 @@
+---
+title: My Cosplay Events
+---
+{% include participation/cosplay_events_menu.html %}
+
+<p>Here, you can see all the Cosplay Events for Anime Boston 2020 that you have applied for, as well as the current status of your application.</p>
+
+<div class="row">
+  {% for event in site.data.cosplay_events %}
+  <div class="col-lg-6">
+    <div class="cosplayhq-application">
+      <h2>{{ event.title }}</h2>
+      {% cycle "<p class='alert alert-success'>You have applied to this event</p>", "<p class='alert alert-warning'>You have not applied to this event</p>" %}
+      <div class="text-center">
+        {% cycle "<a class='btn btn-success' href='/AB-Site-Redesign/participation/cosplay/events/index.html'>Edit Application</a><a class='btn btn-danger' href='#'>Delete Application</a>", "<a class='btn btn-warning' href='/AB-Site-Redesign/participation/cosplay/events/index.html'>Submit Application</a>" %}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

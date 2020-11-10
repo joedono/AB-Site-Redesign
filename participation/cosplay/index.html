@@ -4,12 +4,12 @@ title: Cosplay Events
 {% include participation/cosplay_events_menu.html %}
 
 <div class="row">
-  {% for cosplay in site.data.cosplay_events %}
+  {% for event in site.data.cosplay_events %}
   <div class="col-12 col-lg-4 col-xl-3">
-    <a href="{{ cosplay.link }}">
+    <a href="{{ event.link }}">
       <img class="img-fluid" src="https://via.placeholder.com/345x200">
       <span class="btn btn-primary media-button-link">
-        {{ cosplay.title }}
+        {{ event.title }}
       </span>
     </a>
   </div>
