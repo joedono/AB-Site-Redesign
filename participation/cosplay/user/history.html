@@ -1,0 +1,41 @@
+---
+title: My Cosplay Events History
+---
+{% include participation/cosplay_events_menu.html %}
+
+<p>Please enter your participation information for previous Anime Boston Cosplay Events, if not already entered.</p>
+
+<p>When selecting an entry, please keep in mind the following options:</p>
+<ul>
+  <li><strong>Major Award:</strong> You received any award that starts with the words "Best," "Most," "First," "Second," or "Runner-Up.".</li>
+  <li><strong>Minor Award:</strong> You received a non-Major award, such as "Honorable Mention."</li>
+  <li><strong>Participated (Minor Role):</strong> You briefly appeared on stage during the event.</li>
+  <li><strong>Participated:</strong> You took part in the event in an otherwise normal manner.</li>
+  <li><strong>Didn't Participate:</strong> You had no part in the actual event, regardless whether or not you applied to participate.</li>
+</ul>
+
+<p>You will only be able to enter in your history once. If you make a mistake, please <a href="/coninfo/contact/93">contact the Cosplay Games Coordinator</a> for assistance.</p>
+
+<form method="get" action="/AB-Site-Redesign/participation/cosplay/user/history.html">
+  <p><span class="required">*</span> = Required information</p>
+  {% for year in (2015..2020) reversed %}
+  <div class="cosplayhq-history">
+    <h2>{{ year }}</h2>
+    <div class="row">
+      {% for event in site.data.cosplay_events %}
+      <div class="col-lg-4">
+        <label>{{ event.title }}</label>
+        <select class="form-control">
+          <option>Did Not Participate</option>
+          <option>Participated</option>
+          <option>Participated (Minor Role)</option>
+        </select>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+  <div class="submit-buttons">
+    <input type="submit" name="submit" class="btn btn-success" value="Update History">
+  </div>
+</form>
