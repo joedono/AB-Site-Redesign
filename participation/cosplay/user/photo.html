@@ -1,0 +1,40 @@
+---
+title: My Costume Photos
+---
+{% assign ab_optional_label = "col-xl-3 col-lg-4 control-label" %}
+{% assign ab_required_label = "col-xl-3 col-lg-4 control-label required" %}
+{% assign ab_optional_short_label = "col-xl-2 col-lg-4 control-label" %}
+{% assign ab_required_short_label = "col-xl-2 col-lg-4 control-label required" %}
+
+{% include participation/cosplay_events_menu.html %}
+
+<h2>Costume: Iskandar</h2>
+
+<p>
+  <strong>Character Name:</strong> Iskandar<br>
+  <strong>Series Name:</strong> Fate/Zero<br>
+  <strong>Series Genre:</strong> Anime<br>
+  <strong>Date Created:</strong> 01-01-2015<br>
+</p>
+
+<strong>Important Info:</strong>
+<ul>
+  <li>Each photo must be of YOU in the costume and not the original character or the costume alone.</li>
+  <li>It is better to use a photo of just yourself and not a group photo.</li>
+  <li>Photos must be .PNG, .JPG, or .GIF format.</li>
+  <li>Photos must not be larger than 2MB in size.</li>
+  <li>Sexually explicit or otherwise inappropriate photos are not allowed.</li>
+</ul>
+
+<form class="form-horizontal" action="/AB-Site-Redesign/participation/cosplay/user/photo.html" method="get">
+  <p><span class="required">*</span> = Required information</p>
+  <div class="row form-group">
+    <label for="file_name" class="{{ ab_required_label }}">Photo File *</label>
+    <div class="col-lg-6">
+      <input type="file" name="file_name">
+    </div>
+  </div>
+  <div class="submit-buttons">
+    <input type="submit" name="submit" class="btn btn-success" value="Add Photo">
+  </div>
+</form>
