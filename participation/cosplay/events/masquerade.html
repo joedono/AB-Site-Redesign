@@ -13,7 +13,7 @@ title: Masquerade Application
 <p class="text-danger">Application Submitted: 11-08-2020 2:05pm</p>
 <p>
   <strong>Description:</strong>
-  Description: The Masquerade is a Saturday night theatrical performance in which groups of fans display their costuming and acting skills. The participants create and perform short skits based on their favorite anime or Japanese video game. These skits can be dramatic, comedic, dance-based or just plain wacky! A panel of staff and celebrity judges present awards to the best performances and costumes. Anime Boston, unlike many other conventions across the United States, has merged our Hall Cosplay and Masquerade contests into ONE contest called simply the Masquerade. You can still get judged on your craftsmanship alone, just as you would at a Hall Cosplay Contest; the difference is that you will be competing against the participants of the Performance Division who chose to also get judged on Craftsmanship. Indicate when you sign up whether you wish to be judged on CRAFTSMANSHIP, PERFORMANCE, or BOTH. If you choose only craftsmanship, you will not be expected to have a skit planned, though you are still welcome to participate in the catwalk. PLEASE NOTE: Please see the Masquerade Rules on the main website regarding characters from media not originating in Japan. Non-Japanese sources and characters are not admissible to this contest, except as supporting characters in skits.
+  The Masquerade is a Saturday night theatrical performance in which groups of fans display their costuming and acting skills. The participants create and perform short skits based on their favorite anime or Japanese video game. These skits can be dramatic, comedic, dance-based or just plain wacky! A panel of staff and celebrity judges present awards to the best performances and costumes. Anime Boston, unlike many other conventions across the United States, has merged our Hall Cosplay and Masquerade contests into ONE contest called simply the Masquerade. You can still get judged on your craftsmanship alone, just as you would at a Hall Cosplay Contest; the difference is that you will be competing against the participants of the Performance Division who chose to also get judged on Craftsmanship. Indicate when you sign up whether you wish to be judged on CRAFTSMANSHIP, PERFORMANCE, or BOTH. If you choose only craftsmanship, you will not be expected to have a skit planned, though you are still welcome to participate in the catwalk. PLEASE NOTE: Please see the Masquerade Rules on the main website regarding characters from media not originating in Japan. Non-Japanese sources and characters are not admissible to this contest, except as supporting characters in skits.
 </p>
 
 <form class="form-horizontal" name="cosplay_event_form" action="/AB-Site-Redesign/participation/cosplay/events/masquerade.html" method="get">
@@ -62,139 +62,80 @@ title: Masquerade Application
       </div>
     </div>
     <div class="row form-group masq_perform masq_both masq_exhibition">
-      <label for="skit_description" class="{{ ab_required_label }}">Skit</label>
+      <label for="skit_type" class="{{ ab_required_label }}">Skit Type *</label>
       <?=form_label('Skit Type *', "app_master[$i][skit_type]", $required_label)?>
       <div class="col-lg-3">
-        <select name="app_master[<?=$i?>][skit_type]" class="form-control" <?=$disabled?>>
-          <?php
-          $skitoptions = array(
-              '' => 'Select One',
-              'Action' => 'Action',
-              'Comedy' => 'Comedy',
-              'Cross-Over' => 'Cross-Over',
-              'Dance' => 'Dance',
-              'Drama' => 'Drama',
-              'Other' => 'Other',
-              'Parody' => 'Parody'
-          );
-
-          foreach($skitoptions as $key => $value) {
-            $selected = (strcmp($skit_type,$key) == 0) ? 'selected' : '';
-            echo "<option value='$key' $selected>$value</option>";
-          }
-          ?>
+        <select name="skit_type" class="form-control">
+          <option>Select One</option>
+          <option>Action</option>
+          <option>Comedy</option>
+          <option>Cross-Over</option>
+          <option>Dance</option>
+          <option>Drama</option>
+          <option>Other</option>
+          <option>Parody</option>
         </select>
       </div>
     </div>
     <div class="row form-group masq_perform masq_both">
-      <label for="skit_description" class="{{ ab_required_label }}">Skit</label>
-      <?=form_label('Craftmanship Judging *', "app_master[$i][craftmanship_judging]", $required_label)?>
+      <label for="craftmanship_judging" class="{{ ab_required_label }}">Craftsmanship Judging *</label>
       <div class="col-lg-3">
-        <select name="app_master[<?=$i?>][craftmanship_judging]" class="form-control" <?=$disabled?>>
-          <?php
-          $craftoptions = array(''=>'Select One','Yes'=>'Yes','No'=>'No');
-
-          foreach($craftoptions as $key => $value) {
-            $selected = (strcmp($craftmanship_judging,$key) == 0) ? 'selected' : '';
-            echo "<option value='$key' $selected>$value</option>";
-          }
-          ?>
+        <select name="craftmanship_judging" class="form-control">
+          <option>Select One</option>
+          <option>Yes</option>
+          <option>No</option>
         </select>
-
       </div>
     </div>
     <div class="row form-group masq_craft">
-      <label for="skit_description" class="{{ ab_required_label }}">Skit</label>
-      <?=form_label('Fashion Show *', "app_master[$i][fashion_show]", $required_label)?>
+      <label for="fashion_show" class="{{ ab_required_label }}">Fashion Show *</label>
       <div class="col-lg-6">
         <span class="input-subtitle">Do you want to participate in the Fashion Show during the Masquerade?</span><br>
-        <select name="app_master[<?=$i?>][fashion_show]" class="form-control" <?=$disabled?>>
-          <?php
-          $fashoptions = array(''=>'Select One','Yes'=>'Yes','No'=>'No');
-
-          foreach($fashoptions as $key => $value) {
-            $selected = (strcmp($fashion_show,$key) == 0) ? 'selected' : '';
-            echo "<option value='$key' $selected>$value</option>";
-          }
-          ?>
+        <select name="fashion_show" class="form-control">
+          <option>Select One</option>
+          <option>Yes</option>
+          <option>No</option>
         </select>
       </div>
     </div>
     <div class="row form-group masq_craft masq_both">
-      <label for="skit_description" class="{{ ab_required_label }}">Skit</label>
-      <?=form_label('Judging Time *', "app_master[$i][judging_time]", $required_label)?>
-      <div class="col-lg-4">
-        <select name="app_master[<?=$i?>][judging_time]" class="form-control" <?=$disabled?>>
-          <?php
-          $timeoptions = array(
-              '' => 'Select One',
-              'N/A' => 'Not Applicable',
-              'Friday Afternoon' => 'Friday Afternoon',
-              'Friday Evening' => 'Friday Evening',
-              'Friday Night' => 'Friday Night',
-              'Saturday Morning' => 'Saturday Morning',
-              'Saturday Afternoon' => 'Saturday Afternoon'
-          );
-
-          foreach($timeoptions as $key => $value) {
-            $selected = (strcmp($judging_time,$key) == 0) ? 'selected' : '';
-            echo "<option value='$key' $selected>$value</option>";
-          }
-          ?>
+      <label for="judging_time" class="{{ ab_required_label }}">Judging Time *</label>
+      <div class="col-lg-3">
+        <select name="judging_time" class="form-control">
+          <option>Select One</option>
+          <option>Not Applicable</option>
+          <option>Friday Afternoon</option>
+          <option>Friday Evening</option>
+          <option>Friday Night</option>
+          <option>Saturday Morning</option>
+          <option>Saturday Afternoon</option>
         </select>
       </div>
     </div>
     <div class="row form-group masq_perform masq_craft masq_both">
-      <label for="skit_description" class="{{ ab_required_label }}">Skit</label>
-      <?=form_label('Division *', "app_master[$i][division]", $required_label)?>
+      <label for="division" class="{{ ab_required_label }}">Division *</label>
       <div class="col-lg-3">
-        <select name="app_master[<?=$i?>][division]" class="form-control" <?=$disabled?>>
-          <?php
-          $divoptions = array(
-              '' => 'Select One',
-              'Youth' => 'Youth',
-              'Novice' => 'Novice',
-              'Intermediate' => 'Intermediate',
-              'Master' => 'Master'
-          );
-
-          foreach($divoptions as $key => $value) {
-            $selected = (strcmp($division,$key) == 0) ? 'selected' : '';
-            echo "<option value='$key' $selected>$value</option>";
-          }
-          ?>
+        <select name="division" class="form-control">
+          <option>Select One</option>
+          <option>Youth</option>
+          <option>Novice</option>
+          <option>Intermediate</option>
+          <option>Master</option>
         </select>
       </div>
     </div>
     <div class="row form-group">
-      <label for="skit_description" class="{{ ab_required_label }}">Skit</label>
-      <?=form_label('Dietary Restrictions', "app_master[$i][dietary_restrictions]", $optional_label)?>
+      <label for="dietary_restrictions" class="{{ ab_optional_label }}">Dietary Restrictions</label>
       <div class="col-lg-8">
-        <input type="checkbox" name="app_master[<?=$i?>][dietary_restrictions]" <?php echo ($dietary_restrictions == "on" ? "checked" : ""); ?>>
+        <input type="checkbox" name="dietary_restrictions">
       </div>
     </div>
     <div class="row form-group masq_perform masq_both masq_exhibition">
-      <label for="skit_description" class="{{ ab_required_label }}">Skit</label>
-      <?=form_label('A/V File', "file[$i]", $optional_label)?>
+      <label for="file" class="{{ ab_optional_label }}">A/V File</label>
       <div class="col-lg-8">
         <span class="input-subtitle">This is to upload a background audio or video file for your performance.</span>
-        <?php
-        if(count($app_files)> 0) {
-          foreach($app_files as $file) {
-            $target_dir = '/files/cosplayhq/masq_files/'.$forum_id.'/';
-            $target_path = $target_dir.$file['file_name'];
-            ?>
-            <p>
-              File Name: <a href="<?=$target_path?>" target="_blank">'<?php echo $file['file_name']; ?></a><br>
-              Size: <?php echo number_format($file['file_size']/1048576,2); ?>MB<br>
-              Uploaded: <?php echo date('m-d-Y',strtotime($file['file_uploaded_timestamp'])); ?>
-            </p>
-          <?php
-          }
-        }
-        ?>
-        <span class="input-subtitle">You may <?php echo (count($app_files) > 0) ? "upload a new" : "replace with a new AV"; ?> file below:</span>
-        <input type="file" name="file[<?=$i?>]" <?=$disabled?>>
+        <span class="input-subtitle">You may upload a new file below:</span>
+        <input type="file" name="file">
         <span class="input-subtitle">
           File may not exceed 500MB in size.<br>
           It is highly advised that large files be uploaded over a wired connection to avoid timeouts.
@@ -202,27 +143,11 @@ title: Masquerade Application
       </div>
     </div>
     <div class="row form-group masq_perform masq_both masq_exhibition">
-      <label for="skit_description" class="{{ ab_required_label }}">Skit</label>
-      <?=form_label('Script File', "script[$i]", $optional_label)?>
+      <label for="script" class="{{ ab_optional_label }}">Script File</label>
       <div class="col-lg-8">
         <span class="input-subtitle">This is to upload a script file for your performance.</span>
-        <?php
-        if(count($app_scripts) > 0) {
-          foreach($app_scripts as $script) {
-            $target_dir = '/files/cosplayhq/masq_scripts/'.$forum_id.'/';
-            $target_path = $target_dir.$script['file_name'];
-            ?>
-            <p>
-              File Name: <a href="<?=$target_path?>" target="_blank">'<?php echo $script['file_name']; ?></a><br>
-              Size: <?php echo number_format($script['file_size']/1024,2); ?>KB<br>
-              Uploaded: <?php echo date('m-d-Y',strtotime($script['file_uploaded_timestamp'])); ?>
-            </p>
-          <?php
-          }
-        }
-        ?>
-        <span class="input-subtitle">You may <?php echo (count($app_scripts) > 0) ? "upload" : "replace with"; ?> a new script file below:</span>
-        <input type="file" name="script[<?=$i?>]" <?=$disabled?>>
+        <span class="input-subtitle">You may upload a new script file below:</span>
+        <input type="file" name="script">
         <span class="input-subtitle">File may not exceed 5MB in size.</span>
       </div>
     </div>
