@@ -1,6 +1,15 @@
 ---
 title: AMV Contest FAQ
 ---
+<div class="side-submenu col-sm-3 float-right">
+  <a href="/AB-Site-Redesign/participation/amv/amv_form.html" class="btn btn-secondary">
+    Enter AMV Contest
+  </a>
+  <a href="/AB-Site-Redesign/participation/amv/faq.html" class="btn btn-secondary">
+    Frequently Asked Questions
+  </a>
+</div>
+
 # AMV Contest FAQ
 {:.no_toc}
 
