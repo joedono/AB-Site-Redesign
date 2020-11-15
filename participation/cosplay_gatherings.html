@@ -1,1 +1,282 @@
-Cosplay Gatherings
+---
+title: Cosplay Gatherings
+layout: fullcalendar
+---
+{% assign ab_optional_label = "col-xl-3 col-lg-4 control-label" %}
+{% assign ab_required_label = "col-xl-3 col-lg-4 control-label required" %}
+{% assign ab_optional_short_label = "col-xl-2 col-lg-4 control-label" %}
+{% assign ab_required_short_label = "col-xl-2 col-lg-4 control-label required" %}
+
+<h1>Cosplay Gatherings</h1>
+
+<p>Have an idea for a cool cosplay photoshoot or gathering? Apply here to add your own gathering to the schedule.</p>
+<p>Click on an empty space on the schedule, type in your title, and hit Ok to add your gathering to the official schedule.</p>
+<p>To move a photoshoot to a different day, click the small X to delete the shoot and recreate it on the proper date.</p>
+
+<div id="scheduler"></div>
+
+<div id="photoshoot-dialog" title="Photoshoot">
+  <form id="photoshoot-form">
+    <div class="row form-group">
+      <label for="title" class="{{ ab_required_label }}">Title *</label>
+      <div class="col-xl-9 col-lg-8">
+        <input type="text" name="title" id="title" class="form-control" maxlength="100">
+      </div>
+    </div>
+    <div class="row form-group">
+      <label for="website" class="{{ ab_required_label }}">Website *</label>
+      <div class="col-xl-9 col-lg-8">
+        <input type="text" name="website" id="website" class="form-control" maxlength="255">
+      </div>
+    </div>
+    <input type="submit" value="Submit" style="display: none">
+  </form>
+</div>
+
+<style type="text/css">
+  .closeon {
+    float: right;
+    margin: 3px;
+  }
+</style>
+
+<script type="text/javascript">
+  var photoshootDialog;
+  var photoshootForm;
+
+  function onDateClick(start_time, resourceObj) {
+    $("#title").val("");
+    $("#website").val("");
+
+    photoshootDialog.dialog("open");
+
+    /*
+    photoshootForm.unbind("submit");
+
+    photoshootForm.submit(function() {
+      var title = $("#title").val();
+      var website = $("#website").val();
+      var end_time = start_time.clone().add(60, 'minutes');
+
+      $.post("/cosplayhq/photoshoot_create", {
+        photoshoot_id: null,
+        photoshoot_location_id: resourceObj.id,
+        title: title,
+        website: website,
+        start_time: start_time.format('YYYY-MM-DD HH:mm:ss'),
+        end_time: end_time.format('YYYY-MM-DD HH:mm:ss')
+      })
+      .done(function(data) {
+        console.log(data);
+
+        $("#scheduler").fullCalendar('renderEvent', {
+          id: data.photoshoot_id,
+          title: title,
+          website: website,
+          start: start_time,
+          end: end_time,
+          resourceId: resourceObj.id,
+          editable: true
+        }, true);
+
+        photoshootDialog.dialog("close");
+      })
+      .fail(function(jqXHR, textStatus, errorThrown) {
+        console.log(textStatus);
+        console.log(errorThrown);
+        photoshootDialog.dialog("close");
+        showError(jqXHR.responseText);
+      });
+
+      return false;
+    });
+    */
+  }
+
+  function onEventClick(event) {
+    if(event.editable) {
+      $("#title").val(event.title);
+      $("#website").val(event.website);
+
+      photoshootDialog.dialog("open");
+      photoshootForm.unbind("submit");
+
+      photoshootForm.submit(function() {
+        event.title = $("#title").val();
+        event.website = $("#website").val();
+        updatePhotoshoot(event, null);
+
+        return false;
+      });
+    } else if(event.website != "") {
+      window.open(event.website);
+    }
+  }
+
+  function updatePhotoshoot(event, revertFunc) {
+    $("#scheduler").fullCalendar("updateEvent", event);
+    photoshootDialog.dialog("close");
+    console.log(event);
+
+    /*
+    $.post("/cosplayhq/photoshoot_update", {
+      photoshoot_id: event.id,
+      photoshoot_location_id: event.resourceId,
+      title: event.title,
+      website: event.website,
+      start_time: event.start.format('YYYY-MM-DD HH:mm:ss'),
+      end_time: event.end.format('YYYY-MM-DD HH:mm:ss')
+    })
+    .done(function(data) {
+      $("#scheduler").fullCalendar("updateEvent", event);
+      photoshootDialog.dialog("close");
+      console.log(data);
+    })
+    .fail(function(jqXHR, textStatus, errorThrown) {
+      console.log(textStatus);
+      console.log(errorThrown);
+      photoshootDialog.dialog("close");
+      if(revertFunc) {
+        revertFunc();
+      }
+
+      showError(jqXHR.responseText);
+    });
+    */
+  }
+
+  function deletePhotoshoot(event, element) {
+    $("#scheduler").fullCalendar("removeEvents", event._id);
+
+    /*
+    $.post("/cosplayhq/photoshoot_delete", {
+      photoshoot_id: event.id
+    })
+    .done(function(data) {
+      console.log(data);
+      $("#scheduler").fullCalendar("removeEvents", event._id);
+    })
+    .fail(function(jqXHR, textStatus, errorThrown) {
+      console.log(textStatus);
+      console.log(errorThrown);
+      showError(jqXHR.responseText);
+    });
+    */
+  }
+
+  function showError(errorString) {
+    var errorObj = JSON.parse(errorString);
+    var alertString = "";
+    for(var key in errorObj) {
+      alertString += errorObj[key] + "\n";
+    }
+
+    alert(alertString);
+  }
+
+  $(function() {
+    photoshootForm = $("#photoshoot-form");
+    photoshootDialog = $("#photoshoot-dialog").dialog({
+      autoOpen: false,
+      height: 270,
+      width: 400,
+      modal: true,
+      buttons: {
+        Submit: function() {
+          photoshootForm.submit();
+        },
+        Cancel: function() {
+          photoshootDialog.dialog("close");
+        }
+      }
+    });
+
+    $("#scheduler").fullCalendar({
+      schedulerLicenseKey: '0177372636-fcs-1533899416',
+      defaultView: 'agendaDay',
+      defaultDate: '2019-04-19',
+      validRange: {
+        start: '2019-04-19',
+        end: moment('2019-04-21').add(1, 'days')
+      },
+      defaultTimedEventDuration: '00:60:00',
+      slotDuration: '00:30:00',
+      slotLabelFormat: 'h:mma',
+      minTime: '09:00:00',
+      maxTime: '24:00:00',
+      header: {
+        left: 'prev,next',
+        center: 'title',
+        right: ''
+      },
+      titleFormat: 'dddd, MMMM D, YYYY',
+      forceEventDuration: true,
+      allDaySlot: false,
+      slotEventOverlap: false,
+      eventOverlap: false,
+      groupByDateAndResource: true,
+      businessHours: [
+        {
+          dow: [5, 6],
+          start: '09:00',
+          end: '24:00'
+        },
+        {
+          dow: [0],
+          start: '09:00',
+          end: '15:00'
+        },
+      ],
+      eventConstraint: 'businessHours',
+      selectConstraint: 'businessHours',
+      resources: [
+        { id: 1, title: 'Udon - Outside Room 313' },{ id: 2, title: 'Sushi - Under Escalators near Room 105' },{ id: 3, title: 'Ramen - Hall B' },{ id: 4, title: 'Katsu - Hall B' }
+      ],
+      views: {
+        agendaConWeekend: {
+          type: 'agenda',
+          duration: { days: 1 }
+        }
+      },
+      dayClick: function(date, jsEvent, view, resourceId) {
+        if (jsEvent.target.className == ("fc-nonbusiness fc-bgevent")) {
+          return false;
+        } else {
+          onDateClick(date, resourceId);
+        }
+      },
+      eventClick: function(event, jsEvent, view) {
+        onEventClick(event);
+      },
+      eventDrop: function(event, delta, revertFunc, jsEvent, ui, view) {
+        if(event.editable) {
+          updatePhotoshoot(event, revertFunc);
+        }
+      },
+      eventResize: function(event, delta, revertFunc, jsEvent, ui, view) {
+        if(event.editable) {
+          updatePhotoshoot(event, revertFunc);
+        }
+      },
+      eventRender: function(event, element) {
+        if(!event.editable) {
+          if(event.website == "" ) {
+            element.css("cursor", "not-allowed");
+          } else {
+            element.css("cursor", "pointer");
+          }
+        } else {
+          element.find(".fc-content").prepend("<div class='closeon badge align-center'>X</div>");
+          element.find(".closeon").click(function(e) {
+            deletePhotoshoot(event, element);
+            e.preventDefault();
+            return false;
+          });
+        }
+      },
+      events: [
+        {id: '50', title: 'Hunter x Hunter', website: 'https://www.facebook.com/events/252817352003342/', start: '2019-04-19 16:00:00', end: '2019-04-19 17:00:00', resourceId: 1, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '68', title: 'Mystic Messenger Photoshoot/Meetup', website: '', start: '2019-04-19 14:00:00', end: '2019-04-19 15:00:00', resourceId: 2, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '38', title: 'Dangan Ronpa', website: 'https://www.facebook.com/events/193774601208459/', start: '2019-04-19 14:00:00', end: '2019-04-19 15:00:00', resourceId: 1, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '39', title: 'Dangan Ronpa', website: 'https://www.facebook.com/events/193774601208459/', start: '2019-04-20 14:00:00', end: '2019-04-20 15:00:00', resourceId: 1, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '40', title: 'Yuri On Ice Meet Up', website: '', start: '2019-04-20 10:00:00', end: '2019-04-20 11:00:00', resourceId: 2, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '114', title: 'Touken Ranbu Meetup', website: 'https://www.facebook.com/events/2259802600902599/?ti=icl', start: '2019-04-19 18:00:00', end: '2019-04-19 19:00:00', resourceId: 3, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '42', title: 'Hetalia Meetup', website: '', start: '2019-04-21 11:00:00', end: '2019-04-21 12:00:00', resourceId: 2, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '44', title: 'KDA League of Legend ', website: 'https://www.facebook.com/events/612518869200728/?ti=ia', start: '2019-04-20 15:00:00', end: '2019-04-20 16:00:00', resourceId: 3, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '45', title: 'Persona / SMT', website: 'https://www.facebook.com/events/304537983663971/', start: '2019-04-20 12:00:00', end: '2019-04-20 13:00:00', resourceId: 1, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '46', title: 'Persona / SMT', website: 'https://www.facebook.com/events/304537983663971/', start: '2019-04-19 23:30:00', end: '2019-04-20 00:30:00', resourceId: 1, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '47', title: 'Persona / SMT', website: 'https://www.facebook.com/events/304537983663971/', start: '2019-04-20 23:30:00', end: '2019-04-21 00:30:00', resourceId: 1, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '49', title: 'League of legend photoshoot', website: 'https://www.facebook.com/events/2151751418417426/?ti=cl', start: '2019-04-20 16:00:00', end: '2019-04-20 17:00:00', resourceId: 3, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '51', title: 'My Little Pony Cosplay Photoshoot Gathering 11:40 AM to 12:45 PM', website: 'https://www.deviantart.com/mariodan23/journal/Anime-Boston-2019-MLP-Cosplay-Photoshoot-762668992', start: '2019-04-21 11:00:00', end: '2019-04-21 12:00:00', resourceId: 3, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '52', title: 'JoJo\'s Bizarre Adventure photoshoot', website: 'https://www.facebook.com/events/659600697788353/', start: '2019-04-20 14:00:00', end: '2019-04-20 15:00:00', resourceId: 3, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '53', title: 'Full Metal Alchemist photoshoot meet up ', website: ' https://www.facebook.com/events/407566943117988/?ti=cl', start: '2019-04-19 14:00:00', end: '2019-04-19 15:00:00', resourceId: 4, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '54', title: 'Full Metal Alchemist meet photoshoot', website: 'https://www.facebook.com/events/407566943117988/?ti=cl', start: '2019-04-20 15:00:00', end: '2019-04-20 16:00:00', resourceId: 4, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '55', title: 'Dragonball/Z/GT/Super Photoshoot!', website: 'https://www.facebook.com/events/397647864113697/', start: '2019-04-19 19:00:00', end: '2019-04-19 20:00:00', resourceId: 3, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '57', title: 'RWBY Photoshoot', website: '', start: '2019-04-20 12:00:00', end: '2019-04-20 13:00:00', resourceId: 3, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '58', title: 'Kingdom Hearts Meetup/Photoshoot', website: 'https://www.facebook.com/events/430602747479579/permalink/443476686192185/?notif_t=event_mall_comment&amp;notif_id=1550532192912884', start: '2019-04-20 16:00:00', end: '2019-04-20 17:00:00', resourceId: 1, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '59', title: 'Bioware Photoshoot/Meetup', website: 'https://www.facebook.com/events/403292277075757/', start: '2019-04-19 15:00:00', end: '2019-04-19 16:00:00', resourceId: 2, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '60', title: 'Homestuck Meet/Photoshoot', website: '', start: '2019-04-20 12:00:00', end: '2019-04-20 13:00:00', resourceId: 4, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '61', title: 'Metal Gear Solid Photoshoot/Meetup', website: 'https://www.facebook.com/events/205214713694068/', start: '2019-04-19 13:00:00', end: '2019-04-19 14:00:00', resourceId: 3, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '62', title: 'Metal Gear Solid Photoshoot/Meetup', website: 'https://www.facebook.com/events/205214713694068/', start: '2019-04-20 13:00:00', end: '2019-04-20 14:00:00', resourceId: 2, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '63', title: 'Fruits Basket Gathering/Photoshoot', website: 'https://www.facebook.com/events/690377881379906/?ti=cl', start: '2019-04-20 10:00:00', end: '2019-04-20 11:00:00', resourceId: 3, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '64', title: 'One Piece Photoshoot', website: 'https://www.facebook.com/events/362232084563594/', start: '2019-04-20 13:00:00', end: '2019-04-20 14:00:00', resourceId: 3, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '66', title: 'Mario Kart Photoshoot', website: 'https://www.facebook.com/events/701561983543859/', start: '2019-04-19 21:00:00', end: '2019-04-19 22:00:00', resourceId: 3, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '67', title: 'Super Smash Bros. Meet Up/Photoshoot', website: 'https://www.facebook.com/events/2464007866961618/?ti=icl', start: '2019-04-20 16:00:00', end: '2019-04-20 17:00:00', resourceId: 2, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '69', title: 'Sally Face Photoshoot/Meetup', website: '', start: '2019-04-20 15:00:00', end: '2019-04-20 16:00:00', resourceId: 2, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '79', title: 'Naruto Photoshoot/Meetup', website: '', start: '2019-04-20 16:00:00', end: '2019-04-20 17:00:00', resourceId: 4, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '80', title: 'Fire Emblem Gathering', website: 'https://www.facebook.com/events/305302920182328/', start: '2019-04-20 13:00:00', end: '2019-04-20 14:00:00', resourceId: 1, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '71', title: 'Gintama Meetup', website: 'https://www.facebook.com/events/488186778268300/', start: '2019-04-20 10:00:00', end: '2019-04-20 11:00:00', resourceId: 1, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '131', title: 'Tiktok Meetup', website: '', start: '2019-04-19 13:00:00', end: '2019-04-19 14:00:00', resourceId: 1, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '73', title: 'Love Live Photoshoot', website: 'https://www.facebook.com/events/380775469386954/', start: '2019-04-20 11:30:00', end: '2019-04-20 12:30:00', resourceId: 2, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '74', title: 'Vocaloid Photoshoot', website: 'https://www.facebook.com/events/615712048878162/', start: '2019-04-19 11:30:00', end: '2019-04-19 12:30:00', resourceId: 1, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '75', title: 'Steven Universe Photoshoot', website: 'https://www.facebook.com/events/304324326893391/?ti=cl', start: '2019-04-20 14:00:00', end: '2019-04-20 15:00:00', resourceId: 2, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '76', title: 'Precure Photo Shoot', website: 'https://www.facebook.com/events/354678088450170/', start: '2019-04-19 12:00:00', end: '2019-04-19 13:00:00', resourceId: 3, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '77', title: 'Critical Role Meetup/Photoshoot', website: '', start: '2019-04-19 12:00:00', end: '2019-04-19 13:00:00', resourceId: 2, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '78', title: 'Sailor Moon Meetup ', website: 'https://www.facebook.com/events/238493433560022/', start: '2019-04-20 11:00:00', end: '2019-04-20 12:00:00', resourceId: 3, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '81', title: 'Fate/Type Moon photoshoot/Meet up', website: 'https://www.facebook.com/groups/335289687299796/?ref=share', start: '2019-04-20 17:30:00', end: '2019-04-20 18:30:00', resourceId: 3, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '82', title: 'Fate Grand Order Photoshoot/Meetup', website: 'Discord: https://discord.gg/FcXXRE', start: '2019-04-19 17:00:00', end: '2019-04-19 18:00:00', resourceId: 3, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '83', title: 'Tales Of', website: 'https://www.facebook.com/events/392841218172432/', start: '2019-04-20 14:00:00', end: '2019-04-20 15:00:00', resourceId: 4, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '123', title: 'JoJo\'s Bizarre Adventure Photoshoot', website: 'https://www.facebook.com/events/401557263724306/', start: '2019-04-19 17:00:00', end: '2019-04-19 18:00:00', resourceId: 4, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '85', title: 'Final Fantasy Photoshoot', website: 'https://www.facebook.com/events/2297423287159768/', start: '2019-04-20 13:00:00', end: '2019-04-20 14:00:00', resourceId: 4, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '86', title: 'Overwatch Photoshoot', website: 'https://www.facebook.com/events/358229198294173/', start: '2019-04-20 15:00:00', end: '2019-04-20 16:00:00', resourceId: 1, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '87', title: 'Shonen Jump Anniversary Photoshoot/Meetup', website: 'https://www.facebook.com/events/261346214741678/', start: '2019-04-20 19:00:00', end: '2019-04-20 20:00:00', resourceId: 3, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '88', title: 'Voltron Photoshoot/Meetup', website: 'https://www.facebook.com/events/350762015673115/?notif_t=plan_admin_added&amp;notif_id=1551843330383297', start: '2019-04-20 17:00:00', end: '2019-04-20 18:00:00', resourceId: 2, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '90', title: 'Turnabout Boston: Ace Attorney Photoshoot', website: 'https://www.facebook.com/events/1798810703558687/', start: '2019-04-19 16:00:00', end: '2019-04-19 17:00:00', resourceId: 2, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '133', title: 'She-ra and the Princesses of Power Photoshoot and Meetup', website: '', start: '2019-04-19 19:30:00', end: '2019-04-19 20:30:00', resourceId: 2, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '116', title: 'Ita Bag Meetup', website: '', start: '2019-04-19 15:00:00', end: '2019-04-19 16:00:00', resourceId: 1, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '109', title: 'Diabolik Lovers Photoshoot/Meetup', website: 'https://www.facebook.com/events/1979873362307292/?active_tab=discussion', start: '2019-04-19 18:00:00', end: '2019-04-19 19:00:00', resourceId: 4, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '107', title: 'Pokemon Meetup', website: '', start: '2019-04-20 11:00:00', end: '2019-04-20 12:00:00', resourceId: 1, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '110', title: 'Hakuoki Photoshoot/Meetup', website: 'https://www.facebook.com/events/391441888271509/', start: '2019-04-20 21:30:00', end: '2019-04-20 22:30:00', resourceId: 4, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '105', title: 'Bungou Stray Dogs Photoshoot/Meetup', website: 'https://www.facebook.com/events/302434857109066/', start: '2019-04-19 15:00:00', end: '2019-04-19 16:00:00', resourceId: 4, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '106', title: 'Little Witch Academia Photoshoot/Meetup', website: 'https://www.facebook.com/events/438293776910347/', start: '2019-04-19 11:00:00', end: '2019-04-19 12:00:00', resourceId: 2, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '98', title: 'Fairy Tail', website: '', start: '2019-04-21 11:00:00', end: '2019-04-21 12:00:00', resourceId: 1, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '99', title: 'Houseki No Kuni/Land of the Lustrous Meet-up', website: '', start: '2019-04-20 10:00:00', end: '2019-04-20 11:00:00', resourceId: 4, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '100', title: 'Inuyasha Con/Meet-Up', website: 'https://www.facebook.com/events/2281003198814980/?ti=cl', start: '2019-04-21 12:00:00', end: '2019-04-21 13:00:00', resourceId: 3, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '101', title: 'Spiderman / Spiderverse Meetup&amp;Photoshoot', website: 'https://www.facebook.com/events/2154342774896157/', start: '2019-04-19 16:00:00', end: '2019-04-19 17:00:00', resourceId: 3, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '102', title: 'Detective Conan/Case Closed Photoshoot', website: 'https://www.facebook.com/events/493705017794123/?ti=as', start: '2019-04-21 14:30:00', end: '2019-04-21 15:30:00', resourceId: 1, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '134', title: 'Disney Meetup', website: 'https://www.facebook.com/events/315848272677462/', start: '2019-04-20 11:00:00', end: '2019-04-20 12:00:00', resourceId: 4, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '126', title: 'The Dragon Prince Gathering/Photoshoot', website: 'https://www.facebook.com/events/2089455904501525/', start: '2019-04-19 17:00:00', end: '2019-04-19 18:00:00', resourceId: 1, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '104', title: 'Resident Evil Photoshoot/Meetup', website: 'https://www.facebook.com/events/2164482510296504/', start: '2019-04-19 13:00:00', end: '2019-04-19 14:00:00', resourceId: 2, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '117', title: 'That Time I Got Reincarnated As A Slime', website: 'https://www.facebook.com/events/2256039117946593/', start: '2019-04-19 13:00:00', end: '2019-04-19 14:00:00', resourceId: 4, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '119', title: 'Mob Psycho 100 Meetup', website: 'https://www.facebook.com/events/368077733921683/?ti=ia', start: '2019-04-19 18:30:00', end: '2019-04-19 19:30:00', resourceId: 1, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '120', title: 'TAZ Photoshoot/Meetup', website: '', start: '2019-04-20 17:30:00', end: '2019-04-20 18:30:00', resourceId: 1, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '125', title: 'Tokusatsu', website: 'https://www.facebook.com/events/316056355720944/', start: '2019-04-19 17:30:00', end: '2019-04-19 18:30:00', resourceId: 2, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '124', title: 'New or recent anime characters! ', website: '', start: '2019-04-19 22:00:00', end: '2019-04-19 23:00:00', resourceId: 4, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '127', title: 'Golden Kamuy Photoshoot // Meetup', website: 'https://www.facebook.com/events/429332787824398/', start: '2019-04-19 19:30:00', end: '2019-04-19 20:30:00', resourceId: 1, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '128', title: 'MXTX Meet-up', website: 'https://www.facebook.com/events/421462868680821/', start: '2019-04-20 17:00:00', end: '2019-04-20 18:00:00', resourceId: 4, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '129', title: 'Devil May Cry meet up ', website: 'https://www.facebook.com/events/561227594373146/?ti=ia', start: '2019-04-21 13:00:00', end: '2019-04-21 14:00:00', resourceId: 3, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '130', title: 'Revue Starlight Photoshoot/Meetup', website: '', start: '2019-04-20 18:00:00', end: '2019-04-20 19:00:00', resourceId: 4, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '132', title: 'Cells at Work! Meetup', website: '', start: '2019-04-21 13:00:00', end: '2019-04-21 14:00:00', resourceId: 1, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '135', title: 'PJ Meetup (All Fandom Welcome!!)', website: 'https://www.facebook.com/events/291335918237262/319212315449622/?notif_t=plan_mall_activity&amp;notif_id=1553755119696746', start: '2019-04-20 19:00:00', end: '2019-04-20 20:00:00', resourceId: 2, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'},{id: '136', title: 'Yu-Gi-Oh! all series ', website: '', start: '2019-04-20 18:30:00', end: '2019-04-20 19:30:00', resourceId: 1, editable: 1, textColor: '#000', backgroundColor: '#a5c4d3'}
+      ]
+    });
+  });
+</script>
