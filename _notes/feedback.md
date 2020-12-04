@@ -1,11 +1,7 @@
 # Feedback
 
 ## From Pam
-The Convention Policies are found under Info > Attend/Registration > FAQ. I think Convention Policies and Frequently Asked Questions should have separate buttons in Attend/Registration. In the footer of the site, there is a link for Convention Policies, which does give you the policies, but it also has the two buttons for the FAQ lists. I think those two should be separate so people can find them easier. Therefore, I think adding a link under Quick Links in the footer for FAQ separate from Convention Policies would be beneficial as well. I hope this makes sense...
-
 Maybe just my preference, but I would make the header sizes smaller. Right now, they're very close to the title size, and it's a bit jarring to go from the heading to the body text. I think it might be easier on the eyes if the headings were reduced, and there would be more of a distinction between the title of the overall page and the headings. (I could also just be super weird about this, LOL!) For example, see the Game Shows page; you have the overall title (Game Show), a primary heading (Rated E), and a secondary heading (name of the game show) all in similar sizes. Later down the page, you have the primary heading (rated T) again with secondary heading (title of shows). It's hard to tell the difference and visually it's a little confusing/jarring. Same comment for the Cosplay FAQ page. (To me anyway, feel free to ignore this comment!)
-
-Will the Hotel Information page have actual content or just a button to book under the AB hotels when that becomes available? I think this should have content.
 
 I would move the Apply to be in the Masquerade button to the top right, where other buttons are. I actually missed this button the first time I checked this page.
 
