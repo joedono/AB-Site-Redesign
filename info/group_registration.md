@@ -1,6 +1,12 @@
 ---
 title: Group Registration
 ---
+<div class="side-submenu col-sm-3 float-right">
+  <a href="/AB-Site-Redesign/info/group_registration_form.html" class="btn btn-secondary">
+    Apply for Group Registration
+  </a>
+</div>
+
 # Group Registration
 
 * Only school or educational groups are eligible for a group discount. You are a school or educational group if your group is organized and/or recognized by your school/university and you have a member of the faculty or student president as your advisor/chaperone.
@@ -14,6 +20,3 @@ title: Group Registration
 * Please double check the forms for mistakes before sending them in.
 * Before registering, please review the [Registration Policies](/registration/registration_policy/).
 * If you have any questions, please visit the [Registration FAQ](/registration/registration_faq/).
-
-
-<a class="btn btn-primary" href="/forms/reg_group/">Group Registration Request</a>
