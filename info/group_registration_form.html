@@ -1,139 +1,106 @@
-<ul class="breadcrumb">
-  <li><a href="/">Home</a></li>
-  <li><a href="/registration/">Registration</a></li>
-  <li><a href="/registration/group_registration/">Group Registration</a></li>
-  <li>Group Registration Application</li>
-</ul>
+---
+title: Group Registration Application
+---
+{% assign ab_optional_label = "col-xl-3 col-lg-4 control-label" %}
+{% assign ab_required_label = "col-xl-3 col-lg-4 control-label required" %}
+{% assign ab_optional_short_label = "col-xl-2 col-lg-4 control-label" %}
+{% assign ab_required_short_label = "col-xl-2 col-lg-4 control-label required" %}
 
-<?php
-$optional_label = ab_optional_label();
-$required_label = ab_required_label();
-?>
+<h1>Group Registration Application</h1>
 
-<div class="page-body clearfix">
-  <h1>Group Registration Application</h1>
-  <p>
-    Fill out the following information completely, and please note the Group
-    contact does not have to register for Anime Boston and this is not a registration form.
-    Group contacts must be 18+ and associated with an educational organization.
-  </p>
-  <form class="form-horizontal" action="/forms/reg_group/" method="post">
-    <?php echo ab_error_summary(); ?>
-    <p><span class="required">*</span> = Required information</p>
-    <div class="row form-group <?php echo ab_error_style("first_name"); ?>">
-      <?=form_label('First Name *', 'first_name', $required_label)?>
-      <div class="col-md-6">
-        <input type="text" name="first_name" class="form-control" maxlength="70" value="<?php echo set_value('first_name', $first_name)?>">
-        <?php echo ab_error_message("first_name"); ?>
-      </div>
-    </div>
-    <div class="row form-group <?php echo ab_error_style("last_name"); ?>">
-      <?=form_label('Last Name *', 'last_name', $required_label)?>
-      <div class="col-md-6">
-        <input type="text" name="last_name" class="form-control" maxlength="70" value="<?php echo set_value('last_name', $last_name)?>">
-        <?php echo ab_error_message("last_name"); ?>
-      </div>
-    </div>
-    <div class="row form-group <?php echo ab_error_style("edu_organization"); ?>">
-      <?=form_label('Educational Organization *', 'edu_organization', $required_label)?>
-      <div class="col-md-7">
-        <input type="text" name="edu_organization" class="form-control" maxlength="70" value="<?php echo set_value('edu_organization', $edu_organization)?>">
-        <span class="input-subtitle">You must be associated with a school or educational group to qualify.</span>
-        <?php echo ab_error_message("edu_organization"); ?>
-      </div>
-    </div>
-    <div class="row form-group <?php echo ab_error_style("position"); ?>">
-      <?=form_label('Your Position *', 'position', $required_label)?>
-      <div class="col-md-6">
-        <input type="text" name="position" class="form-control" maxlength="70" value="<?php echo set_value('position', $position)?>">
-        <span class="input-subtitle">Within your organization are you a teacher, employee, club president, etc...</span>
-        <?php echo ab_error_message("position"); ?>
-      </div>
-    </div>
-    <div class="row form-group <?php echo ab_error_style("org_email"); ?>">
-      <?=form_label('Email Address *', 'org_email', $required_label)?>
-      <div class="col-md-5">
-        <input type="email" name="org_email" class="form-control" maxlength="70" value="<?php echo set_value('org_email', $org_email)?>">
-        <?php echo ab_error_message("org_email"); ?>
-      </div>
-    </div>
-    <div class="row form-group <?php echo ab_error_style("org_email_confirm"); ?>">
-      <?=form_label('Confirm Email Address *', 'org_email_confirm', $required_label)?>
-      <div class="col-md-5">
-        <input type="email" name="org_email_confirm" class="form-control" maxlength="70" value="<?php echo set_value('org_email_confirm', $org_email_confirm)?>">
-        <?php echo ab_error_message("org_email_confirm"); ?>
-      </div>
-    </div>
-    <div class="row form-group">
-      <?=form_label('Phone Number &amp; Type *', 'phone1', $required_label)?>
-      <div class="col-md-5">
-        <div class="<?php echo ab_error_style("phone1"); ?>">
-          <span class="input-subtitle">Numbers only, no letters or characters</span>
-          <input type="tel" name="phone1" class="form-control" maxlength="15" value="<?php echo set_value('phone1', $phone1); ?>">
-          <?php echo ab_error_message("phone1"); ?>
-        </div>
-        <div class="<?php echo ab_error_style("phone1_type"); ?>">
-          <label><input type="radio" name="phone1_type" value="Home" <?=$homeyes?>> Home</label>
-          <label><input type="radio" name="phone1_type" value="Mobile" <?=$mobileyes?>> Mobile</label>
-          <?php echo ab_error_message("phone1_type"); ?>
-        </div>
-      </div>
-    </div>
-    <div class="row form-group">
-      <?=form_label('Date of Birth *', '', $required_label)?>
-      <div class="col-md-8 form-inline">
-        <label class="required">Month</label>
-        <?php
-        $options = array("" => "");
-        for($month = 1; $month < 13; $month++)
-        {
-          $mon = sprintf('%02d',$month);
-          $options[$mon] = $mon;
-        }
+<p>
+  Fill out the following information completely, and please note the Group
+  contact does not have to register for Anime Boston and this is not a registration form.
+  Group contacts must be 18+ and associated with an educational organization.
+</p>
 
-        echo form_dropdown("birth_month", $options, $birth_month, ab_dropdown_class());
-        ?>
-        <label class="required">Day</label>
-        <?php
-        $options = array("" => "");
-        for($day = 1; $day < 32; $day++)
-        {
-          $da = sprintf('%02d',$day);
-          $options[$da] = $da;
-        }
-
-        echo form_dropdown("birth_day", $options, $birth_day, ab_dropdown_class());
-        ?>
-        <label class="required">Year</label>
-        <?php
-        $thisyear = date('Y');
-        $thisyear = (int)$thisyear;
-        $options = array("" => "");
-        for($year = $thisyear; $year >= $thisyear - 80; $year--)
-        {
-          $options[$year] = $year;
-        }
-
-        echo form_dropdown("birth_year", $options, $birth_year, ab_dropdown_class());
-        ?>
-        <br>
-        <span class="input-subtitle">You must be 18+ in order to request the group discount</span>
-        <?php echo ab_error_message("birth_month"); ?>
-        <?php echo ab_error_message("birth_day"); ?>
-        <?php echo ab_error_message("birth_year"); ?>
+<form class="form-horizontal" action="/AB-Site-Redesign/info/group_registration_finish.html" method="get">
+  <p><span class="required">*</span> = Required information</p>
+  <div class="row form-group">
+    <label for="first_name" class="{{ ab_required_label }}">First Name *</label>
+    <div class="col-lg-6">
+      <input type="text" name="first_name" class="form-control" maxlength="70">
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="last_name" class="{{ ab_required_label }}">Last Name *</label>
+    <div class="col-lg-6">
+      <input type="text" name="last_name" class="form-control" maxlength="70">
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="edu_organization" class="{{ ab_required_label }}">Educational Organization *</label>
+    <div class="col-lg-7">
+      <input type="text" name="edu_organization" class="form-control" maxlength="70">
+      <span class="input-subtitle">You must be associated with a school or educational group to qualify.</span>
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="position" class="{{ ab_required_label }}">Your Position *</label>
+    <div class="col-lg-6">
+      <input type="text" name="position" class="form-control" maxlength="70">
+      <span class="input-subtitle">Within your organization are you a teacher, employee, club president, etc...</span>
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="org_email" class="{{ ab_required_label }}">Email Address *</label>
+    <div class="col-lg-5">
+      <input type="email" name="org_email" class="form-control" maxlength="70">
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="org_email_confirm" class="{{ ab_required_label }}">Confirm Email Adderess *</label>
+    <div class="col-lg-5">
+      <input type="email" name="org_email_confirm" class="form-control" maxlength="70">
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="phone1" class="{{ ab_required_label }}">Phone Number &amp; Type *</label>
+    <div class="col-lg-5">
+      <div>
+        <span class="input-subtitle">Numbers only, no letters or characters</span>
+        <input type="tel" name="phone1" class="form-control" maxlength="15">
+      </div>
+      <div>
+        <label><input type="radio" name="phone1_type" value="Home"> Home</label>
+        <label><input type="radio" name="phone1_type" value="Mobile"> Mobile</label>
       </div>
     </div>
-    <div class="row form-group <?php echo ab_error_style("group_total"); ?>">
-      <?=form_label('Group Total *', 'group_total', $required_label)?>
-      <div class="col-md-5">
-        <input type="number" name="group_total" class="form-control" maxlength="5" value="<?php echo set_value('group_total', $group_total)?>">
-        <span class="input-subtitle">Your group must have a minimum of 10 people.</span>
-        <?php echo ab_error_message("group_total"); ?>
-      </div>
+  </div>
+  <div class="row form-group">
+    <label class="{{ ab_required_label }}">Date of Birth * *</label>
+    <div class="col-lg-8 form-inline">
+      <label class="required">Month</label>
+      <select name="birth_month" class="form-control">
+        {% for month in (1..12) %}
+        <option value="{{ month }}">{{ month }}</option>
+        {% endfor %}
+      </select>
+      <label class="required">Day</label>
+      <select name="birth_day" class="form-control">
+        {% for day in (1..31) %}
+        <option value="{{ day }}">{{ day }}</option>
+        {% endfor %}
+      </select>
+      <label class="required">Year</label>
+      <select name="birth_year" class="form-control">
+        {% for year in (1940..2010) %}
+        <option value="{{ year }}">{{ year }}</option>
+        {% endfor %}
+      </select>
+      <br>
+      <span class="input-subtitle">You must be 18+ in order to request the group discount</span>
     </div>
-    <div class="submit-buttons">
-      <input type="submit" name="submit" class="btn btn-success" value="Submit">
-      <input type="reset" name="reset" class="btn btn-default" value="Reset">
+  </div>
+  <div class="row form-group">
+    <label for="group_total" class="{{ ab_required_label }}">Group Total *</label>
+    <div class="col-lg-5">
+      <input type="number" name="group_total" class="form-control" maxlength="5">
+      <span class="input-subtitle">Your group must have a minimum of 10 people.</span>
     </div>
-  </form>
-</div>
+  </div>
+  <div class="submit-buttons">
+    <input type="submit" name="submit" class="btn btn-success" value="Submit">
+    <input type="reset" name="reset" class="btn btn-secondary" value="Reset">
+  </div>
+</form>
