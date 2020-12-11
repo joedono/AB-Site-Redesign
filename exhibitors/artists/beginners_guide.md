@@ -1,6 +1,8 @@
 ---
 title: Artists Alley Beginners Guide
 ---
+{% include exhibitors/artists_alley_menu.html %}
+
 # Artists' Alley Beginner's Guide
 {:.no_toc}
 

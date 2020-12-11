@@ -1,26 +1,7 @@
 ---
 title: Artists Alley
 ---
-<div class="side-submenu col-sm-3 float-right">
-  <a href="/AB-Site-Redesign/exhibitors/artists/artists_alley_form.html" class="btn btn-secondary">
-    Apply to be in the Artists Alley
-  </a>
-  <a href="/AB-Site-Redesign/exhibitors/artists/faq.html" class="btn btn-secondary">
-    Frequently Asked Questions
-  </a>
-  <a href="/AB-Site-Redesign/exhibitors/artists/beginners_guide.html" class="btn btn-secondary">
-    Beginners Guide
-  </a>
-  <a href="/AB-Site-Redesign/exhibitors/artists/pro_row.html" class="btn btn-secondary">
-    Pro Row
-  </a>
-  <a href="/AB-Site-Redesign/exhibitors/exhibitor_tax_id.html" class="btn btn-secondary">
-    Exhibitor Tax ID
-  </a>
-  <a href="https://forums.animeboston.com/viewforum.php?f=8" class="btn btn-secondary">
-    Artists Forum
-  </a>
-</div>
+{% include exhibitors/artists_alley_menu.html %}
 
 # Artists Alley
 

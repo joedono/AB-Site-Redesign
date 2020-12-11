@@ -1,6 +1,8 @@
 ---
 title: Artists Alley FAQ
 ---
+{% include exhibitors/artists_alley_menu.html %}
+
 # Artists' Alley FAQ
 {:.no_toc}
 

@@ -3,7 +3,7 @@ title: Art Show
 ---
 <div class="side-submenu col-sm-3 float-right">
   <a href="/AB-Site-Redesign/exhibitors/artshow/art_show_form.html" class="btn btn-secondary">
-  Apply to be in the Art Show
+    Apply to be in the Art Show
   </a>
 </div>
 

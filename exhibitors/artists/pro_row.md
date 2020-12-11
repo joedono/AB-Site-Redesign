@@ -1,6 +1,8 @@
 ---
 title: Artists Alley Pro Row
 ---
+{% include exhibitors/artists_alley_menu.html %}
+
 # Artists Alley Pro Row
 
 Pro Row is a portion of the Artists' Alley meant to accommodate professional artists. **Opportunities for participation in the Artists' Alley Pro Row is based on a jury selection by a group of Anime Boston staff**. Due to space limitations in the Artists' Alley, the standard Artists' Alley table space application process is extremely competitive, as it is open to all interested artists. The Pro Row represents an alternate route to participation for professional artists.
