@@ -1,5 +1,5 @@
 ---
-title: Use Case
+title: Use Cases
 ---
 # Use Cases
 
