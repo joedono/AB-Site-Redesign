@@ -1,4 +1,7 @@
-# User Journeys
+---
+title: Use Cases
+---
+# Use Cases
 
 ## Summary
 The purpose of this document is to outline a variety of different types of users of our website and what their goals are on the site. The idea will be for a tester to put themselves in the shoes of one or more of these user profiles, go through the experience of trying to accomplish that user's goal on the site, and document how easy/hard it was to find what they were looking for.
