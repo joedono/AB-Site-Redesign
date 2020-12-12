@@ -1,8 +1,7 @@
 ---
 title: Staff HQ
+layout: staffhq
 ---
-{% include volunteer/staffhq_menu.html %}
-
 # Staff HQ
 
 Welcome, {STAFF USERNAME} to the Staff HQ. The Staff HQ is our new portal to manage your information and applications for Anime Boston Staff.
