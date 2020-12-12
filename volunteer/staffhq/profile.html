@@ -2,4 +2,349 @@
 title: My Profile
 layout: staffhq
 ---
+{% assign ab_optional_label = "col-xl-3 col-lg-4 control-label" %}
+{% assign ab_required_label = "col-xl-3 col-lg-4 control-label required" %}
+{% assign ab_optional_short_label = "col-xl-2 col-lg-4 control-label" %}
+{% assign ab_required_short_label = "col-xl-2 col-lg-4 control-label required" %}
+
 <h1>My Profile</h1>
+
+Below is your personal information used for applying to Anime Boston Staff.
+
+<p>
+  All information will be kept confidential and will not be made public.
+  Information entered here is strictly for administrative purposes and will have no
+  bearing on the approval or denial of any application to Anime Boston Staff.
+</p>
+
+<form class="form-horizontal" action="/AB-Site-Redesign/volunteer/staffhq/profile.html" method="get">
+  <p><span class="required">*</span> = Required information</p>
+  <div class="row form-group">
+    <label for="first_name" class="{{ ab_required_label }}">First Name *</label>
+    <div class="col-lg-8">
+      <input type="text" name="first_name" class="form-control" maxlength="100">
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="last_name" class="{{ ab_required_label }}">Last Name *</label>
+    <div class="col-lg-8">
+      <input type="text" name="last_name" class="form-control" maxlength="100">
+      <div class="input-subtitle">Your legal name will be used for our Staff Listing. If you'd prefer another name be used, please contact your Director.</div>
+    </div>
+  </div>
+  <div class="row form-group">
+    <label class="{{ ab_optional_label }}">Forum Account</label>
+    <div class="col-lg-8">
+      joedono
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="personal_email" class="{{ ab_required_label }}">Email Address *</label>
+    <div class="col-lg-8">
+      <input type="email" name="personal_email" class="form-control" maxlength="200">
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="personal_email_confirm" class="{{ ab_required_label }}">Confirm E-Mail Address *</label>
+    <div class="col-lg-8">
+      <input type="email" name="personal_email_confirm" class="form-control" maxlength="200">
+    </div>
+  </div>
+  <div class="row form-group">
+    <label class="{{ ab_optional_label }}">Convention Email Address</label>
+    <div class="col-lg-8">
+      asdfasdf@animeboston.com
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="discord_username" class="{{ ab_optional_label }}">Disord Username</label>
+    <div class="col-lg-8">
+      <input type="text" name="discord_username" class="form-control" maxlength="255">
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="gender" class="{{ ab_required_label }}">Gender *</label>
+    <div class="col-lg-6">
+      <select name="gender" class="form-control">
+        <option></option>
+        <option>Male</option>
+        <option>Female</option>
+      </select>
+      <div class="input-subtitle">For purposes of hotel booking and liability, please use the gender on your Government photo ID.</div>
+    </div>
+  </div>
+  <div class="row form-group">
+    <label class="{{ ab_required_label }}">Mailing Address *</label>
+    <div class="col-lg-8">
+      <div class="form-inline">
+        <label class="required">Address 1</label>
+        <input type="text" name="address1" class="form-control" maxlength="200">
+      </div>
+    </div>
+    <div class="col-lg-8 offset-xl-3 offset-lg-4">
+      <div class="form-inline">
+        <label>Address 2</label>
+        <input type="text" name="address2" class="form-control" maxlength="200">
+      </div>
+    </div>
+    <div class="col-lg-8 offset-xl-3 offset-lg-4">
+      <div class="form-inline">
+        <label class="required">City</label>
+        <input type="text" name="city" class="form-control" maxlength="20">
+      </div>
+    </div>
+    <div class="col-lg-8 offset-xl-3 offset-lg-4">
+      <div class="form-inline">
+        <label class="required">State</label>
+        <input type="text" name="state" class="form-control" maxlength="2" size="2">
+      </div>
+    </div>
+    <div class="col-lg-8 offset-xl-3 offset-lg-4">
+      <div class="form-inline">
+        <label class="required">Zip Code</label>
+        <input type="text" name="zip" class="form-control" maxlength="15">
+      </div>
+    </div>
+    <div class="col-lg-8 offset-xl-3 offset-lg-4">
+      <div class="form-inline">
+        <label class="required">Country</label>
+        <select name="country" class="form-control">
+          <option></option>
+          <option>United States</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="phone1" class="{{ ab_required_label }}">Phone Number *</label>
+    <div class="col-lg-8">
+      <div class="form-inline">
+        <label class="required">#1</label>
+        <input type="tel" name="phone1" class="form-control" maxlength="15">
+        <select name="phone1_type" class="form-control">
+          <option>Cell</option>
+          <option>Home</option>
+          <option>Work</option>
+        </select>
+      </div>
+    </div>
+    <div class="col-lg-8 offset-xl-3 offset-lg-4">
+      <div class="form-inline">
+        <label>#2</label>
+        <input type="tel" name="phone2" class="form-control" maxlength="15">
+        <select name="phone2_type" class="form-control">
+          <option>Cell</option>
+          <option>Home</option>
+          <option>Work</option>
+        </select>
+      </div>
+    </div>
+    <div class="col-lg-8 offset-xl-3 offset-lg-4">
+      <div class="form-inline">
+        <label>#3</label>
+        <input type="tel" name="phone3" class="form-control" maxlength="15">
+        <select name="phone3_type" class="form-control">
+          <option>Cell</option>
+          <option>Home</option>
+          <option>Work</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="shirt_size" class="{{ ab_required_label }}">Staff Shirt *</label>
+    <div class="col-lg-8">
+      <div class="form-inline">
+        <label class="required">Size *</label>
+        <select name="shirt_size" class="form-control">
+          <option></option>
+          <option>Small</option>
+          <option>Medium</option>
+          <option>Large</option>
+          <option>Extra Large</option>
+          <option>2XL</option>
+          <option>3XL</option>
+          <option>4XL</option>
+          <option>5XL</option>
+        </select>
+      </div>
+    </div>
+    <div class="col-lg-8 offset-xl-3 offset-lg-4">
+      <div class="form-inline">
+        <label for="shirt_quantity" class="required">Quantity *</label>
+        <select name="shirt_quantity" class="form-control">
+          <option></option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+        </select>
+      </div>
+    </div>
+    <div class="col-lg-8 offset-xl-3 offset-lg-4">
+      <span class="input-subtitle">All Staff receive 1 free Staff Shirt. Extra shirts are $8 each.</span>
+    </div>
+  </div>
+  <div class="row form-group">
+    <label class="{{ ab_required_label }}">Emergency Contact *</label>
+    <div class="col-lg-8">
+      <div class="form-inline">
+        <label class="required">Name</label>
+        <input type="text" name="emergency_contact" class="form-control" maxlength="225">
+      </div>
+    </div>
+    <div class="col-lg-8 offset-xl-3 offset-lg-4">
+      <div class="form-inline">
+        <label class="required">Phone</label>
+        <input type="tel" name="emergency_contact_phone" class="form-control" maxlength="50">
+      </div>
+    </div>
+    <div class="col-lg-8 offset-xl-3 offset-lg-4">
+      <div class="form-inline">
+        <label for="emergency_contact_relation" class="required">Relation</label>
+        <select name="emergency_contact_relation" class="form-control">
+          <option></option>
+          <option>Parent</option>
+          <option>Sibling</option>
+          <option>Spouse</option>
+          <option>Significant Other</option>
+          <option>Extended Family</option>
+          <option>Friend</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="allergies" class="{{ ab_optional_label }}">Allergies</label>
+    <div class="col-lg-8">
+      <textarea name="allergies" class="form-control" rows="2" cols="40"></textarea>
+      <div class="input-subtitle">In case of emergency at the convention.</div>
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="medical" class="{{ ab_optional_label }}">Other Medical Notes</label>
+    <div class="col-lg-8">
+      <textarea name="medical" class="form-control" rows="2" cols="40"></textarea>
+      <div class="input-subtitle">In case of emergency at the convention.</div>
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="radio_preference" class="{{ ab_optional_label }}">Radio Preference</label>
+    <div class="col-lg-8">
+      <select name="radio_preference" class="form-control">
+        <option>Select Preference</option>
+        <option>No Accessory</option>
+        <option>Headset</option>
+        <option>Speaker Microphone or Squak Box</option>
+        <option>Surveillance Set</option>
+        <option>I have a Special Need</option>
+      </select>
+      <div class="input-subtitle">If you are assigned a radio, what is your preferred accessory?</div>
+    </div>
+  </div>
+  <div class="row form-group">
+    <label class="{{ ab_optional_label }}">Hotel Information</label>
+    <div class="col-lg-8">
+      <label class="radio-label"><input id="h1" type="checkbox" value="1" onchange="onHotelNightChange()" name="hotel_weds" disabled> Wednesday (Director approved only)</label><br>
+      <label class="radio-label"><input id="h2" type="checkbox" value="1" onchange="onHotelNightChange()" name="hotel_thurs"> Thursday</label><br>
+      <label class="radio-label"><input id="h3" type="checkbox" value="1" onchange="onHotelNightChange()" name="hotel_fri"> Friday</label><br>
+      <label class="radio-label"><input id="h4" type="checkbox" value="1" onchange="onHotelNightChange()" name="hotel_sat"> Saturday</label><br>
+      <label class="radio-label"><input id="h5" type="checkbox" value="1" onchange="onHotelNightChange()" name="hotel_sun"> Sunday</label><br>
+      <label class="radio-label"><input id="h6" type="checkbox" value="1" onchange="onHotelNightChange()" name="hotel_no_commute"> No room; will commute</label><br>
+      <label class="radio-label"><input id="h7" type="checkbox" value="1" onchange="onHotelNightChange()" name="hotel_no_reserve_own"> Reserving own room</label>
+    </div>
+    <div class="col-lg-8 offset-xl-3 offset-lg-4">
+      <label class="required label-separate">Is a mixed-gender room ok?</label><br>
+      <label class="radio-label"><input type="radio" name="hotel_mixed_room" value="1"> Yes</label>
+      <label class="radio-label"><input type="radio" name="hotel_mixed_room" value="0"> No</label>
+    </div>
+    <div class="col-lg-8 offset-xl-3 offset-lg-4">
+      <div class="form-inline">
+        <label for="hotel_preferred" class="required label-separate">Preferred Hotel</label>
+        <select name="hotel_preferred" class="form-control">
+          <option></option>
+          <option>No Preference</option>
+          <option>Sheraton</option>
+          <option>Marriott</option>
+          <option>Hilton</option>
+          <option>Colonnade</option>
+        </select>
+      </div>
+    </div>
+    <div class="col-lg-8 offset-xl-3 offset-lg-4">
+      <label class="label-separate">Roommates</label>
+      <input type="text" name="hotel_roommates" class="form-control" maxlength="250">
+      <div class="input-subtitle">
+        List up to 3 staff members (accepted or applying) that you would like to room with at-con.
+        Give full names, separated by commas.
+        Please note that non-staff members may not stay in staff hotel rooms.
+      </div>
+    </div>
+    <div class="col-lg-8 offset-xl-3 offset-lg-4">
+        <label class="label-separate">Special Requests</label>
+        <textarea name="hotel_request" class="form-control" rows="4" cols="40"></textarea>
+        <span class="input-subtitle">List any special requests or conditions for your staff hotel room. All Sheraton Boston hotel rooms are non-smoking, including staff rooms.</span>
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="dead_dog_attend" class="{{ ab_optional_label }}">Attend Dead Dog Party</label>
+    <div class="col-lg-3">
+      <select name="dead_dog_attend" class="form-control">
+        <option></option>
+        <option>Yes</option>
+        <option>No</option>
+      </select>
+    </div>
+  </div>
+  <div class="row form-group">
+    <div class="col-lg-12">
+      <label>
+        <input type="checkbox" name="reduced_position_accept" value="1" />
+        I understand that my participation on Anime Boston staff is voluntary, and it is possible my position may be reduced or removed due to performance, budget constraints, or otherwise.
+      </label>
+    </div>
+  </div>
+  <div class="submit-buttons">
+    <input type="submit" name="submit" class="btn btn-success" value="Update Info"><br>
+    <i>Entering or Updating your Info does not guarantee acceptance to Anime Boston staff.</i>
+  </div>
+</form>
+
+<script type="text/javascript">
+  function onHotelNightChange()
+  {
+    var h1 = document.getElementById("h1");
+    var h2 = document.getElementById("h2");
+    var h3 = document.getElementById("h3");
+    var h4 = document.getElementById("h4");
+    var h5 = document.getElementById("h5");
+    var h6 = document.getElementById("h6");
+    var h7 = document.getElementById("h7");
+
+    // h1.removeAttribute("disabled");
+    h2.removeAttribute("disabled");
+    h3.removeAttribute("disabled");
+    h4.removeAttribute("disabled");
+    h5.removeAttribute("disabled");
+    h6.removeAttribute("disabled");
+    h7.removeAttribute("disabled");
+
+    if(h1.checked || h2.checked || h3.checked || h4.checked || h5.checked)
+    {
+      h6.setAttribute("disabled", "true");
+      h7.setAttribute("disabled", "true");
+    }
+
+    if(h6.checked || h7.checked)
+    {
+      // h1.setAttribute("disabled", "true");
+      h2.setAttribute("disabled", "true");
+      h3.setAttribute("disabled", "true");
+      h4.setAttribute("disabled", "true");
+      h5.setAttribute("disabled", "true");
+
+      if(h6.checked) h7.setAttribute("disabled", "true");
+      if(h7.checked) h6.setAttribute("disabled", "true");
+    }
+  }
+</script>
