@@ -1,5 +1,113 @@
 ---
-title: Staff Applications
+title: Staff Application
 layout: staffhq
 ---
-<h1>Staff Applications</h1>
+{% assign ab_optional_label = "col-xl-3 col-lg-4 control-label" %}
+{% assign ab_required_label = "col-xl-3 col-lg-4 control-label required" %}
+{% assign ab_optional_short_label = "col-xl-2 col-lg-4 control-label" %}
+{% assign ab_required_short_label = "col-xl-2 col-lg-4 control-label required" %}
+
+<h1>Staff Application</h1>
+
+<p class="bg-danger text-white" style="padding: 5px;">
+  <strong>WARNING</strong>: Anime Boston <?=$currentyear?> occurs on Easter.
+  If your religious or family obligations will impact your ability to perform your staff duties,
+  we encourage you to try again in the future. Unfortunately, the dates of Anime Boston are booked out years in advance and often fall on a holiday or holiday weekend.
+</p>
+
+<form class="form-horizontal" action="/AB-Site-Redesign/volunteer/staffhq/application.html" method="get">
+  <p><span class="required">*</span> = Required information</p>
+  <div class="row form-group">
+    <label for="organization" class="{{ ab_required_label }}">Organization *</label>
+    <?=form_label('Position *', "position_id", $required_label)?>
+    <div class="col-lg-8">
+      <select name="position_id" class="form-control">
+        <option value="">Select One</option>
+        <option>Convention Chairman</option>
+        <option>Webmaster</option>
+        <option>Cosplay Goddess</option>
+      </select>
+
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="experience" class="{{ ab_required_label }}">Experience *</label>
+    <div class="col-lg-8">
+      <div class="input-subtitle">List any previous experience you may have with this type of position and/or convention staffing in general.</div>
+      <textarea name="experience" class="form-control" rows="8" cols="40"></textarea>
+    </div>
+  </div>
+  <div class="row form-group">
+    <label class="{{ ab_required_label }}">References *</label>
+    <div class="col-lg-8">
+      Please provide <em>at least two references</em> we can contact
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="ref1_name" class="{{ ab_required_label }}">First Referer Name *</label>
+    <div class="col-lg-8">
+      <input type="text" name="ref1_name" class="form-control" maxlength="70">
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="ref1_contact" class="{{ ab_required_label }}">E-Mail or Phone *</label>
+    <div class="col-lg-8">
+      <input type="text" name="ref1_contact" class="form-control" maxlength="70">
+    </div>
+  </div>
+  <div class="row"><div class="col-12"><hr></div></div>
+  <div class="row form-group">
+    <label for="ref2_name" class="{{ ab_required_label }}">Second Referer Name *</label>
+    <div class="col-lg-8">
+      <input type="text" name="ref2_name" class="form-control" maxlength="70">
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="ref2_contact" class="{{ ab_required_label }}">E-Mail or Phone *</label>
+    <div class="col-lg-8">
+      <input type="text" name="ref2_contact" class="form-control" maxlength="70">
+    </div>
+  </div>
+  <div class="row"><div class="col-12"><hr></div></div>
+  <div class="row form-group">
+    <label for="ref3_name" class="{{ ab_optional_label }}">Third Referer Name</label>
+    <div class="col-lg-8">
+      <input type="text" name="ref3_name" class="form-control" maxlength="70">
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="ref3_contact" class="{{ ab_optional_label }}">E-Mail or Phone *</label>
+    <div class="col-lg-8">
+      <input type="text" name="ref3_contact" class="form-control" maxlength="70">
+    </div>
+  </div>
+  <div class="row"><div class="col-12"><hr></div></div>
+  <div class="row form-group">
+    <label for="other" class="{{ ab_optional_label }}">Other Information</label>
+    <div class="col-lg-8">
+      <textarea name="other" class="form-control" rows="8" cols="40"></textarea>
+      <div class="input-subtitle">Use this space to share any other relevant information.</div>
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="age_verification" class="{{ ab_required_label }}">Verification *</label>
+    <div class="col-lg-8">
+      <label class="control-label">I am currently 18 years of age or older</label><br>
+      <label><input type="radio" name="age_verification" value="Y"> Yes</label>
+      <label><input type="radio" name="age_verification" value="N"> No</label>
+    </div>
+  </div>
+  <div class="row form-group">
+    <div class="col-12" style="text-align:center;">
+      <label class="control-label required">
+        I have read and agree to abide by the
+        <a href="/AB-Site-Redesign/volunteer" target="_blank">staff guidelines</a>
+      </label><br>
+      <label><input type="radio" name="staff_guidelines" value="Y"> I agree</label>
+      <label><input type="radio" name="staff_guidelines" value="N"> I do not agree</label>
+    </div>
+  </div>
+  <div class="submit-buttons">
+    <input type="submit" name="submit" class="btn btn-success" value="Submit">
+  </div>
+</form>

@@ -1,0 +1,36 @@
+---
+title: Staff Application
+layout: staffhq
+---
+<h1>Staff Application</h1>
+
+<p class="bg-danger text-white" style="padding: 5px;">
+  <strong>WARNING</strong>: Anime Boston <?=$currentyear?> occurs on Easter.
+  If your religious or family obligations will impact your ability to perform your staff duties,
+  we encourage you to try again in the future. Unfortunately, the dates of Anime Boston are booked out years in advance and often fall on a holiday or holiday weekend.
+</p>
+<p>Below you will find any existing applications you have for this convention year. You may create a new application for each position you would like to apply to.</p>
+<p>Please be aware that it may take several weeks to hear back regarding your application. Each Division processes their applications in a different pace, so time will vary.</p>
+
+<div class="text-right">
+  <a class="btn btn-primary" href="/AB-Site-Redesign/volunteer/staffhq/application.html">New Application</a>
+</div>
+
+{% for _ in (1..3) %}
+<h2>Assistant Webmaster</h2>
+<div class="row clearfix">
+  <div class="col-md-9">
+    <div class="text-danger">
+      Application Submitted: 12-22-2020 5:34PM
+    </div>
+    <b>Application Status:</b> Pending Review<br>
+    <b>Status Updated:</b> 12-29-2020 6:00PM<br>
+    <b>Description:</b> something something darkside
+  </div>
+  <div class="action-buttons col-md-3">
+    <input type="button" class="btn btn-secondary" value="Edit">
+    <input type="button" class="btn btn-danger" value="Cancel">
+  </div>
+</div>
+<hr>
+{% endfor %}
