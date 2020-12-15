@@ -2,4 +2,82 @@
 title: Food Cards
 layout: staffhq
 ---
+{% assign ab_optional_label = "col-xl-3 col-lg-4 control-label" %}
+{% assign ab_required_label = "col-xl-3 col-lg-4 control-label required" %}
+{% assign ab_optional_short_label = "col-xl-2 col-lg-4 control-label" %}
+{% assign ab_required_short_label = "col-xl-2 col-lg-4 control-label required" %}
+
 <h1>Food Cards</h1>
+
+<p>
+  Once again, we will be feeding staff through a food card system so that each of you have the
+  flexibility within your dietary restrictions and to eat when your schedule accommodates.
+  The list of restaurants and a map showing their locations is below, so you can review menus,
+  hours, and delivery options if available.
+</p>
+<p>
+  <b><u>Card selection will close on March 20th at 9:00am ET.</u></b>
+  You will be able to change your selections up until that time, if you do not make any selections,
+  you will be able to choose cards at Staff Resources when you arrive to check-in on a first come, first served basis.
+</p>
+<p>
+  If you plan to utilize the Support Squad (formerly Volunteers) for food delivery,
+  please note that they will NOT pick up food from Shaw's, Trader Joe's, Whole Foods
+  and Domino's is delivery only. Please plan accordingly if you choose these cards!
+</p>
+
+<p>
+  <a class="btn btn-primary" href="/AB-Site-Redesign/volunteer/staffhq/food_cards_info.html" target="_blank">
+    Map and Info
+  </a>
+</p>
+
+<h3>Please select from the choices below. Your total dollar amount must not exceed $60:</h3>
+
+<form class="form-horizontal" action="/AB-Site-Redesign/volunteer/staffhq/food_cards.html" method="get">
+  {% for i in (1..3) %}
+  <div class="row form-group">
+    <label class="{{ ab_optional_label }}">Big Choice #{{ i }}</label>
+    <div class="col-lg-8">
+      <select class="form-control food_choices_big">
+        <option value="">Select Food Card</option>
+      </select>
+    </div>
+  </div>
+  {% endfor %}
+
+  <hr>
+
+  {% for j in (1..5) %}
+    <div class="row form-group">
+      <label class="{{ ab_optional_label }}">Small Choice #{{ j }}</label>
+      <div class="col-lg-8">
+        <select class="form-control food_choices_small">
+          <option value="">Select Food Card</option>
+        </select>
+      </div>
+    </div>
+  {% endfor %}
+
+  <div class="row form-group">
+    <div class="col-12">
+      <label>
+        <input type="checkbox" name="terms_and_conditions_accept" value="1" />
+        I have read and agree to abide by the following rules:
+      </label>
+      <ol>
+        <li>
+          Staff members are not permitted to use food cards for the purchase of alcohol or tobacco.
+          The purpose of these cards is to feed/hydrate you during the convention.
+        </li>
+        <li>
+          Should a staff member need to leave during the convention, all food cards for future meals are forfeited.
+        </li>
+        <li>Anime Boston is not responsible for lost/stolen cards.</li>
+      </ol>
+    </div>
+  </div>
+  <div class="submit-buttons">
+    <input type="submit" name="submit" class="btn btn-success" value="Submit"><br>
+  </div>
+</form>
