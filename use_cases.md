@@ -90,3 +90,24 @@ This user is a veteran con-goer, but they only come for the AMV Contest. They ha
 - Find out when AMV Contest Applications are open
 - Submit their video to the AMV Contest
 - Find out when the contest is scheduled to be shown at the convention
+
+### Blogger
+This user runs a relatively famous convention review site and is interested in attending Anime Boston in an official capacity.
+
+**Goals**
+- Learn whether Anime Boston offers Press Passes and what benefits they come with
+- Apply for a Press Pass
+
+### Artist
+This user is an artist looking to sell their art at a table at Anime Boston.
+
+**Goals**
+- Learn what's expected of artists in the Artists' Alley
+- Apply for a spot in the Artists' Alley
+
+### Exhibitor
+This user owns a business selling merchandise and wants to sell stuff at Anime Boston.
+
+**Goals**
+- Learn what's expected of exhibitors in the Dealers Room
+- Apply for a spot in the Dealers Room
