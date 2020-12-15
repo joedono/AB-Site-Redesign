@@ -2,4 +2,56 @@
 title: Legacy Staff Application
 layout: staffhq
 ---
+{% assign ab_optional_label = "col-xl-3 col-lg-4 control-label" %}
+{% assign ab_required_label = "col-xl-3 col-lg-4 control-label required" %}
+{% assign ab_optional_short_label = "col-xl-2 col-lg-4 control-label" %}
+{% assign ab_required_short_label = "col-xl-2 col-lg-4 control-label required" %}
+
 <h1>Legacy Staff Application</h1>
+
+<div style="margin: 0 0 10px 10px;">
+  <b>Application Status:</b>
+  Pending
+</div>
+
+<p>Below you will find the application for Legacy Staff. In order to apply, you must have been on staff seven years for Anime Boston in good standing. Legacy Staff does not include food cards or hotel rooms.</p>
+<p>Please be aware that it may take several weeks to hear back regarding your application. Each Division processes their applications in a different pace, so time will vary.</p>
+
+<form class="form-horizontal" action="/AB-Site-Redesign/volunteer/staffhq/legacy_staff_application.html" method="get">
+  <p><span class="required">*</span> = Required information</p>
+  <div class="row form-group">
+    <label for="experience" class="{{ ab_required_label }}">Experience *</label>
+    <div class="col-lg-8">
+      <textarea name="experience" class="form-control" rows="8" cols="40"></textarea>
+      <div class="input-subtitle">List all previous positions you have held with Anime Boston.</div>
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="other" class="{{ ab_optional_label }}">Other Information</label>
+    <div class="col-lg-8">
+      <textarea name="other" class="form-control" rows="8" cols="40"></textarea>
+      <div class="input-subtitle">Use this space to share any other relevant information.</div>
+    </div>
+  </div>
+  <div class="row form-group">
+    <label for="age_verification" class="{{ ab_required_label }}">Verification *</label>
+    <div class="col-lg-8">
+      <label class="control-label">I am currently 18 years of age or older</label><br>
+      <label><input type="radio" name="age_verification" value="Y"> Yes</label>
+      <label><input type="radio" name="age_verification" value="N"> No</label>
+    </div>
+  </div>
+  <div class="row form-group">
+    <div class="col-12 text-center">
+      <label class="control-label required">
+        I have read and agree to abide by the
+        <a href="/AB-Site-Redesign/volunteer/" target="_blank">staff guidelines</a>
+      </label><br>
+      <label><input type="radio" name="staff_guidelines" value="Y"> I agree</label>
+      <label><input type="radio" name="staff_guidelines" value="N"> I do not agree</label>
+    </div>
+  </div>
+  <div class="submit-buttons">
+    <input type="submit" name="submit" class="btn btn-success" value="Submit">
+  </div>
+</form>
