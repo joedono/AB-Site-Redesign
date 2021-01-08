@@ -1,5 +1,7 @@
 # Feedback
 
+## Solicit Feedback or start designing a program to bring back
+
 ## From Pam
 Maybe just my preference, but I would make the header sizes smaller. Right now, they're very close to the title size, and it's a bit jarring to go from the heading to the body text. I think it might be easier on the eyes if the headings were reduced, and there would be more of a distinction between the title of the overall page and the headings. (I could also just be super weird about this, LOL!) For example, see the Game Shows page; you have the overall title (Game Show), a primary heading (Rated E), and a secondary heading (name of the game show) all in similar sizes. Later down the page, you have the primary heading (rated T) again with secondary heading (title of shows). It's hard to tell the difference and visually it's a little confusing/jarring. Same comment for the Cosplay FAQ page. (To me anyway, feel free to ignore this comment!)
 
