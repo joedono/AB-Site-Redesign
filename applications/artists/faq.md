@@ -16,14 +16,14 @@ Below are frequently asked questions regarding the Anime Boston Artists' Alley. 
 ## Artists' Alley Application and Registration Phases
 
 ### How/When do I rent table space in the Artists' Alley?
-There are two ways to get into the Artists' Alley. The first is a special opportunity called Pro Row which will work the same as the standard Artists' Alley Application (formerly known as the Letter of Intent or LOI). Details can be found on the [Artists' Alley Pro Row page](/AB-Site-Redesign/exhibitors/artists/pro_row.html).
+There are two ways to get into the Artists' Alley. The first is a special opportunity called Pro Row which will work the same as the standard Artists' Alley Application (formerly known as the Letter of Intent or LOI). Details can be found on the [Artists' Alley Pro Row page](/AB-Site-Redesign/applications/artists/pro_row.html).
 
 The second is the standard Artists' Alley Application. Both formats will work as described below, but will have different purchasing options and prices and will occur at different times. Each one WILL be treated as a separate application. The process is as follows:
 
-Renting table space in the Artists' Alley is a two-phase process, done on the Anime Boston website. The date when the application becomes available will be announced on the website. When the application date arrives, the link will be available on the [Artists' Alley page](/AB-Site-Redesign/exhibitors/artists/index.html).
+Renting table space in the Artists' Alley is a two-phase process, done on the Anime Boston website. The date when the application becomes available will be announced on the website. When the application date arrives, the link will be available on the [Artists' Alley page](/AB-Site-Redesign/applications/artists/artists_alley_info.html).
 
 #### Phase One: Application
-Fill out an Artists' Alley Application. This web form processes your name, email, country, and space desires/requirements and is sent to the Artists' Alley staff. If a foreign Artist may have difficulty obtaining the [Exhibitor Tax ID](/AB-Site-Redesign/exhibitors/exhibitor_tax_id.html) in the time allotted, they may be passed over for space. The data is collected in a database so the staff can sort it and see what kind of space demands need to be met. This method will also allow individuals to keep applying without overbooking the alley before staff can determine if there is enough space. **This process will be done via lottery.** Applicants will have one week to apply, before they close again.
+Fill out an Artists' Alley Application. This web form processes your name, email, country, and space desires/requirements and is sent to the Artists' Alley staff. If a foreign Artist may have difficulty obtaining the [Exhibitor Tax ID](/AB-Site-Redesign/applications/taxid/exhibitor_tax_id.html) in the time allotted, they may be passed over for space. The data is collected in a database so the staff can sort it and see what kind of space demands need to be met. This method will also allow individuals to keep applying without overbooking the alley before staff can determine if there is enough space. **This process will be done via lottery.** Applicants will have one week to apply, before they close again.
 
 #### Phase Two: Registration
 This phase will occur at a later point in time (not the same day). An email will be sent to each individual who completed the Artists' Alley Application and has been accepted into the Artists' Alley. It will have a link to confirm the status of the initial application and proceed with the registration form. Once you have received the link to the Artists' Alley registration form, there is no need to rush through it, as you have a 3 day window from the date when your email notification was sent to fill it out. Make sure all info on your confirmation screen is correct. If you have recently purchased a membership, or if you notice any errors and need to change the information detailed on the confirmation screen, please *stop* filling out the Registration form and [contact the Artists' Alley Manager](/coninfo/contact/16) with the needed changes. The Artists' Alley Manager will correct any discrepancies and resend the link at which time your three day window will restart.
@@ -37,7 +37,7 @@ Artists' Alley Registration will have multiple rounds. If you hear about people 
 ### How old do I have to be to rent table space?
 All artists must be at least eighteen (18) years of age at the time of applying for space in the Artists' Alley.
 
-This change was initially made to address maturity and responsibility issues stemming from some artists under the age of 18. Now, because of the [Exhibitor Tax ID](/AB-Site-Redesign/exhibitors/exhibitor_tax_id.html) requirements from the state of Massachusetts, we must ensure that all participants are at least 18 years of age for tax and legality purpose.
+This change was initially made to address maturity and responsibility issues stemming from some artists under the age of 18. Now, because of the [Exhibitor Tax ID](/AB-Site-Redesign/applications/taxid/exhibitor_tax_id.html) requirements from the state of Massachusetts, we must ensure that all participants are at least 18 years of age for tax and legality purpose.
 
 ### What do I get with the rental of table space?
 You get the linear space at a table you have rented and you get the amount of chairs appropriate for that space. You - and any of your fellow artists/assistants also at your space - will get an Artists' Alley token. *This is not the same as a convention badge!* Nothing else is included with the table rental, including tablecloths, extra chairs or tables, and electricity.
@@ -96,12 +96,12 @@ We use the Artists' Alley token for early admittance into the Artists' Alley onl
 All artists and assistants must have an Artists' Alley token to be able to sit at their rented space without being questioned by the staff. The Artists' Alley staff uses these tokens to make sure that someone has not stolen your space simply by walking up to it and setting up his or her stuff. It is quite simple - if someone does not have an Artists' Alley token, he or she does not belong at a table. We will check. If we cannot see your token, we will ask to see it. If you do not have a token, you will be asked to check in to get one. If it is found that you do not belong, you will be asked to leave.
 
 ### Do I need a Tax ID to sell in Massachusetts? How and where do I get it?
-Yes. A Massachusetts Tax ID is mandatory for all participants in the Artists' Alley. Read the [Exhibitor Tax ID page](/AB-Site-Redesign/exhibitors/exhibitor_tax_id.html) for more information.
+Yes. A Massachusetts Tax ID is mandatory for all participants in the Artists' Alley. Read the [Exhibitor Tax ID page](/AB-Site-Redesign/applications/taxid/exhibitor_tax_id.html) for more information.
 
 ### Can I get a refund?
 You can get a refund for your space rental only if you contact us no later than 1 month prior to the convention. All Convention Badge registrations are non-refundable no matter how they were purchased.
 
-Special Refund Rules for Pro Row can be found [here](/AB-Site-Redesign/exhibitors/artists/pro_row.html).
+Special Refund Rules for Pro Row can be found [here](/AB-Site-Redesign/applications/artists/pro_row.html).
 
 ### How do I get on the Reserve List and what are my chances?
 If you have sent in an Artists' Alley Application through the web form and if we were not able to provide you with table space during the initial table allocation, then you are already on the Reserve List.
@@ -117,7 +117,7 @@ Once the Artists' Alley has been fully booked, a thread will be started in the A
 * The artist who originally rented the table must contact the Artists' Alley Manager to inform her of the sale and provide the information of the artist who is sharing space. (Required information: Name, Anime Boston badge name, and birth date)
 * The artist who is sharing the space with the original renter of the space MUST ALSO:
   * Register for an EIN with the IRS and register the tax ID with Massachusetts through the MassTaxConnect system.
-  * Fill out the Anime Boston sales tax ID registration form.  More information is available at the [Exhibitor Tax ID Page](/AB-Site-Redesign/exhibitors/exhibitor_tax_id.html).
+  * Fill out the Anime Boston sales tax ID registration form.  More information is available at the [Exhibitor Tax ID Page](/AB-Site-Redesign/applications/taxid/exhibitor_tax_id.html).
   * Check in with the Artists' Alley Info desk as normal.
 
 ---

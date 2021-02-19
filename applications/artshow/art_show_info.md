@@ -2,7 +2,7 @@
 title: Art Show
 ---
 <div class="side-submenu col-sm-3 float-right">
-  <a href="/AB-Site-Redesign/exhibitors/artshow/art_show_form.html" class="btn btn-secondary">
+  <a href="/AB-Site-Redesign/applications/artshow/art_show_form.html" class="btn btn-secondary">
     Apply to be in the Art Show
   </a>
 </div>
@@ -22,10 +22,10 @@ Display places for the Art Show are available on a FIRST-COME, FIRST-SERVED basi
 
 Registering in advance is available for those who wish to register before the convention. Each artist will be given a set amount of space to display their artwork.
 
-- To guarantee a place in the Art Show, artists must  [sign-up in advance online](/AB-Site-Redesign/exhibitors/artshow/art_show_form.html). Registrations must be received no later than Tuesday, April 16, 2019. This registration entitles you to submit 10 individual pieces or a 4ft x 4ft space, whichever happens first.
+- To guarantee a place in the Art Show, artists must  [sign-up in advance online](/AB-Site-Redesign/applications/artshow/art_show_form.html). Registrations must be received no later than Tuesday, April 16, 2019. This registration entitles you to submit 10 individual pieces or a 4ft x 4ft space, whichever happens first.
 - If space is available, at-the-door registration will be offered on a first-come, first-served basis.
 
-All participants are required to submit an entry listing information on all works being displayed in the Art Show. These can be filled out before the convention or upon arrival. If you wish to fill out the forms before the convention, you can fill out the form [here](/AB-Site-Redesign/exhibitors/artshow/art_show_form.html).
+All participants are required to submit an entry listing information on all works being displayed in the Art Show. These can be filled out before the convention or upon arrival. If you wish to fill out the forms before the convention, you can fill out the form [here](/AB-Site-Redesign/applications/artshow/art_show_form.html).
 
 There is no fee for admission into the Anime Boston Art Show. Pieces may be marked "For Sale" or "Not For Sale (NFS)". However, any "For Sale" pieces that are successfully sold will be subject to a 20% commission. This commission will be deducted from the total sale price of the pieces, and the artist will be paid the remainder on Sunday of the convention.
 

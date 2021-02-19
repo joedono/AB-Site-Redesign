@@ -39,11 +39,11 @@ Artists who cannot be accommodated through the Pro Row Application Process *will
 **Other Special Rules**  
 * Cancellations of Pro Row space must be made by [contacting the Artists' Alley Manager](/coninfo/contact/16).
 * Full table refunds are only available if cancellation is made prior to 01/31/2020. After that, half-refunds will only be available if cancellation is made prior to 02/28/2020. After 02/28/2020, refunds will not be available, no matter the reason.
-* Aside from what is stated above, Pro Row artists must comply with all other instructions, rules, and policies as stated in the [Artists' Alley FAQ](/AB-Site-Redesign/exhibitors/artists/faq.html).
-* Any Pro Row artists found in violation of the rules stated above or in the [Artists' Alley FAQ](/AB-Site-Redesign/exhibitors/artists/faq.html) may be subject to ejection from the Artists' Alley with no refund. This may occur prior to or at the convention.
+* Aside from what is stated above, Pro Row artists must comply with all other instructions, rules, and policies as stated in the [Artists' Alley FAQ](/AB-Site-Redesign/applications/artists/faq.html).
+* Any Pro Row artists found in violation of the rules stated above or in the [Artists' Alley FAQ](/AB-Site-Redesign/applications/artists/faq.html) may be subject to ejection from the Artists' Alley with no refund. This may occur prior to or at the convention.
 
 **When and Where Can I Sign up?**
-* The Pro Row Artists' Alley Application can be found [here](/AB-Site-Redesign/exhibitors/artists/artists_alley_form.html).
+* The Pro Row Artists' Alley Application can be found [here](/AB-Site-Redesign/applications/artists/artists_alley_form.html).
 * The Pro Row Application will open on Wednesday, October 16, 2019 at 5:00am ET.
 * The Pro Row Application will close on Wednesday, October 23, 2019 at 11:59pm ET.
 * As stated above, artists who are not accepted into the Pro Row can fill out the standard Artists' Alley Application when it opens on Saturday, November 16, 2019.

@@ -6,7 +6,7 @@ title: Artists Alley Beginners Guide
 # Artists' Alley Beginner's Guide
 {:.no_toc}
 
-This guide is intended to help and guide artists who new to Artists' Alleys, whether at Anime Boston or elsewhere. *It is not a set of rules*. If you are looking for the Anime Boston Artists' Alley rules, you need to read the [Artists' Alley FAQ](/AB-Site-Redesign/exhibitors/artists/faq.html).
+This guide is intended to help and guide artists who new to Artists' Alleys, whether at Anime Boston or elsewhere. *It is not a set of rules*. If you are looking for the Anime Boston Artists' Alley rules, you need to read the [Artists' Alley FAQ](/AB-Site-Redesign/applications/artists/faq.html).
 
 Posted below is advice based on years of experience by the Artists' Alley staff and artists who have attended Anime Boston and other conventions.
 

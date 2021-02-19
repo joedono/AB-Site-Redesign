@@ -2,7 +2,7 @@
 title: Community Row
 ---
 <div class="side-submenu col-sm-3 float-right">
-  <a href="/AB-Site-Redesign/exhibitors/communityrow/community_row_form.html" class="btn btn-secondary">
+  <a href="/AB-Site-Redesign/applications/communityrow/community_row_form.html" class="btn btn-secondary">
     Apply for Community Row
   </a>
 </div>

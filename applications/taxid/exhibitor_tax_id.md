@@ -2,7 +2,7 @@
 title: Exhibitor Tax ID
 ---
 <div class="side-submenu col-sm-3 float-right">
-  <a href="/AB-Site-Redesign/exhibitors/exhibitor_tax_id_form.html" class="btn btn-secondary">
+  <a href="/AB-Site-Redesign/applications/taxid/exhibitor_tax_id_form.html" class="btn btn-secondary">
     Submit your Exhibitor Tax ID
   </a>
 </div>
@@ -68,7 +68,7 @@ As always, consult with a tax professional for answers to questions. The Massach
 
 ## Submit Your Massachusetts DOR Tax ID
 
-Please submit your Massachusetts DOR Tax ID (EIN) to Anime Boston [here](/AB-Site-Redesign/exhibitors/exhibitor_tax_id_form.html)
+Please submit your Massachusetts DOR Tax ID (EIN) to Anime Boston [here](/AB-Site-Redesign/applications/taxid/exhibitor_tax_id_form.html)
 
 Please refer to the above Clarifications and Examples section to determine who in your party is required to submit one.
 
