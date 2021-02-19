@@ -11,7 +11,7 @@ Anime Boston’s Anime Music Video Contest is an exhibition and competition of f
 
 **Running Time:** 180 minutes
 
-**Categories:** <a href="/AB-Site-Redesign/activities/category_details.html" class="schedule-category" style="background-color:#FFCC66;">Event</a>
+**Categories:** <a href="/AB-Site-Redesign/info/category_details.html" class="schedule-category" style="background-color:#FFCC66;">Event</a>
 
 **Showing Times:**
 

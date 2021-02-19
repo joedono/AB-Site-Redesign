@@ -15,7 +15,7 @@ In the blink of an eye, thirty thousand bewildered Japanese gamers are whisked f
 
 **Rated:** PG-13
 
-**Categories:** <a href="/AB-Site-Redesign/activities/category_details.html" class="schedule-category" style="background-color:#FFCC66;">Video</a>
+**Categories:** <a href="/AB-Site-Redesign/info/category_details.html" class="schedule-category" style="background-color:#FFCC66;">Video</a>
 
 **Showing Times:**
 

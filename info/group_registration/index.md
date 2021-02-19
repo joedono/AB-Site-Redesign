@@ -2,7 +2,7 @@
 title: Group Registration
 ---
 <div class="side-submenu col-sm-3 float-right">
-  <a href="/AB-Site-Redesign/info/group_registration_form.html" class="btn btn-secondary">
+  <a href="/AB-Site-Redesign/info/group_registration/group_registration_form.html" class="btn btn-secondary">
     Apply for Group Registration
   </a>
 </div>
@@ -18,5 +18,5 @@ title: Group Registration
 * Please fill out a group request form. Within 2 business days you will be informed if your group is approved and provided a spreadsheet for the registration process.
 * We cannot add members into your group after you have registered so please make sure you have gathered everyone's information before registering.
 * Please double check the forms for mistakes before sending them in.
-* Before registering, please review the [Registration Policies](/registration/registration_policy/).
-* If you have any questions, please visit the [Registration FAQ](/registration/registration_faq/).
+* Before registering, please review the [Registration Policies](/policy/registration_policy/).
+* If you have any questions, please visit the [Registration FAQ](/policy/registration_faq/).
