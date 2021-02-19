@@ -16,4 +16,25 @@ Hours:
 
 This is the current listing for manga included in Anime Boston's Manga Library:
 
-{% include activities/manga_table.html %}
+<table class="table table-striped table-bordered">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Volume</th>
+      <th>Artist</th>
+      <th>Author</th>
+      <th>Genre(s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for manga in site.data.manga_library %}
+    <tr>
+      <td>{{ manga.title }}</td>
+      <td>{{ manga.volume }}</td>
+      <td>{{ manga.artist }}</td>
+      <td>{{ manga.author }}</td>
+      <td>{{ manga.genres }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
